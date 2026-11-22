@@ -1,0 +1,1857 @@
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;Tethys Comand File By TonyADV
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+
+;---------------------------------------------------
+;-| AI Command |------------------------------------
+;---------------------------------------------------
+
+[Command]
+name = "AI1"
+command = a, a, a
+time = 1
+
+[Command]
+name = "AI2"
+command = b, b, b
+time = 1
+
+[Command]
+name = "AI3"
+command = c, c, c
+time = 1
+
+[Command]
+name = "AI4"
+command = x, x, x
+time = 1
+
+[Command]
+name = "AI5"
+command = y, y, y
+time = 1
+
+[Command]
+name = "AI6"
+command = z, z, z
+time = 1
+
+[Command]
+name = "AI7"
+command = a, b, c
+time = 1
+
+[Command]
+name = "AI8"
+command = a, c, b
+time = 1
+
+[Command]
+name = "AI9"
+command = b, a, c
+time = 1
+
+[Command]
+name = "AI10"
+command = b, c, a
+time = 1
+
+[Command]
+name = "AI11"
+command = c, b, a
+time = 1
+
+[Command]
+name = "AI12"
+command = c, a, b
+time = 1
+
+[Command]
+name = "AI13"
+command = x, y, z
+time = 1
+
+[Command]
+name = "AI14"
+command = x, z, y
+time = 1
+
+[Command]
+name = "AI15"
+command = y, z, x
+time = 1
+
+[Command]
+name = "AI16"
+command = y, x, z
+time = 1
+
+[Command]
+name = "AI17"
+command = z, y, x
+time = 1
+
+[Command]
+name = "AI18"
+command = z, x, y
+time = 1
+
+[Command]
+name = "AI19"
+command = a, b, a
+time = 1
+
+[Command]
+name = "AI20"
+command = a, c, a
+time = 1
+
+[Command]
+name = "AI21"
+command = b, a, b
+time = 1
+
+[Command]
+name = "AI22"
+command = b, c, b
+time = 1
+
+[Command]
+name = "AI23"
+command = c, a, c
+time = 1
+
+[Command]
+name = "AI24"
+command = c, b, c
+time = 1
+
+[Command]
+name = "AI25"
+command = x, y, x
+time = 1
+
+[Command]
+name = "AI26"
+command = x, z, x
+time = 1
+
+[Command]
+name = "AI27"
+command = y, x, y
+time = 1
+
+[Command]
+name = "AI28"
+command = y, z, y
+time = 1
+
+[Command]
+name = "AI29"
+command = z, x, z
+time = 1
+
+[Command]
+name = "AI30"
+command = z, y, z
+time = 1
+
+
+;---------------------------------------------------
+;-| Normal Command |--------------------------------
+;---------------------------------------------------
+
+;---------------------------------------------------
+;-| Super Moves |-----------------------------------
+;---------------------------------------------------
+
+;Sottile Trama Corallina
+[Command]
+name = "Sottile Trama Corallina"
+command = ~B, DB, D, DF, F, x
+time = 35
+
+;Kanon Help
+[Command]
+name = "Kanon"
+command = ~B, DB, D, DF, F, y
+time = 35
+
+;Furia
+[Command]
+name = "Furia"
+command = ~B, DB, D, DF, F, z
+time = 35
+
+;---------------------------------------------------
+;-special moves-------------------------------------
+;---------------------------------------------------
+
+;Acqua Ball
+[Command]
+name = "Acqua Ball 1"
+command = ~D, DF, F, a
+time = 25
+[Command]
+name = "Acqua Ball 2"
+command = ~D, DF, F, b
+time = 25
+[Command]
+name = "Acqua Ball 3"
+command = ~D, DF, F, c 
+time = 25
+
+;Mermaid Power 
+[Command]
+name = "Mermaid Power 1"
+command = D, DB, B, x
+time = 25
+[Command]
+name = "Mermaid Power 2"
+command = D, DB, B, y
+time = 25
+[Command]
+name = "Mermaid Power 3"
+command = D, DB, B, z
+time = 25
+
+;Mermaid uppercut
+[Command]
+name = "Mermaid uppercut 1"
+command = D, DF, F, x
+time = 20
+[Command]
+name = "Mermaid uppercut 2"
+command = D, DF, F, y
+time = 20
+[Command]
+name = "Mermaid uppercut 3"
+command = D, DF, F, z
+time = 20
+
+;Mermaid Air Roll
+[Command]
+name = "Mermaid Air Roll 1"
+command = D, DB, B, a
+time = 25
+[Command]
+name = "Mermaid Air Roll 2"
+command = D, DB, B, b
+time = 25
+[Command]
+name = "Mermaid Air Roll 3"
+command = D, DB, B, c
+time = 25
+
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+
+;rotolata
+[Command]
+name = "rotolata"
+command = a+b
+time = 5
+
+;Mermaid Teleport
+[Command]
+name = "Mermaid Teleport"
+command = b+c
+time = 5
+
+;schivata
+[Command]
+name = "schivata"
+command = a+c
+time = 5
+
+;Ultra Guard
+[Command]
+name = "Ultra Guard"
+command = x+y
+time = 1
+
+;Carika cosmo
+[Command]
+name = "charge 1"
+command = /c
+time= 1
+[Command]
+name = "charge 2"
+command = /z
+time= 1
+
+
+
+;---------------------------------------------------
+;-| Double Tap |------------------------------------
+;---------------------------------------------------
+
+;corsa avanti
+[Command]
+name = "FF"
+command = F, F
+time = 10
+
+;scatto indietro
+[Command]
+name = "BB"
+command = B, B
+time = 10
+
+; Moves List
+[Command]
+name = "ss"
+command = s, s
+time = 10
+
+;---------------------------------------------------
+;-| 2/3 Button Combination |------------------------
+;---------------------------------------------------
+
+[Command]
+name = "recovery";Required (do not remove)
+command = x+y
+time = 1
+
+;---------------------------------------------------
+;-| Dir + Button |----------------------------------
+;---------------------------------------------------
+
+[Command]
+name = "hold_c"
+command = /y
+time = 1
+
+[Command]
+name = "hold_a"
+command = /x
+time = 1
+
+;-----------------------------------------------
+;-| Single Button |-----------------------------
+;-----------------------------------------------
+
+[Command]
+name = "a"
+command = a
+time = 1
+
+[Command]
+name = "b"
+command = b
+time = 1
+
+[Command]
+name = "c"
+command = c
+time = 1
+
+[Command]
+name = "x"
+command = x
+time = 1
+
+[Command]
+name = "y"
+command = y
+time = 1
+
+[Command]
+name = "z"
+command = z
+time = 1
+
+[Command]
+name = "start"
+command = s
+time = 1
+
+;---------------------------------------------------
+;-| Hold Dir |--------------------------------------
+;---------------------------------------------------
+
+[Command]
+name = "holdfwd";Required (do not remove)
+command = /$F
+time = 1
+
+[Command]
+name = "holdback";Required (do not remove)
+command = /$B
+time = 1
+
+[Command]
+name = "holdup";Required (do not remove)
+command = /$U
+time = 1
+
+[Command]
+name = "holddown";Required (do not remove)
+command = /$D
+time = 1
+
+;---------------------------------------------------
+;===================================================
+;Commands
+;===================================================
+;---------------------------------------------------
+
+[Statedef -1]
+
+;---------------------------------------------------
+;===================================================
+;Carica cosmo
+;===================================================
+;---------------------------------------------------
+
+;Carica cosmo
+[State -1]
+type = ChangeState
+value = 900
+triggerall = Var(59) = 0
+triggerall = Power < 3000
+triggerall = command = "charge 1"
+triggerall = command = "charge 2"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;Ultra Guard
+[State -1]
+type = ChangeState
+value = 950
+triggerall = Var(59) = 0
+triggerall = command = "Ultra Guard"
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+
+;===================================================
+;---------------------------------------------------
+;Super Attacchi
+;===================================================
+;---------------------------------------------------
+
+;Sottile Trama Corallina (Air)
+[State -1]
+type = ChangeState
+value = 3300
+triggerall = Var(59) = 0
+triggerall = power >= 1000
+triggerall = command = "Sottile Trama Corallina"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 630
+trigger5 = movecontact
+trigger6 = stateno = 640
+trigger6 = movecontact
+trigger7 = stateno = 650
+trigger7 = movecontact
+trigger8 = stateno = 635
+trigger8 = movecontact
+trigger9 = stateno = 605
+trigger9 = movecontact
+trigger10 = stateno = 1100
+trigger10 = movecontact
+trigger11 = stateno = 1110
+trigger11 = movecontact
+trigger12 = stateno = 1120
+trigger12 = movecontact
+
+
+;Sottile Trama Corallina
+[State -1]
+type = ChangeState
+value = 3000
+triggerall = Var(59) = 0
+triggerall = power >= 1000
+triggerall = command = "Sottile Trama Corallina"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 230
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+trigger9 = stateno = 240
+trigger9 = movecontact
+trigger10 = stateno = 245
+trigger10 = movecontact
+trigger11 = stateno = 250
+trigger11 = movecontact
+
+;Sottile Trama Corallina - Kanon
+[State -1]
+type = ChangeState
+value = 3050
+triggerall = Var(59) = 0
+triggerall = power >= 2000
+triggerall = command = "Kanon"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 230
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+trigger9 = stateno = 240
+trigger9 = movecontact
+trigger10 = stateno = 245
+trigger10 = movecontact
+trigger11 = stateno = 250
+trigger11 = movecontact
+
+;Sottile Trama Corallina - Furia
+[State -1]
+type = ChangeState
+value = 3400
+triggerall = Var(59) = 0
+triggerall = power >= 3000
+triggerall = command = "Furia"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 230
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+trigger9 = stateno = 240
+trigger9 = movecontact
+trigger10 = stateno = 245
+trigger10 = movecontact
+trigger11 = stateno = 250
+trigger11 = movecontact
+
+;===================================================
+;---------------------------------------------------
+;Attacchi Speciali 
+;===================================================
+;---------------------------------------------------
+
+;Mermaid uppercut 1
+[State -1]
+type = ChangeState
+value = 1100
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid uppercut 1"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 230
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+trigger9 = stateno = 240
+trigger9 = movecontact
+trigger10 = stateno = 245
+trigger10 = movecontact
+trigger11 = stateno = 250
+trigger11 = movecontact
+[State -1]
+type = ChangeState
+value = 1100
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid uppercut 1"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 630
+trigger5 = movecontact
+trigger6 = stateno = 640
+trigger6 = movecontact
+trigger7 = stateno = 650
+trigger7 = movecontact
+trigger8 = stateno = 635
+trigger8 = movecontact
+trigger9 = stateno = 605
+trigger9 = movecontact
+
+;Mermaid uppercut 2
+[State -1]
+type = ChangeState
+value = 1110
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid uppercut 2"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 230
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+trigger9 = stateno = 240
+trigger9 = movecontact
+trigger10 = stateno = 245
+trigger10 = movecontact
+trigger11 = stateno = 250
+trigger11 = movecontact
+[State -1]
+type = ChangeState
+value = 1110
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid uppercut 2"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 630
+trigger5 = movecontact
+trigger6 = stateno = 640
+trigger6 = movecontact
+trigger7 = stateno = 650
+trigger7 = movecontact
+trigger8 = stateno = 635
+trigger8 = movecontact
+trigger9 = stateno = 605
+trigger9 = movecontact
+
+;Mermaid uppercut 3
+[State -1]
+type = ChangeState
+value = 1120
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid uppercut 3"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 230
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+trigger9 = stateno = 240
+trigger9 = movecontact
+trigger10 = stateno = 245
+trigger10 = movecontact
+trigger11 = stateno = 250
+trigger11 = movecontact
+[State -1]
+type = ChangeState
+value = 1120
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid uppercut 3"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 630
+trigger5 = movecontact
+trigger6 = stateno = 640
+trigger6 = movecontact
+trigger7 = stateno = 650
+trigger7 = movecontact
+trigger8 = stateno = 635
+trigger8 = movecontact
+trigger9 = stateno = 605
+trigger9 = movecontact
+
+
+
+;Mermaid Air Roll 1
+[State -1]
+type = ChangeState
+value = 1200
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid Air Roll 1"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 630
+trigger5 = movecontact
+trigger6 = stateno = 640
+trigger6 = movecontact
+trigger7 = stateno = 650
+trigger7 = movecontact
+trigger8 = stateno = 635
+trigger8 = movecontact
+trigger9 = stateno = 605
+trigger9 = movecontact
+
+;Mermaid Air Roll 2
+[State -1]
+type = ChangeState
+value = 1210
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid Air Roll 2"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 630
+trigger5 = movecontact
+trigger6 = stateno = 640
+trigger6 = movecontact
+trigger7 = stateno = 650
+trigger7 = movecontact
+trigger8 = stateno = 635
+trigger8 = movecontact
+trigger9 = stateno = 605
+trigger9 = movecontact
+
+;Mermaid Air Roll 3
+[State -1]
+type = ChangeState
+value = 1220
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid Air Roll 3"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 630
+trigger5 = movecontact
+trigger6 = stateno = 640
+trigger6 = movecontact
+trigger7 = stateno = 650
+trigger7 = movecontact
+trigger8 = stateno = 635
+trigger8 = movecontact
+trigger9 = stateno = 605
+trigger9 = movecontact
+
+
+
+;Mermaid Power 1
+[State -1]
+type = ChangeState
+value = 2000
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid Power 1"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+
+;Mermaid Power 2
+[State -1]
+type = ChangeState
+value = 2010
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid Power 2"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+
+;Mermaid Power 3
+[State -1]
+type = ChangeState
+value = 2020
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid Power 3"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+
+
+
+;Acqua Ball 1
+[State -1]
+type = ChangeState
+value = 1000
+triggerall = Var(59) = 0
+triggerall = command = "Acqua Ball 1"
+triggerall = command != "Sottile Trama Corallina"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+
+;Acqua Ball 2
+[State -1]
+type = ChangeState
+value = 1010
+triggerall = Var(59) = 0
+triggerall = command = "Acqua Ball 2"
+triggerall = command != "Kanon"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+
+;Acqua Ball 3
+[State -1]
+type = ChangeState
+value = 1020
+triggerall = Var(59) = 0
+triggerall = command = "Acqua Ball 3"
+triggerall = command != "Furia"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 205
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+
+;---------------------------------------------------
+;===================================================
+;Prese
+;===================================================
+;---------------------------------------------------
+
+;Presa
+[State -1]
+type = ChangeState
+value = 1500
+triggerall = Var(59) = 0
+triggerall = command = "z"
+triggerall = statetype = S
+triggerall = ctrl
+triggerall = stateno != 100
+trigger1 = command = "holdfwd"
+trigger1 = p2bodydist X < 5
+trigger1 = (p2statetype = S) || (p2statetype = C)
+trigger1 = p2movetype != H
+
+;---------------------------------------------------
+;===================================================
+;Corse e Scivolate
+;===================================================
+;---------------------------------------------------
+;corsa
+[State -1]
+type = ChangeState
+value = 100
+trigger1 = command = "FF"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;scatto indietro
+[State -1]
+type = ChangeState
+value = 105
+trigger1 = command = "BB"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;---------------------------------------------------
+;Teletrasporto
+[State -1]
+type = ChangeState
+value = 1300
+triggerall = Var(59) = 0
+triggerall = command = "Mermaid Teleport"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;---------------------------------------------------
+;Skiva Attakko avversario
+[State -1]
+type = ChangeState
+value = 1800
+triggerall = Var(59) = 0
+trigger1 = command = "schivata"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;---------------------------------------------------
+;rotolata avanti
+[State -1]
+type = ChangeState
+value = 1900
+triggerall = Var(59) = 0
+triggerall = command = "rotolata"
+triggerall = command = "holdfwd"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;rotolata indietro
+[State -1]
+type = ChangeState
+value = 1950
+triggerall = Var(59) = 0
+triggerall = command = "rotolata"
+triggerall = command = "holdback"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;===================================================
+;---------------------------------------------------
+;Attacchi Normali
+;===================================================
+;---------------------------------------------------
+
+;pugno debole vicino
+[State -1]
+type = ChangeState
+value = 205
+triggerall = command = "x"
+triggerall = P2BodyDist X < 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 205
+trigger2 = movecontact
+trigger3 = stateno = 215
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 200
+trigger5 = movecontact
+trigger6 = stateno = 210
+trigger6 = movecontact
+
+;pugno debole 
+[State -1]
+type = ChangeState
+value = 200
+triggerall = command = "x"
+triggerall = P2BodyDist X >= 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger2 = p2bodydist X < 30
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 205
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;---------------------------------------------------
+;Pugno medio vicino
+[State -1]
+type = ChangeState
+value = 215
+triggerall = command = "y"
+triggerall = P2BodyDist X < 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 205
+trigger2 = movecontact
+trigger3 = stateno = 215
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 200
+trigger5 = movecontact
+trigger6 = stateno = 210
+trigger6 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;Pugno medio 
+[State -1]
+type = ChangeState
+value = 210
+triggerall = command = "y"
+triggerall = P2BodyDist X >= 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 205
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;---------------------------------------------------
+;pugno forte vicino
+[State -1]
+type = ChangeState
+value = 225
+triggerall = command = "z"
+triggerall = P2BodyDist X < 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 205
+trigger2 = movecontact
+trigger3 = stateno = 215
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 200
+trigger5 = movecontact
+trigger6 = stateno = 210
+trigger6 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;pugno forte
+[State -1]
+type = ChangeState
+value = 220
+triggerall = command = "z"
+triggerall = P2BodyDist X >= 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 205
+trigger4 = movecontact
+trigger5 = stateno = 215
+trigger5 = movecontact
+trigger6 = stateno = 225
+trigger6 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+;Calcio debole Vicino
+[State -1]
+type = ChangeState
+value = 235
+triggerall = command = "a"
+triggerall = P2BodyDist X < 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 235
+trigger2 = movecontact
+trigger3 = stateno = 245
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 250
+trigger6 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;Calcio debole 
+[State -1]
+type = ChangeState
+value = 230
+triggerall = command = "a"
+triggerall = P2BodyDist X >= 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 230
+trigger2 = movecontact
+trigger3 = stateno = 240
+trigger3 = movecontact
+trigger4 = stateno = 250
+trigger4 = movecontact
+trigger5 = stateno = 235
+trigger5 = movecontact
+trigger6 = stateno = 245
+trigger6 = movecontact
+trigger7 = stateno = 223
+trigger7 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;---------------------------------------------------
+;calcio medio vicino
+[State -1]
+type = ChangeState
+value = 245
+triggerall = command = "b"
+triggerall = P2BodyDist X < 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 235
+trigger2 = movecontact
+trigger3 = stateno = 230
+trigger3 = movecontact
+trigger4 = stateno = 240
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;calcio medio
+[State -1]
+type = ChangeState
+value = 240
+triggerall = command = "b"
+triggerall = P2BodyDist X >= 20
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 230
+trigger2 = movecontact
+trigger3 = stateno = 250
+trigger3 = movecontact
+trigger4 = stateno = 235
+trigger4 = movecontact
+trigger5 = stateno = 245
+trigger5 = movecontact
+trigger6 = stateno = 223
+trigger6 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;---------------------------------------------------
+;calcio forte vicino
+[State -1]
+type = ChangeState
+value = 255
+triggerall = command = "c"
+triggerall = P2BodyDist X < 35
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 235
+trigger2 = movecontact
+trigger3 = stateno = 245
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 250
+trigger6 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;Calcione forte
+[State -1]
+type = ChangeState
+value = 250
+triggerall = command = "c"
+triggerall = P2BodyDist X >= 35
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 230
+trigger2 = movecontact
+trigger3 = stateno = 240
+trigger3 = movecontact
+trigger4 = stateno = 250
+trigger4 = movecontact
+trigger5 = stateno = 235
+trigger5 = movecontact
+trigger6 = stateno = 245
+trigger6 = movecontact
+trigger7 = stateno = 223
+trigger7 = movecontact
+trigger7 = stateno = 235
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger9 = stateno = 245
+trigger9 = movecontact
+trigger10 = stateno = 240
+trigger10 = movecontact
+trigger11 = stateno = 255
+trigger11 = movecontact
+
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+
+;Pugno basso debole
+[State -1]
+type = ChangeState
+value = 400
+triggerall = command = "x"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 410
+trigger2 = movecontact
+trigger3 = stateno = 420
+trigger3 = movecontact
+
+;Pugno basso medio
+[State -1]
+type = ChangeState
+value = 410
+triggerall = command = "y"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 400
+trigger2 = movecontact
+trigger3 = stateno = 420
+trigger3 = movecontact
+
+;Pugno basso forte
+[State -1]
+type = ChangeState
+value = 420
+triggerall = command = "z"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 400
+trigger2 = movecontact
+trigger3 = stateno = 410
+trigger3 = movecontact
+
+;---------------------------------------------------
+;---------------------------------------------------
+
+;Calcio basso debole
+[State -1]
+type = ChangeState
+value = 430
+triggerall = command = "a"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 440
+trigger2 = movecontact
+
+;Calcio Basso medio
+[State -1]
+type = ChangeState
+value = 440
+triggerall = command = "b"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 430
+trigger2 = movecontact
+trigger3 = stateno = 440
+trigger3 = movecontact
+
+;calcio basso forte
+[State -1]
+type = ChangeState
+value = 450
+triggerall = command = "c"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 430
+trigger2 = movecontact
+trigger3 = stateno = 440
+trigger3 = movecontact
+
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+
+;gomitata debole in salto
+[State -1]
+type = ChangeState
+value = 605
+triggerall = command = "x"
+triggerall = command = "holddown"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 605
+trigger5 = movecontact
+
+;gomitata media in salto
+[State -1]
+type = ChangeState
+value = 615
+triggerall = command = "y"
+triggerall = command = "holddown"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 605
+trigger5 = movecontact
+
+;gomitata forte in salto
+[State -1]
+type = ChangeState
+value = 625
+triggerall = command = "z"
+triggerall = command = "holddown"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 605
+trigger5 = movecontact
+
+;---------------------------------------------------
+;---------------------------------------------------
+
+;pugno in salto debole
+[State -1]
+type = ChangeState
+value = 600
+triggerall = command = "x"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 605
+trigger5 = movecontact
+
+;Pugno in salto medio
+[State -1]
+type = ChangeState
+value = 610
+triggerall = command = "y"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 605
+trigger5 = movecontact
+
+;Pugno in salto forte
+[State -1]
+type = ChangeState
+value = 620
+triggerall = command = "z"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 600
+trigger2 = movecontact
+trigger3 = stateno = 610
+trigger3 = movecontact
+trigger4 = stateno = 620
+trigger4 = movecontact
+trigger5 = stateno = 605
+trigger5 = movecontact
+
+;---------------------------------------------------
+
+;calcio verticale in salto
+[State -1]
+type = ChangeState
+value = 635
+triggerall = Vel X = 0
+triggerall = command = "a"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 630
+trigger2 = movecontact
+trigger3 = stateno = 640
+trigger3 = movecontact
+trigger4 = stateno = 650
+trigger4 = movecontact
+trigger5 = stateno = 635
+trigger5 = movecontact
+
+;Calcio in salto debole
+[State -1]
+type = ChangeState
+value = 630
+triggerall = command = "a"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 630
+trigger2 = movecontact
+trigger3 = stateno = 640
+trigger3 = movecontact
+trigger4 = stateno = 650
+trigger4 = movecontact
+trigger5 = stateno = 635
+trigger5 = movecontact
+
+;Calcio in salto medio
+[State -1]
+type = ChangeState
+value = 640
+triggerall = command = "b"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 630
+trigger2 = movecontact
+trigger3 = stateno = 640
+trigger3 = movecontact
+trigger4 = stateno = 650
+trigger4 = movecontact
+trigger5 = stateno = 635
+trigger5 = movecontact
+
+;Calcio in salto forte
+[State -1]
+type = ChangeState
+value = 650
+triggerall = command = "c"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 630
+trigger2 = movecontact
+trigger3 = stateno = 640
+trigger3 = movecontact
+trigger4 = stateno = 650
+trigger4 = movecontact
+trigger5 = stateno = 635
+trigger5 = movecontact
+
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+
+;Provocazione
+[State -1]
+type = ChangeState
+value = 195
+trigger1 = command = "start"
+trigger1 = statetype != A
+trigger1 = stateno != 195
+trigger1 = ctrl = 1
+
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+
+;------------------------------------------------------
+;-| AI Variabile |-------------------------------------
+;------------------------------------------------------
+
+[State -1, AI]
+type = Varset
+trigger1 = command = "AI1"
+trigger2 = command = "AI2"
+trigger3 = command = "AI3"
+trigger4 = command = "AI4"
+trigger5 = command = "AI5"
+trigger6 = command = "AI6"
+trigger7 = command = "AI7"
+trigger8 = command = "AI8"
+trigger9 = command = "AI9"
+trigger10 = command = "AI10"
+trigger11 = command = "AI11"
+trigger12 = command = "AI12"
+trigger13 = command = "AI13"
+trigger14 = command = "AI14"
+trigger15 = command = "AI15"
+trigger16 = command = "AI16"
+trigger17 = command = "AI17"
+trigger18 = command = "AI18"
+trigger19 = command = "AI19"
+trigger20 = command = "AI20"
+trigger21 = command = "AI21"
+trigger22 = command = "AI22"
+trigger23 = command = "AI23"
+trigger24 = command = "AI24"
+trigger25 = command = "AI25"
+trigger26 = command = "AI26"
+trigger27 = command = "AI27"
+trigger28 = command = "AI28"
+trigger29 = command = "AI29"
+trigger30 = command = "AI30"
+v = 59
+value = 1
+
+
+;-----------------------------------
+; ------ AI Standing Guard ---------
+;-----------------------------------
+ 
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1 
+triggerall = Statetype != A 
+triggerall = P2statetype != C 
+triggerall = Statetype = S 
+triggerall = P2Movetype = A 
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 999 
+value = 130
+[State -1]
+type = ChangeState 
+triggerall = (Var(30) = 59) && (StateType = S) && (Pos Y = 0) && (P2BodyDist Y <= 0) 
+triggerall = (P2BodyDist Y = -120) && (P2StateType != C) && (P2MoveType = A) 
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl) 
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105]) 
+value = 130
+
+;-----------------------------------
+; ------ AI Standing Guard ---------
+;-----------------------------------
+; AI Stand to Crouch Guard Transition
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = StateType != A
+triggerall = P2statetype = C
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+trigger1 = stateno = 150
+trigger1 = 1
+value = 152
+
+; AI Crouching Guard
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = StateType != A
+triggerall = P2statetype = C
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 900
+value = 131
+[State -1]
+type = ChangeState 
+triggerall = (Var(30) = 59) && (StateType != A) && (Pos Y = 0) && (P2BodyDist Y <= 0) 
+triggerall = (P2BodyDist Y = -50) && (P2StateType = C) && (P2MoveType = A) 
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl) 
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105]) 
+value = 131
+
+;-----------------------------------
+; ------- AI Aerial Guard ---------
+;-----------------------------------
+
+; AI Crouch to Stand Guard Transition
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype != A
+triggerall = P2statetype != C
+triggerall = P2Movetype = A
+trigger1 = 1
+trigger1 = stateno = 152
+value = 150
+
+;AI Aerial Guard
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype = A
+triggerall = P2Movetype = A
+triggerall = ctrl = 1
+trigger1 = random <= 900
+value = 132
+[State -1]
+type = ChangeState 
+triggerall = (Var(30) = 59) && (StateType = A) && (Pos Y = 0)  && (P2BodyDist Y = -120) 
+triggerall = (StateType = A) && (P2MoveType = A) 
+trigger1 = ((P2BodyDist X <= 120) && (Ctrl)) || (StateNo = [140, 155]) 
+value = 132  
+
+;-----------------------------------
+; ------ Special Guard ---------
+;-----------------------------------
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1 
+triggerall = Statetype != A 
+triggerall = P2statetype != C 
+triggerall = Statetype = S 
+triggerall = P2Movetype = A 
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 999 
+value = 144000
+[State -1]
+type = ChangeState 
+triggerall = (Var(30) = 59) && (StateType = S) && (Pos Y = 0) && (P2BodyDist Y <= 0) 
+triggerall = (P2BodyDist Y = -120) && (P2StateType != C) && (P2MoveType = A) 
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl) 
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105]) 
+value = 144000 
+
+
+;-----------------------------------
+; --------- Schivata -----------
+;-----------------------------------
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1 
+triggerall = Statetype != A 
+triggerall = P2statetype != C 
+triggerall = Statetype = S 
+triggerall = P2Movetype = A 
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 999 
+value = 6800
+[State -1]
+type = ChangeState 
+triggerall = (Var(30) = 59) && (StateType = S) && (Pos Y = 0) && (P2BodyDist Y <= 0) 
+triggerall = (P2BodyDist Y = -120) && (P2StateType != C) && (P2MoveType = A) 
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl) 
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105]) 
+value = 6800 
+
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------
+;---------------------------------------------------

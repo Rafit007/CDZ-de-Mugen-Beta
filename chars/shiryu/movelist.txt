@@ -1,0 +1,44 @@
+DRAGON SHIRYU
+-------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Scudo del Dragone / Dragon Shield = y + z (Power 1000) 
+Colpo del Drago Nascente / Rozan ShoRyuHa LV1 = B, DB, D, DF, F, x (Power 1000)
+Colpo del Drago Volante / Rozan RyuHiSho = B, DB, D, DF, F, a  (Power 1000)
+Colpo del Drago Nascente / Rozan ShoRyuHa LV2 = B, DB, D, DF, F, y (Power 2000)
+Calcio della Cascata dei 5 Picchi / Waterfall Kick = B, DB, D, DF, F, b (Power 2000)
+Colpo del Drago Nascente senza Armatura / Rozan ShoRyuHa without Cloth = B, DB, D, DF, F, z (Power 3000, vicino/close = verticale/vertical, lontano/far = orizzontale/horizontal)
+Colpo del Drago Volante senza Armatura / Rozan RyuHiSho without Cloth = B, DB, D, DF, F, c (Power 3000)
+Pienezza del Dragone / Rozan KoRyuHa = F, DF, D, DB, B, c (Power 3000, Desperate Move) 
+Settimo Senso / Seventh Sense = a + x (Power 3000, Desperate Move)
+Spada di Libra / Libra Sword = F, DF, D, DB, B, a/b/c (Power 3000, Fatality Move)
+Colpo del Drago Nascente con l'aiuto di Atena / Rozan ShoRyuHa with Athena's Help = F, DF, D, DB, B, a/b (Power 3000, Desperate Move)
+
+- SPECIAL MOVES:
+
+Onda del Dragone / Dragon Wave = D, DF, F, x/y/z
+Geyser del Dragone / Dragon Geyser = D, DB, B, x/y/z
+Calcio del Dragone / Dragon Kick = D, DF, F, a/b/c
+Calcio Combinato del Dragone / Dragon Combo Kick = D, DB, B, a/b/c
+Calcio Volante del Dragone / Dragon Flying Kick = U, D, DB, B, a/b/c
+Furia del Dragone / Dragon Fury = F + z (Da vicino / From close distance)
+Lancio del Dragone / Dragon Launch = F + c (Da vicino / From close distance)
+Trappola del Dragone / Dragon Trap = x + y (contrattacco, vicino / counterattack, close)
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

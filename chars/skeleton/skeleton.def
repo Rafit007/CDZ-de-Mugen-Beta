@@ -1,0 +1,52 @@
+;---------------------------------------------------------------------------
+; SKELETON DEF FILE by TonyAdv
+;---------------------------------------------------------------------------
+
+[Info]
+name = "skeleton"
+displayname = "Jamir Skeleton" 
+versiondate = 07,06,2011
+mugenversion = 1.0
+author = "KingSeiya, TonyAdv, Tux"
+pal.defaults = 1,2,3,4,5,6
+localcoord = 320,240
+
+[Files]
+sprite  = files/skeleton.sff
+anim = files/skeleton.air
+cmd = files/skeleton.cyd
+cns = files/skeleton.cns
+sound = files/skeleton.snd
+stcommon = files/common1.cns
+st = files/skeleton.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Jamir Skeleton for MugenPixArt's Saint Seiya LEGEND
+
+;Drawer: KingSeiya
+;Coders: TonyADV, Tux
+;Improvements: Tux, XyzWolf, FobiaZ
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

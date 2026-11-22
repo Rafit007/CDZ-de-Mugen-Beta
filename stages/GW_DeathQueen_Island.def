@@ -1,0 +1,180 @@
+;----------------------------------------------------------
+[Info]
+name 		= "Death Queen Island"
+fullname 	= Death Queen Island
+related chars 	= Ikki
+
+author 		= "Sanctuary Soldiers"
+sprites 	= Glory
+code 		= HDP & Mû
+
+versiondate 	= 26,08,2015 
+mugenversion  	= 1.1
+notes 		= Previously unreleased.
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -432
+boundright 	= 432
+boundhigh 	= -184
+boundlow 	= 0
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 80
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 215
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320,240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 160
+color 		= 0,60,60
+yscale 		= 0.2
+
+[Music]
+bgmusic 	= sound/GW_DeathQueen_Island.mp3
+bgvolume 	= 255
+
+[BGdef]
+spr 		= stages/GW_DeathQueen_Island.sff
+debugbg 	= 0
+
+[BG Sky]
+type 		= normal
+spriteno 	= 0,1
+start 		= -450,-182
+delta 		= .3,.6
+mask 		= 0
+
+[BG Volcano 0]
+type  		= normal
+spriteno 	= 3,0
+start 		= -105,-25
+delta 		= .35,.8
+mask 		= 1
+
+[BG Smoke]
+type 		= normal
+spriteno 	= 5,0
+start 		= -110,182
+tile 		= 0,1
+delta 		= .35,.8
+velocity 	= 0,-2
+trans 		= add
+
+[BG Volcano 1]
+type  		= anim
+actionno 	= 2
+start 		= -371,-28
+delta 		= .35,.8
+mask 		= 1
+[Begin action 2]
+2,0,0,0,30
+2,1,0,0,30
+2,2,0,0,30
+2,1,0,0,30
+
+[BG Ground]
+type  		= normal
+spriteno 	= 1,0
+start 		= -650,40
+mask		= 1
+
+[BG Esmeralda Grave]
+type  		= normal
+spriteno 	= 6,0
+start 		= 550,20
+delta 		= 1,1
+mask 		= 1
+
+[BG Flower]
+type  		= anim
+actionno 	= 7
+start 		= 550, 60
+delta 		= 1,1
+mask 		= 1
+[Begin action 7]
+7,0, 0,0,20
+7,1, 0,0,15
+7,2,-1,0,15
+7,1, 0,0,15
+
+[BG Filter0]
+type 		= normal
+spriteno 	= 9,0
+start 		= 0,0
+trans 		= add
+layerno 	= 0
+mask 		= 1
+tile 		= 1,1
+
+[BG Filter1]
+type 		= normal
+spriteno 	= 9,0
+start 		= 0,0
+trans 		= sub
+layerno 	= 1
+mask 		= 1
+tile 		= 1,1
+
+[BG Rocks]
+type  		= normal
+spriteno 	= 4,0
+start 		= -865,191
+delta 		= 1.42,1
+mask 		= 1
+layerno 	= 1
+
+[BG Ashes 1]
+type 		= normal
+spriteno 	= 8,0
+start 		= 0,0
+delta 		= .7,.9
+velocity 	= .2,.3
+tile		= 1,1
+trans 		= addalpha
+alpha 		= 140,240
+layerno 	= 1
+
+[BG Ashes 2]
+type 		= normal
+spriteno 	= 8,0
+start 		= 0,0
+delta 		= .7,.9
+velocity 	= -.3,.35
+tile		= 1,1
+trans 		= addalpha
+alpha 		= 150,250
+layerno 	= 1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------

@@ -1,0 +1,41 @@
+TUCANA SHO
+----------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Iper Pugno d'Acciaio / Hyper Steel Punch = B, DB, D, DF, F, x (Power 1000)
+Turbine d'Acciaio / Steel Whirl = B, DB, D, DF, F, y (Power 2000)
+Uragano d'Acciaio / Steel Hurricane = B, DB, D, DF, F, z (Power 3000)
+Mitragliatrice d'Acciaio / Steel Machine Gun = B, DB, D, DF, F, a (Power 1000)
+Contrattacco Energetico / Energetic Counterattack = B, DB, D, DF, F, b (Power 3000, 5 o più proiettili assorbiti / 5 or more absorbed projectiles)
+Uragano d'Acciaio - Trio / Steel Hurricane - Triplet = B, DB, D, DF, F, c (Power 3000, Fatality Move)
+
+- SPECIAL MOVES:
+
+Pugno d'Acciaio / Steel Punch = D, DF, F, x
+Doppio Pugno d'Acciaio / Double Steel Punch = D, DF, F, y
+Pugno d'Acciaio Attraversante / Crossing Steel Punch = D, DF, F, z
+Bolide d'Acciaio / Steel Fireball = D, DB, B, x
+Doppio Bolide d'Acciaio / Double Steel Fireball = D, DB, B, y
+Grande Bolide d'Acciaio / Great Steel Fireball = D, DB, B, z
+Calcio del Tucano / Tucana Kick = D, DF, F, a/b/c
+Calcio d'Acciaio / Steel Kick = U, D, DF, F, a/b/c
+Assorbimento dei Proiettili / Projectiles Absorption = y + z
+Presa d'Acciaio / Steel Suplex = F + z
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

@@ -1,0 +1,44 @@
+ANKOKU DRAGON
+-------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Raffica del Dito / Finger Blast = B, BD, D, DF, F, x (Power 1000)
+Assalto Volante / Flying Assault = B, BD, D, DF, F, a (Power 1000, anche in aria/aerial too)
+Assalto Frontale / Front Assault = B, BD, D, DF, F, y (Power 2000)
+Devastazione del Dito / Finger Devastation = B, BD, D, DF, F, z (Power 3000)
+Punto Segreto / Secret Point = B, BD, D, DF, F, b (Power 3000, Fatality Move)
+Cavalieri Neri / Black Four = B, BD, D, DF, F, c (Power 3000, Desperate Move) *Solo versione anime / Anime version only
+Drago Nascosto / Hidden Dragon = B, BD, D, DF, F, c (Power 3000, Desperate Move) *Solo versione manga / Manga version only
+
+- SPECIAL MOVES:
+
+Fiamma del Dito / Finger Flame = D, DF, F, x/y/z (solo versione anime / anime version only)
+Attacco del Gemello / Twin Attack = D, DF, F, x/y/z (solo versione manga / manga version only) 
+Combo Debilitante / Weakening Combo = D, DB, B, x/y/z
+Ventata del Dito / Finger Gust = D, DF, F, a/b/c
+Calcio Basso / Downward Kick = D, DB, B, a/b/c
+Calcio Volante / Flying Kick = D, DB, B, a/b/c (in aria / aerial) 
+Contrattacco Acrobatico / Acrobatic Counter = x + y (vicino al nemico / close to the enemy)
+Velocità Mach / Mach Speed = b + c + F/B
+Carica Cosmo / Cosmo Charge = c + z
+Presa 1 / Throw 1 = F + z
+Presa 2 / Throw 2 = F + c (direzionabile / directionable)
+
+Versione Manga / Manga Version = D (tenere premuto all'inizio del round / keep holding at the start of the round)
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

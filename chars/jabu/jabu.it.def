@@ -1,0 +1,50 @@
+;Jabu Definition File by Mugeneration & Rick Pk Liquid Snake
+
+[Info]
+name = "jabu"
+displayname = "Asher"
+versiondate = 01,21,2013 
+mugenversion = 1.0
+author = "Mugeneration (Aldebaran & Terric), Rick Pk Liquid Snake, Squall, Pardo"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite  = files/jabu.sff
+anim = files/jabu.air
+cmd = files/jabu.cyd
+cns = files/jabu.cns
+sound = files/jabu.it.snd
+stcommon = files/common1.cns
+st = files/jabu.it.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Jabu for MugenPixArt's Saint Seiya LEGEND
+;Based on Jabu by Mugeneration (Terric & Aldebaran) and Rick Pk Liquid Snake
+
+;Drawers and Coders: Terric, Aldebaran, Rick Pk Liquid Snake
+;Improvements: Squall, Pardo, BigBoss, Mu, AlexCop, Arsène Lupin, Kagaho de Bennu, Tux, FobiaZ, evilmugen
+;Japanese audio: JB-Ikki
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

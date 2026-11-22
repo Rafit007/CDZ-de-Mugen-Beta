@@ -1,0 +1,40 @@
+TAURUS ALDEBARAN
+----------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Sacro Toro Terremotante / Earthquaking Great Horn = B, DB, D, DF, F, a/b/c (Power 1000)
+Presa Calpestante / Crushing Throw = B, DB, D, DF, F, x (Power 2000)
+Sacro Toro / Great Horn = B, DB, D, DF, F, y (Power 2000)
+Sacro Toro Corrida / Corrida Great Horn = B, DB, D, DF, F, z (Power 3000)
+Sacro Toro Devastante / Devastating Great Horn = F, DF, D, DB, B, x/y/z (Power 3000, Fatality Move)
+Sacro Toro Estremo / Extreme Great Horn = F, DF, D, DB, B, a/b/c (Power 3000, Desperate Move)
+
+ - SPECIAL MOVES:
+
+Colpo a Martello / Hammer Blow = D, DF, F, x/y/z
+Carica del Toro / Taurus Charge = D, DF, F, a/b/c
+Pugno Trattenuto / Charged Punch = D, DB, B, z
+Mini Sacro Toro / Mini Great Horn = D, DB, B, x/y
+Super Calcio / Super Kick = D, DB, B, a/b/c
+Pugni alla Velocità della Luce / Light Speed Punches = y + z
+Combo del Toro / Taurus Combo = F + z
+Presa Bestiale / Beastly Hold = F + c
+Difesa Impenetrabile / Iaikiri Stance = x + y
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

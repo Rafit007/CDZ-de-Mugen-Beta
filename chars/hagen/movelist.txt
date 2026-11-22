@@ -1,0 +1,40 @@
+MERAK BETA HAGEN
+----------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Fuoco del Meriggio 1 / Great Ardent Pressure = B, DB, D, DF, F, x (Power 1000)
+Fuoco del Meriggio 2 / Great Ardent Pressure = B, DB, D, DF, F, y (Power 2000) 
+Fuoco del Meriggio 3 / Great Ardent Pressure = B, DB, D, DF, F, z (Power 3000)
+Attacco Geiser / Geiser Attack = B, DB, D, DF, F, a (Power 1000)
+Tempesta di Fuoco / FireStorm = B, DB, D, DF, F, b (Power 2000)
+Nevi di Asgard / Freezing Universe = B, DB, D, DF, F, c (Power 3000)
+
+- SPECIAL MOVES:
+
+Palla di fuoco / Fireball = D, DF, F, x
+Colonna di fuoco / Fire column = D, DF, F, y
+Pugno congelante / Ice punch = D, DF, F, z
+Pugno in corsa / Running uppurcut = D, DB, B, z
+Fuoco e gelo in aria / Air ice&fire = a + x
+Esplosione di fuoco / Fire explosion = D, DF, F, a
+Aria gelida / Freezing air = D, DF, F, b
+Artigli / Claws = D, DB, B, c
+Recupero Aereo / Air Recover = a + b
+Presa / Throw = F + z (direzionabile / directionable)
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

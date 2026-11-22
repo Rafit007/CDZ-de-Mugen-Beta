@@ -1,0 +1,463 @@
+;----------------------------------------------------------
+[Info]
+name 		= "Andromeda Island"
+fullname 	= Andromeda Island, Ethiopia 
+related chars 	= Shun
+
+author 		= "Sanctuary Soldiers"
+sprites		= Glory
+code 		= HDP & Mû
+
+versiondate 	= 24,08,2015
+mugenversion 	= 1.1
+notes 		= Previously unreleased
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------
+
+[Camera]
+startx = 0
+starty = 0
+boundleft 	= -434
+boundright 	= 434
+boundhigh 	= -38
+boundlow 	= 0
+verticalfollow 	= 0.6
+floortension 	= 25
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 55
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 222
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320, 240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 150
+color 		= 100,20,10
+yscale 		= .15
+
+[Music]
+bgmusic 	= sound/GW_Andromeda_Island.mp3
+bgvolume 	= 255
+
+[BGdef]
+spr 		= stages/GW_Andromeda_Island.sff
+debugbg 	= 0
+
+[BG Sky]
+type  		= normal
+spriteno 	= 0,1
+start 		= -432,-112
+delta 		= .5,1
+velocity 	= -.4,0
+tile 		= 1,0
+mask 		= 1
+
+[BG Clouds]
+type  		= normal
+spriteno 	= 4,0
+start 		= 130,-130
+delta 		= .5,1
+velocity 	= .2,0
+tile 		= 1,0
+trans 		= addalpha
+alpha 		= 186,156
+mask 		= 1
+
+[BG Sea 1]
+type  		= anim
+actionno 	= 2
+start 		= -300,170
+delta 		= .6,1
+mask 		= 1
+[Begin Action 2]
+2,0,0,0,52
+2,1,0,0,55
+2,2,0,0,50
+2,1,0,0,55
+
+[BG Sun]
+type  		= normal
+spriteno 	= 5,0
+start 		= -120,55
+delta 		= .45,1
+trans 		= addalpha
+alpha 		= 90,259
+mask 		= 1
+
+[BG Sea 2]
+type  		= normal
+spriteno 	= 2,0
+start 		= -300,170
+delta 		= .6,1
+trans 		= addalpha
+alpha 		= 150,130
+mask 		= 1
+
+[BG Seagull 1]
+type  		= anim
+actionno 	= 3
+start 		= -180,35
+delta 		= .75,.9
+mask 		= 1
+[Begin Action 3] 
+3, 0,  0,-70,  3
+3, 0, -5,-65,  3
+3, 0,-10,-60,  3
+3, 0,-15,-55,  3
+3, 0,-20,-50,  3
+3, 0,-25,-45,  3
+3, 0,-30,-40,  3
+3, 1,-33,-31,  3
+3, 1,-38,-26,  3
+3, 1,-43,-21,  3
+3, 1,-48,-16,  3
+3, 1,-53,-11,  3
+3, 1,-58, -6,  3
+3, 1,-63, -1,  5
+3, 2,-68,  7,  7
+3, 2,-70, 12,  8
+3, 3,-72, 18, 10
+3, 4,-72, 21, 10
+3, 5,-71, 24, 10
+3, 6,-71, 22, 10
+3, 7,-69, 21, 10
+3, 8,-69, 20, 10
+3, 9,-67, 18, 10
+3,-1,  0,  0,300
+
+[BG Seagull 2]
+type  		= anim
+actionno 	= 4
+start 		= 200,20
+delta 		= .75,.9
+mask 		= 1
+[Begin Action 4]
+3,-1,  0,  0,430,H
+3, 0,  0,-70,  3,H
+3, 0, -5,-65,  3,H
+3, 0,-10,-60,  3,H
+3, 0,-15,-55,  3,H
+3, 0,-20,-50,  3,H
+3, 0,-25,-45,  3,H
+3, 0,-30,-40,  3,H
+3, 1,-33,-31,  3,H
+3, 1,-38,-26,  3,H
+3, 1,-43,-21,  3,H
+3, 1,-48,-16,  3,H
+3, 1,-53,-11,  3,H
+3, 1,-58, -6,  3,H
+3, 1,-63, -1,  5,H
+3, 2,-68,  7,  7,H
+3, 2,-70, 12,  8,H
+3, 3,-72, 18, 10,H
+3, 4,-72, 21, 10,H
+3, 5,-71, 24, 10,H
+3, 6,-71, 22, 10,H
+3, 7,-69, 21, 10,H
+3, 8,-69, 20, 10,H
+3, 9,-67, 18, 10,H
+
+[BG Rock 1]
+type  		= normal
+spriteno 	= 6,0
+start 		= 312,-40
+delta 		= .95,1
+mask 		= 1
+
+[BG Rock 2]
+type  		= normal
+spriteno 	= 7,0
+start 		= -540,-50
+delta 		= .75,.9
+mask 		= 1
+
+[BG Sacrifice Rock 1]
+type  		= normal
+spriteno 	= 9,0
+start 		= -184,141
+delta 		= .9,.95
+mask 		= 1
+
+[BG Sacrifice Rock 2]
+type  		= normal
+spriteno 	= 10,0
+start 		= -106,141
+delta 		= .9,.95
+mask 		= 1
+
+[BG Ground]
+type  		= normal
+spriteno 	= 1,0
+start 		= -649,176
+delta 		= 1,1
+mask 		= 1
+
+[BG Filter0]
+type 		= normal
+spriteno 	= 13,0
+start 		= 0,0
+trans 		= add
+layerno 	= 0
+mask 		= 1
+tile 		= 1,1
+
+[BG Filter1]
+type 		= normal
+spriteno 	= 13,0
+start 		= 0,0
+trans 		= sub
+layerno 	= 1
+mask 		= 1
+tile 		= 1,1
+
+[BG Shadow Apprentices]
+type 		= normal
+spriteno 	= 15,0
+start 		= 318,203
+delta 		= 1,1
+trans 		= sub
+mask 		= 1
+
+[BG Apprentices]
+type 		= anim
+actionno 	= 14
+start 		= 330,115
+delta 		= 1,1
+mask 		= 1
+[Begin Action 14]
+14,1, 0,  0, 10
+14,2, 0,  0, 10
+14,3, 0,  0, 10
+14,0, 0,  0, 10
+14,1, 0,  0, 10
+14,2, 0,  0, 10
+14,3, 0,  0, 10
+14,0, 0,  0, 10
+14,1, 0,  0, 10
+14,2, 0,  0, 10
+14,3, 0,  0, 10
+14,4, 0,  0, 10
+14,1, 0,  0, 10
+14,2, 0,  0, 10
+14,3, 0,  0, 10
+14,0, 0,  0, 10
+14,1, 0,  0, 10
+14,2, 0,  0, 10
+14,3, 0,  0, 10
+14,0, 0,  0, 10
+14,1, 0,  0, 10
+14,2, 0,  0, 10
+14,3, 0,  0, 10
+14,5, 0,  0, 10
+
+[BG Shadow Apprentice 1]
+type 		= anim
+actionno 	= 17
+start 		= 189,204
+delta 		= 1,1
+mask 		= 1
+[Begin Action 17]
+17, 0,  1, 0, 180,,S
+17, 1,  0, 0, 310,,S
+
+[BG Apprentice 1]
+type 		= anim
+actionno 	= 16
+start 		= 210,115
+delta 		= 1,1
+mask 		= 1
+[Begin Action 16]
+16,0, 0,  0, 15
+16,1, 0,  0, 15
+16,2, 0,  0, 15
+16,0, 0,  0, 15
+16,1, 0,  0, 15
+16,2, 0,  0, 15
+16,0, 0,  0, 15
+16,1, 0,  0, 15
+16,2, 0,  0, 15
+16,0, 0,  0, 15
+16,1, 0,  0, 15
+16,2, 0,  0, 15
+16,3, 0, -5, 5
+16,4, 0, -5, 5
+16,5,-2, -5, 5
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,7, 0,-12, 10
+16,6, 0,-12, 10
+16,5,-2, -5, 5
+16,4, 0, -5, 5
+16,3, 0, -5, 5
+16,8, 0, -5, 10
+
+[BG Shadow Apprentice 2]
+type 		= normal
+spriteno 	= 19,0
+start 		= 558,188
+delta 		= 1,1
+trans 		= sub
+mask 		= 1
+
+[BG Apprentice 2]
+type 		= anim
+actionno 	= 18
+start 		= 580,103
+delta 		= 1,1
+mask 		= 1
+[Begin Action 18]
+18,0, 0,  0, 15
+18,1, 0,  0, 15
+18,2, 0,  0, 15
+18,1, 0,  0, 15
+
+[BG Dust 1]
+type 		= anim
+actionno 	= 121
+start 		= -549,172
+mask 		= 1
+trans 		= addalpha
+alpha 		= 128,144
+[Begin Action 121]
+12,6,231, 71, 20
+12,0,  0,  0, 8
+12,1, 31,  0, 8
+12,2, 62, -1, 8
+12,3, 88, -8, 8
+12,4,126,-13, 8
+12,5,169,-32, 8
+12,6,231, 71, 150 
+
+[BG Dust 2]
+type 		= anim
+actionno 	= 122
+start 		= 249,169
+mask 		= 1
+trans 		= addalpha
+alpha 		= 128,144
+[Begin Action 122]
+12,0,  0,  0, 8
+12,1, 31,  0, 8
+12,2, 62, -1, 8
+12,3, 88, -8, 8
+12,4,126,-13, 8
+12,5,169,-32, 8
+12,6,231, 71, 150 
+
+[BG Dust 3]
+type 		= anim
+actionno 	= 123
+start 		= -149,167
+mask 		= 1
+trans 		= addalpha
+alpha 		= 128,144
+[Begin Action 123]
+12,6,231, 71, 41
+12,0,  0,  0, 8
+12,1, 31,  0, 8
+12,2, 62, -1, 8
+12,3, 88, -8, 8
+12,4,126,-13, 8
+12,5,169,-32, 8
+12,6,231, 71, 150 
+
+[BG FG Rocks]
+type  		= normal
+spriteno 	= 8,0
+start 		= -794,199
+delta 		= 1.3,1.2
+mask 		= 1
+layerno 	= 1
+
+[BG Headskull]
+type  		= normal
+spriteno 	= 11,0
+start 		= -485,210
+delta 		= 1.3,1.2
+mask 		= 1
+layerno		= 1
+
+[BG Bone 1]
+type  		= normal
+spriteno 	= 11,1
+start 		= -698,221
+delta 		= 1.3,1.2
+mask 		= 1
+layerno		= 1
+
+[BG Bone 2]
+type  		= normal
+spriteno 	= 11,2
+start 		= -674,225
+delta 		= 1.3,1.2
+mask 		= 1
+layerno		= 1
+
+[BG Bone 3]
+type  		= normal
+spriteno 	= 11,3
+start 		= -740,220
+delta 		= 1.3,1.2
+mask 		= 1
+layerno		= 1
+
+[BG Bone 4]
+type  		= normal
+spriteno 	= 11,4
+start 		= -714,219
+delta 		= 1.3,1.2
+mask 		= 1
+layerno		= 1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------

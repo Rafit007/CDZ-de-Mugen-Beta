@@ -1,0 +1,38 @@
+MUSCA DIO (SILVER / SPECTER)
+-----------------------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+x = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Labirinto Oscuro lv1 / Dead End Fly LV1 = B, DB, D, DF, F, x (Power 1000)
+Combo Velocità Sonica / SoundSpeed Combo = B, DB, D, DF, F, a (Power 1000)
+Labirinto Oscuro lv2 / Dead End Fly LV2 = B, DB, D, DF, F, y (Power 2000)
+Labirinto Oscuro Infernale / Infernal Dead End Fly = B, DB, D, DF, F, y (Power 2000) *Solo versione Specter / Only Specter version
+Labirinto Oscuro lv3 / Dead End Fly LV3 = B, DB, D, DF, F, c (Power 3000)
+Intervento di Argetti e Orione / Algethi and Sirius Combo Attack = F, DF, D, DB, B, x\y\z (Power 3000, Fatality Move)
+
+- SPECIAL MOVES:
+
+Pugno Perforante / Piercing Punch Punch = D, DF, F, x/y/z
+Pugno Velocità Sonica (anche in aria) / SoundSpeed Punch (air too) = D, DB, B, x/y/z
+Scivolata della Mosca / Fly Slide = D, DF, F, a/b/c
+Calcio Velocità Sonica (anche in aria) / SoundSpeed Kick (air too) = D, DB, B, a/b/c
+Presa 1 / Throw 1 = F + z
+Presa 1 / Throw 1 = F + c
+Combo / Combo = F + y
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

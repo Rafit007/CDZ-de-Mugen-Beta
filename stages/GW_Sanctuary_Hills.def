@@ -1,0 +1,338 @@
+;--------------------------------------------------------
+[Info]
+name 		= "Sanctuary Hills"
+fullname 	= Sanctuary Hills, Greece
+related chars 	= Seiya
+
+author 		= "Sanctuary Soldiers"
+sprites		= Mû & Glory
+code 		= Mû
+
+versiondate 	= 25,10,2013 
+mugenversion 	= 1.1
+notes 		= First release, (based on GW_Ruins, release date : 31,05,2013)
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -390
+boundright 	= 390
+boundhigh 	= -74
+boundlow 	= 0
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 80
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 222
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320, 240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 185
+color 		= 10,20,255
+yscale 		= -.05
+fade.range 	= -500,-200
+
+[Music]
+bgmusic 	= sound/GW_Sanctuary_Hills.mp3
+bgvolume 	= 254
+
+[BGdef]
+spr 		= stages/GW_Sanctuary_Hills.sff
+debugbg		= 0
+
+[BG Sky]
+type  		= normal
+spriteno 	= 0,1
+start 		= -640,-145
+delta 		= .4,.95
+mask     	= 0	
+
+[BG Rock L]
+type 		= normal
+spriteno 	= 2,0
+delta 		= .6,.95
+start 		= -448,59
+mask 		= 1
+
+[BG Rock R]
+type 		= normal
+spriteno 	= 2,1
+delta 		= .7,.98
+start 		= 115,112
+mask 		= 1
+
+[BG Floor]
+type 		= normal
+spriteno 	= 1,0
+delta 		= 1,1
+start 		= -640,161
+mask 		= 1
+
+[BG Column L]
+type 		= normal
+spriteno 	= 5,0
+delta 		= 1,1
+start 		= -430,6
+mask 		= 1
+
+[BG Column R]
+type 		= normal
+spriteno 	= 5,1
+delta 		= 1,1
+start 		= 330,6
+mask 		= 1
+
+[BG Soldier 1 Shadow]
+type  		= normal
+spriteno 	= 13,0
+start 		= 290,194
+delta 		= 1,1
+trans 		= sub
+mask 		= 1
+
+[BG Soldier 1]
+type  		= anim
+actionno 	= 6
+start 		= 290, 130
+mask 		= 1
+[Begin Action 6]
+6, 0,  0, 0, 20
+6, 1,  0, 2, 12
+6, 2,  0, 4, 12
+6, 1,  0, 2, 12
+
+[BG Soldier 2 Shadow]
+type  		= normal
+spriteno 	= 14,0
+start 		= 380,202
+delta 		= 1,1
+trans 		= sub
+mask 		= 1
+
+[BG Soldier 2]
+type  		= anim
+actionno 	= 7
+start 		= 380, 105
+mask 		= 1
+[Begin Action 7]
+7, 0,  0,  0, 40
+7, 1,  2,  0, 12
+7, 2,-13,  0, 12
+7, 3,-49,-21, 12
+7, 4,-47,-18, 12
+7, 3,-49,-21, 12
+7, 4,-47,-18, 12
+7, 3,-49,-21, 12
+7, 4,-47,-18, 12
+7, 3,-49,-21, 12
+7, 4,-47,-18, 12
+7, 3,-49,-21, 12
+7, 4,-47,-18, 12
+7, 3,-49,-21, 12
+7, 4,-47,-18, 12
+7, 2,-13,  0, 12
+7, 1,  2,  0, 12
+
+[BG Soldier 3 Shadow]
+type  		= normal
+spriteno 	= 15,0
+start 		= 445,198
+delta 		= 1,1
+trans 		= sub
+mask 		= 1
+
+[BG Soldier 3]
+type  		= anim
+actionno 	= 8
+start 		= 445, 135
+mask 		= 1
+[Begin Action 8]
+8, 0,  0, 0, 13
+8, 1,  0, 0, 13
+8, 2,  0, 0, 13
+8, 3,  0, 0, 10
+8, 4,  0, 0, 10
+8, 5,  6, 0, 30
+
+[BG Soldiers Shadow]
+type  		= normal
+spriteno 	= 16,0
+start 		= 520,181
+delta 		= 1,1
+trans 		= sub
+mask 		= 1
+
+[BG Soldiers]
+type  		= anim
+actionno 	= 9
+start 		= 520, 95
+mask 		= 1
+[Begin Action 9]
+9, 0,  0, 0, 15
+9, 1,  0, 0, 15
+9, 2,  0, 0, 15
+9, 3,  0, 0, 15
+9, 4,  0, 0, 15
+9, 5,  0, 0, 15
+9, 6,  0,-1, 15
+9, 7,  0, 0, 15
+9, 8,  0,-1, 15
+9, 9,  0, 0, 15
+9,10,  0,-1, 15
+9,11,  0, 0, 15
+
+[BG Turist 1 Shadow]
+type  		= normal
+spriteno 	= 17,0
+start 		= -356,187
+delta 		= 1,1
+trans 		= sub
+mask 		= 1
+
+[BG Turist 1]
+type  		= anim
+actionno 	= 11
+start 		= -355, 115
+mask 		= 1
+[Begin Action 11]
+11, 0,  0, 0, 10
+11, 1,  0, 2, 10
+11, 2,  0, 4, 10
+11, 3,  0, 4, 10
+11, 2,  0, 4, 10
+11, 1,  0, 2, 10
+11, 0,  0, 0, 10
+11, 3,  0, 4, 10
+11, 4,  0, 5, 10
+11, 5,  0, 5, 10
+11, 6,  0, 5, 10
+11, 8,  0, 5, 10
+11, 7,  0, 5, 10
+11, 9,  0, 5, 10
+11, 6,  0, 5, 10
+11,10,  0, 5, 10
+11, 7,  0, 5, 10
+11, 8,  0, 5, 10
+11, 6,  0, 5, 10
+11, 9,  0, 5, 10
+11, 7,  0, 5, 10
+11,10,  0, 5, 10
+11, 6,  0, 5, 10
+11, 5,  0, 5, 10
+11, 4,  0, 5, 10
+11, 3,  0, 4, 10
+11, 2,  0, 4, 10
+11, 1,  0, 2, 10
+
+[BG Turist 2 Shadow]
+type  		= normal
+spriteno 	= 18,0
+start 		= -296,185
+delta 		= 1,1
+trans 		= sub
+mask 		= 1
+
+[BG Turist 2]
+type  		= anim
+actionno 	= 12
+start 		= -310, 112
+mask 		= 1
+[Begin Action 12]
+12, 0,  0, 0, 70
+12, 1,  0, 0, 21
+12, 0,  0, 0, 21
+12, 1,  0, 0, 21
+12, 0,  0, 0, 21
+12, 1,  0, 0, 21
+12, 2,  0, 1, 6
+12, 3,  0, 3, 7
+12, 4,  0, 3, 28
+12, 5,  0, 3, 28
+12, 4,  0, 3, 28
+12, 5,  0, 3, 28
+12, 4,  0, 3, 28
+12, 5,  0, 3, 28
+12, 3,  0, 3, 7
+12, 2,  0, 1, 6
+
+[BG Column FL]
+type 		= normal
+spriteno 	= 4,0
+delta 		= 1.5,1.3
+start 		= 220,218
+mask 		= 1
+layerno 	= 1
+
+[BG Column FR]
+type 		= normal
+spriteno 	= 4,1
+delta 		= 1.5,1.3
+start 		= 680,183
+mask 		= 1
+layerno 	= 1
+
+[BG Soldier F]
+type 		= normal
+spriteno 	= 10,0
+delta 		= 1.05,1.05
+start 		= 595,110
+mask 		= 1
+layerno 	= 1
+
+[BG Rock F]
+type 		= normal
+spriteno 	= 3,0
+delta 		= 1.5,1.3
+start 		= -825,164
+mask 		= 1
+layerno 	= 1
+
+[BG Filter0]
+type 		= normal
+spriteno 	= 19,0
+start 		= 0,0
+trans 		= add
+layerno 	= 0
+mask 		= 1
+tile 		= 1,1
+
+[BG Filter1]
+type 		= normal
+spriteno 	= 19,0
+start 		= 0,0
+trans 		= sub
+layerno 	= 1
+mask 		= 1
+tile 		= 1,1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------

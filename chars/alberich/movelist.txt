@@ -1,0 +1,52 @@
+MEGREZ DELTA ALBERICH 
+---------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Anime della Natura LV1 / Nature Unity LV1 = B, DB, D, DF, F, x (Power 1000)
+Fendente Infuocato dell'Ametista / Amethyst Fire Slash = B, DB, D, DF, F, a (Power 1000, da lontano/from afar) (**)
+Teca dell'Ametista / Amethyst Shield = B, DB, D, DF, F, y (Power 2000)
+Carillon Infernale dell'Ametista / Amethyst Infernal Carillon = B, DB, D, DF, F, b (Power 2000)                (**)
+Anime della Natura LV2 / Nature Unity LV3 = B, DB, D, DF, F, z (Power 3000, da lontano/from afar)
+Grande Ametista Distruttrice / Amethyst Big Destroyer = B, DB, D, DF, F, c (Power 3000)                        (**)
+Teca Mortale dell'Ametista / Deadly Amethyst Shield = F, DF, D, DB, B, z (Power 3000, Fatality Move)
+Anime della Natura LV3 / Nature Unity LV3 = F, DF, D, DB, B, c (Power 3000, Desperate Move)
+
+- SPECIAL MOVES:
+
+Getto di Sabbia / Sand Throw = D, D, x/y/z                          (*)
+Picchiata Fiammeggiante / Fire Dive = D, D, x/y/z (in aria/aerial)  (**)
+Getto d'Acido / Acid Throw = D, DF, F, x/y/z                        (*)
+Scia del Vulcano / Fire Trail = D, DF, F, x/y/z                     (**)
+Combo Poderosa / Ponderous Combo = D, DB, B, x/y/z                  (*)
+Danza della Spada / Blade's Dance = D, DB, B, x/y/z                 (**)
+Furia della Natura / Nature Fury = D, D, a/b/c
+Calcio in Rovesciata / Sommersault Kick = D, DB, B, a/b/c
+Calcio Martello / Hammer Kick = D, DF, F, a/b/c
+Attiva Spada di Ametista / Fire Sword On = x + y                    (*)
+Disattiva Spada di Ametista / Fire Sword On = x + y                 (**)
+Inganno / Deception = y + z
+Carica Cosmo / Cosmo Charge = c + z
+Recupero Aereo / Air Recover = a + b
+Rotolamento / Roll = a + b (direzionabile / directionable)
+Presa = F + z
+Combo = F + c
+
+(*) Eseguibili solo con Spada di Ametista disattivata / executable with Fire Sword Off only
+(**) Eseguibili solo con Spada di Ametista attivata / executable with Fire Sword On only
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

@@ -1,0 +1,190 @@
+;----------------------------------------------------------
+[Info]
+name 		= "Oran"
+fullname 	= Oran, Algeria
+related chars 	= Jabu
+
+author 		= "Sanctuary Soldiers"
+sprites		= Glory
+code 		= HDP & Mû
+
+versiondate 	= 26,10,2013
+mugenversion  	= 1.1
+notes 		= First release 24,02,2010 
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -520
+boundright 	= 520
+boundhigh 	= -235
+boundlow 	= 0
+verticalfollow 	= 0.7
+floortension 	= 20
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 80
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 221
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320,240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 120
+color 		= 0,10,0
+yscale 		= -.12
+fade.range 	= -400,-100
+
+[Music]
+bgmusic 	= sound/GW_Oran.mp3
+bgvolume 	= 254
+
+[BGdef]
+spr 		= stages/GW_Oran.sff
+debugbg 	= 1
+
+[BG Sky 1]
+type  		= normal
+spriteno 	= 0,1
+start 		= -1263,-239
+tile 		= 1,0
+delta 		= .5,.5
+velocity 	= -1.5
+mask 		= 1
+
+[BG Stryke 1]
+type  		= anim
+actionno 	= 8
+start 		= 0,-100
+delta 		= .5,.9
+mask 		= 1
+[begin action 8]
+8, 0,  0, 0,  3, ,A
+8, 1, -6,-1,  3, ,A
+8, 2,-23,-1,  3, ,A
+8, 3,-31,-1,  3, ,A
+8, 4,-11, 3,  3, ,A
+8, 5,-30, 1,  3, ,A
+8, 6,-20, 1,  3, ,A
+8, 7,-42, 0,  3, ,A
+8, 8, -9, 7,  3, ,A
+8, 9, -5,11,  3, ,A
+8,-1,  0, 0,200, ,A
+
+[BG Stryke 2]
+type  		= anim
+actionno 	= 9
+start 		= -175,-20
+delta 		= .5,.9
+mask 		= 1
+[begin action 9]
+8,-1, 0, 0, 80,H,A
+8, 0, 0, 0,  3,H,A
+8, 1, 6,-1,  3,H,A
+8, 2,23,-1,  3,H,A
+8, 3,31,-1,  3,H,A
+8, 4,11, 3,  3,H,A
+8, 5,30, 1,  3,H,A
+8, 6,20, 1,  3,H,A
+8, 7,42, 0,  3,H,A
+8, 8, 9, 7,  3,H,A
+8, 9, 5,11,  3,H,A
+8,-1, 0, 0,120,H,A
+
+[BG Stryke 3]
+type  		= anim
+actionno 	= 9
+start 		= 420,-150
+delta 		= .5,.9
+mask 		= 1
+
+[BG Sky 2]
+type 		= normal
+spriteno	= 0,2
+start 		= -619,-427
+delta 		= .6,.7
+trans 		= add1
+mask 		= 1
+
+[BG Hill 1]
+type 		= normal
+spriteno 	= 2,0
+start 		= -579,-1
+delta 		= .7,.9
+mask 		= 1
+
+[BG Hill 2]
+type 		= normal
+spriteno 	= 3,0
+start 		= 105,-112
+delta 		= .8,.85
+mask 		= 1
+
+[BG Village]
+type 		= normal
+spriteno 	= 4,0
+start 		= 254,-27
+delta		= .8,.85
+mask 		= 1
+
+[BG Floor]
+type  		= normal
+spriteno 	= 1,0
+start 		= -734,-83
+delta 		= 1,1
+mask 		= 1
+
+[BG Rock 1]
+type 		= normal
+spriteno 	= 5,0
+start 		= -89,204
+delta 		= 1.3,1.1
+layerno 	= 1  
+mask 		= 1
+
+[BG Rock 2]
+type 		= normal
+spriteno 	= 6,0
+start 		= 373,188
+delta 		= 1.26,1.12
+layerno 	= 1  
+mask 		= 1
+
+[BG Rock 3]
+type 		= normal
+spriteno 	= 7,0
+start 		= -771,191
+delta 		= 1.26,1.12
+layerno 	= 1  
+mask 		= 1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------

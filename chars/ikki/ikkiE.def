@@ -1,0 +1,51 @@
+;Phoenix Ikki Definition file by SeiyaDivin & Tux
+
+[Info]
+name = "ikkiE"
+displayname = "Ikki"
+versiondate = 07/27/2020
+mugenversion = 1.0
+author = "Tonos, Vegeth1985, SeiyaDivin, Tux"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite  = files/ikkiE.sff
+anim = files/ikki.air
+cmd = files/ikki.cyd
+cns = files/ikki.cns
+sound = files/ikki.snd
+stcommon = files/common1.cns
+st = files/ikki.st
+st1 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Phoenix Ikki for MugenPixArt's Saint Seiya LEGEND
+
+;Drawers: Vegeth1985, Tonos
+;Coders: SeiyaDivin, Tux
+;Improvements: Domhall, FobiaZ
+;Italian audio: Tux, mikeHaggar, BigBoss, FobiaZ
+;Japanese audio: JB-Ikki, FobiaZ
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

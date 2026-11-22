@@ -1,0 +1,52 @@
+; HERCULES ALGETHI DEF File by Squall y Pardo
+
+[Info]
+name = "algethi"
+displayname = "Algethi"
+versiondate = 10,06,2011
+mugenversion = 1.0
+author = "*angel*, Mey_Z, Squall, Pardo & Tux"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite  = files/algethi.sff
+anim = files/algethi.air
+cmd = files/algethi.cyd
+cns = files/algethi.cns
+sound = files/algethi.snd
+stcommon = files/common1.cns
+st = files/algethi.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Hercules Algethi for MugenPixArt's Saint Seiya LEGEND
+;With the collaboration of CDZJuego2D
+
+;Drawers: *angel*, Mey_Z
+;Coders: Squall, Pardo, Tux
+;Improvements: Kagaho de Bennu, BigBoss, FobiaZ
+;Palette: SeiyaDivin, AlexCop
+;Japanese audio: JB-Ikki
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

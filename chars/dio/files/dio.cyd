@@ -1,0 +1,1730 @@
+; MUSCA DIO CMD File by Pardo & Tecla2000
+
+[Defaults]
+command.time = 15
+command.buffer.time = 1
+
+;--|AI Commands|-----------------------------------------------------------
+
+[Command]
+name = "AI1"
+command = a, a, a
+time = 1
+
+[Command]
+name = "AI2"
+command = b, b, b
+time = 1
+
+[Command]
+name = "AI3"
+command = c, c, c
+time = 1
+
+[Command]
+name = "AI4"
+command = x, x, x
+time = 1
+
+[Command]
+name = "AI5"
+command = y, y, y
+time = 1
+
+[Command]
+name = "AI6"
+command = z, z, z
+time = 1
+
+[Command]
+name = "AI7"
+command = a, b, c
+time = 1
+
+[Command]
+name = "AI8"
+command = a, c, b
+time = 1
+
+[Command]
+name = "AI9"
+command = b, a, c
+time = 1
+
+[Command]
+name = "AI10"
+command = b, c, a
+time = 1
+
+[Command]
+name = "AI11"
+command = c, b, a
+time = 1
+
+[Command]
+name = "AI12"
+command = c, a, b
+time = 1
+
+[Command]
+name = "AI13"
+command = x, y, z
+time = 1
+
+[Command]
+name = "AI14"
+command = x, z, y
+time = 1
+
+[Command]
+name = "AI15"
+command = y, z, x
+time = 1
+
+[Command]
+name = "AI16"
+command = y, x, z
+time = 1
+
+[Command]
+name = "AI17"
+command = z, y, x
+time = 1
+
+[Command]
+name = "AI18"
+command = z, x, y
+time = 1
+
+[Command]
+name = "AI19"
+command = a, b, a
+time = 1
+
+[Command]
+name = "AI20"
+command = a, c, a
+time = 1
+
+[Command]
+name = "AI21"
+command = b, a, b
+time = 1
+
+[Command]
+name = "AI22"
+command = b, c, b
+time = 1
+
+[Command]
+name = "AI23"
+command = c, a, c
+time = 1
+
+[Command]
+name = "AI24"
+command = c, b, c
+time = 1
+
+[Command]
+name = "AI25"
+command = x, y, x
+time = 1
+
+[Command]
+name = "AI26"
+command = x, z, x
+time = 1
+
+[Command]
+name = "AI27"
+command = y, x, y
+time = 1
+
+[Command]
+name = "AI28"
+command = y, z, y
+time = 1
+
+[Command]
+name = "AI29"
+command = z, x, z
+time = 1
+
+[Command]
+name = "AI30"
+command = z, y, z
+time = 1
+
+[Command]
+name = "AI31"
+command = D, DF, F ,a, a, a
+time = 1
+
+[Command]
+name = "AI32"
+command = D, DF, F ,b, b, b
+time = 1
+
+[Command]
+name = "AI33"
+command = D, DF, F ,c, c, c
+time = 1
+
+[Command]
+name = "AI34"
+command = D, DF, F ,x, x, x
+time = 1
+
+[Command]
+name = "AI35"
+command = D, DF, F ,y, y, y
+time = 1
+
+[Command]
+name = "AI36"
+command = D, DF, F ,z, z, z
+time = 1
+
+[Command]
+name = "AI37"
+command = D, DF, F ,a, b, c
+time = 1
+
+[Command]
+name = "AI38"
+command = D, DF, F ,a, c, b
+time = 1
+
+[Command]
+name = "AI39"
+command = D, DF, F ,b, a, c
+time = 1
+
+[Command]
+name = "AI40"
+command = D, DF, F ,b, c, a
+time = 1
+
+[Command]
+name = "AI41"
+command = D, DF, F ,c, b, a
+time = 1
+
+[Command]
+name = "AI42"
+command = D, DF, F ,c, a, b
+time = 1
+
+[Command]
+name = "AI43"
+command = D, DF, F ,x, y, z
+time = 1
+
+[Command]
+name = "AI44"
+command = D, DF, F ,x, z, y
+time = 1
+
+[Command]
+name = "AI45"
+command = D, DF, F ,y, z, x
+time = 1
+
+[Command]
+name = "AI46"
+command = D, DF, F ,y, x, z
+time = 1
+
+[Command]
+name = "AI47"
+command = D, DF, F ,z, y, x
+time = 1
+
+[Command]
+name = "AI48"
+command = D, DF, F ,z, x, y
+time = 1
+
+[Command]
+name = "AI49"
+command = D, DF, F ,a, b, a
+time = 1
+
+[Command]
+name = "AI50"
+command = D, DF, F ,a, c, a
+time = 1
+
+[Command]
+name = "AI51"
+command = D, DF, F ,b, a, b
+time = 1
+
+[Command]
+name = "AI52"
+command = D, DF, F ,b, c, b
+time = 1
+
+[Command]
+name = "AI53"
+command = D, DF, F ,c, a, c
+time = 1
+
+[Command]
+name = "AI54"
+command = D, DF, F ,c, b, c
+time = 1
+
+[Command]
+name = "AI55"
+command = D, DF, F ,x, y, x
+time = 1
+
+[Command]
+name = "AI56"
+command = D, DF, F ,x, z, x
+time = 1
+
+[Command]
+name = "AI57"
+command = D, DF, F ,y, x, y
+time = 1
+
+[Command]
+name = "AI58"
+command = D, DF, F ,y, z, y
+time = 1
+
+[Command]
+name = "AI59"
+command = D, DF, F ,z, x, z
+time = 1
+
+[Command]
+name = "AI60"
+command = D, DF, F ,z, y, z
+time = 1
+
+[Command]
+name = "AI61"
+command = F, DF, D ,a, b, c
+time = 1
+
+[Command]
+name = "AI62"
+command = F, DF, D ,a, c, b
+time = 1
+
+[Command]
+name = "AI63"
+command = D, DB, B ,b, a, c
+time = 1
+
+[Command]
+name = "AI64"
+command = D, DB, B ,b, c, a
+time = 1
+
+[Command]
+name = "AI65"
+command = D, DB, B ,c, b, a
+time = 1
+
+[Command]
+name = "AI66"
+command = D, DB, B ,c, a, b
+time = 1
+
+[Command]
+name = "AI67"
+command = F, DF, D ,a, b, a
+time = 1
+
+[Command]
+name = "AI68"
+command = F, DF, D ,a, c, a
+time = 1
+
+[Command]
+name = "AI69"
+command = D, DB, B ,b, a, b
+time = 1
+
+[Command]
+name = "AI70"
+command = D, DB, B ,b, c, b
+time = 1
+
+[Command]
+name = "AI71"
+command = D, DB, B ,c, a, c
+time = 1
+
+[Command]
+name = "AI72"
+command = D, DB, B ,c, b, c
+time = 1
+
+;--|Super Motions|---------------------------------------------------------
+
+; Dead End Fly 1
+[Command]
+name = "deadendfly1"
+command = B, DB, D, DF, F, x
+time = 30
+
+; SoundSpeed Combo
+[Command]
+name = "soundcombo"
+command = B, DB, D, DF, F, a
+time = 25
+
+; Dead End Fly 2
+[Command]
+name = "deadendfly2"
+command = B, DB, D, DF, F, y
+time = 50
+
+; Infernal Dead End Fly
+[Command]
+name = "deadendflyd"
+command = B, DB, D, DF, F, b
+time = 50
+
+; Dead End Fly 3
+[Command]
+name = "deadendfly3"
+command = B, DB, D, DF, F, z
+time = 50
+
+; Dead End Fly (final)
+;[Command]
+;name = "deadendflyf"
+;command = B, DB, D, DF, F, c
+;time = 30
+
+; Dead End Fly (mortal)
+;[Command]
+;name = "deadendflym"
+;command = F, DF, D, DB, B, z
+;time = 30
+
+; Fly Kicks (air)
+;[Command]
+;name = "flykicks"
+;command = B, DB, D, DF, F, a
+;time = 20
+;[Command]
+;name = "flykicks_r"
+;command = B, DB, D, DF, F, a
+;time = 20
+
+; Sirius and Algethi Combo Attack
+[Command]
+name = "sirius&algethi"
+command = F, DF, D, DB, B, x
+time = 30
+[Command]
+name = "sirius&algethi"
+command = F, DF, D, DB, B, y
+time = 30
+[Command]
+name = "sirius&algethi"
+command = F, DF, D, DB, B, z
+time = 30
+
+;--|Special Motions|-------------------------------------------------------
+
+; Piercing Punch
+[Command]
+name = "piercingpunch"
+command = D, DF, F, x
+time = 20
+[Command]
+name = "piercingpunch"
+command = D, DF, F, y
+time = 20
+[Command]
+name = "piercingpunch"
+command = D, DF, F, z
+time = 20
+
+; Fly Slide
+[Command]
+name = "flyslide"
+command = D, DF, F, a
+time = 20
+[Command]
+name = "flyslide"
+command = D, DF, F, b
+time = 20
+[Command]
+name = "flyslide"
+command = D, DF, F, c
+time = 20
+
+; Fly Ball
+;[Command]
+;name = "flyball"
+;command = D, DF, F, a
+;time = 20
+;[Command]
+;name = "flyball"
+;command = D, DF, F, b
+;time = 20
+;[Command]
+;name = "flyball"
+;command = D, DF, F, c
+;time = 20
+
+; SoundSpeed Punch (air too)
+[Command]
+name = "soundpunch"
+command = D, DB, B, x
+time = 20
+[Command]
+name = "soundpunch"
+command = D, DB, B, y
+time = 20
+[Command]
+name = "soundpunch"
+command = D, DB, B, z
+time = 20
+
+; SoundSpeed Kick (air too)
+[Command]
+name = "soundkick"
+command = D, DB, B, a
+time = 20
+[Command]
+name = "soundkick"
+command = D, DB, B, b
+time = 20
+[Command]
+name = "soundkick"
+command = D, DB, B, c
+time = 20
+
+; Fly Kick
+;[Command]
+;name = "flykick1"
+;command = F, D, F, a
+;time = 20
+;[Command]
+;name = "flykick1"
+;command = F, D, F, b
+;time = 20
+;[Command]
+;name = "flykick2"
+;command = F, D, F, c
+;time = 20
+
+; Fly Kick (air)
+[Command]
+name = "flykickair1"
+command = D, DF, F, a
+time = 20
+[Command]
+name = "flykickair1"
+command = D, DF, F, b
+time = 20
+[Command]
+name = "flykickair1"
+command = D, DF, F, c
+time = 20
+
+;-| Double Tap |-----------------------------------------------------------
+
+[Command]
+name = "FF"     ;Required (do not remove)
+command = F, F
+time = 10
+
+[Command]
+name = "BB"     ;Required (do not remove)
+command = B, B
+time = 10
+
+[Command]
+name = "DD"     ;Required (do not remove)
+command = D, D
+time = 10
+
+; Moves List
+[Command]
+name = "ss"
+command = s, s
+time = 10
+
+;-| 2/3 Button Combination |-----------------------------------------------
+
+; Air Recover
+[Command]
+name = "recovery";Required (do not remove)
+command = x+y
+time = 1
+
+; Cosmo Charge
+[Command]
+name = "charge1"
+command = /c
+time = 1
+
+[Command]
+name = "charge2"
+command = /z
+time = 1
+
+;-| Dir + Button |---------------------------------------------------------
+
+[Command]
+name = "fwd_x"
+command = /F, x
+time = 1
+
+[Command]
+name = "fwd_y"
+command = /F, y
+time = 1
+
+[Command]
+name = "fwd_z"
+command = /F, z
+time = 1
+
+[Command]
+name = "fwd_a"
+command = /F, a
+time = 1
+
+[Command]
+name = "fwd_b"
+command = /F, b
+time = 1
+
+[Command]
+name = "fwd_c"
+command = /F, c
+time = 1
+
+;-| Single Button |---------------------------------------------------------
+
+[Command]
+name = "a"
+command = a
+time = 1
+
+[Command]
+name = "b"
+command = b
+time = 1
+
+[Command]
+name = "c"
+command = c
+time = 1
+
+[Command]
+name = "x"
+command = x
+time = 1
+
+[Command]
+name = "y"
+command = y
+time = 1
+
+[Command]
+name = "z"
+command = z
+time = 1
+
+[Command]
+name = "start"
+command = s
+time = 1
+
+;-| Hold Dir |--------------------------------------------------------------
+
+[Command]
+name = "holdfwd" ;Required (do not remove)
+command = /$F
+time = 1
+
+[Command]
+name = "holddownfwd"
+command = /$DF
+time = 1
+
+[Command]
+name = "holddown" ;Required (do not remove)
+command = /$D
+time = 1
+
+[Command]
+name = "holddownback"
+command = /$DB
+time = 1
+
+[Command]
+name = "holdback" ;Required (do not remove)
+command = /$B
+time = 1
+
+[Command]
+name = "holdupback"
+command = /$UB
+time = 1
+
+[Command]
+name = "holdup" ;Required (do not remove)
+command = /$U
+time = 1
+
+[Command]
+name = "holdupfwd"
+command = /$UF
+time = 1
+
+[command]
+name = "holdx"
+command = /x
+time = 1
+
+[command]
+name = "holdy"
+command = /y
+time = 1
+
+[command]
+name = "holdz"
+command = /z
+time = 1
+
+[command]
+name = "holda"
+command = /a
+time = 1
+
+[command]
+name = "holdb"
+command = /b
+time = 1
+
+[command]
+name = "holdc"
+command = /c
+time = 1
+
+;---------------------------------------
+; CMD standard (Statedef -1)
+;---------------------------------------
+
+[Statedef -1]
+
+;[State -1, Combo condition Reset]
+;type = VarSet
+;trigger1 = 1
+;var(1) = 0
+;
+;[State -1, Combo condition Check]
+;type = VarSet
+;trigger1 = statetype != A
+;trigger1 = ctrl
+;trigger2 = (stateno = [200,299]) || (stateno = [400,499])
+;trigger2 = stateno != 440 ;Except for sweep kick
+;trigger2 = movecontact
+;var(1) = 1
+
+;---------------------------------------------------------------------------
+
+; Dead End Fly (mortal)
+;[State -1, dead end fly mortal]
+;type = ChangeState
+;value = 3800
+;triggerall = power >= 3000
+;triggerall = command = "deadendflym"
+;trigger1 = statetype = S
+;trigger1 = ctrl
+;trigger2 = hitdefattr = SC,NA,SA
+;trigger2 = movecontact
+
+; Dead End Fly (final)
+;[State -1, dead end fly final]
+;type = ChangeState
+;value = 3500
+;triggerall = command = "deadendflyf"
+;triggerall = ctrl
+;triggerall = power > 3000
+;trigger1 = statetype = S
+;trigger1 = p2statetype = A
+
+; Sirius and Algethi Combo Attack (Specter)
+[State -1]
+type = ChangeState
+value = 3700
+triggerall = Var(59) = 0
+triggerall = name = "dioH" || name = "dio" && palno = 5 || name = "dio" && palno = 11
+triggerall = command = "sirius&algethi"
+triggerall = p2name != "sirius"
+triggerall = p3name != "sirius"
+triggerall = p4name != "sirius"
+triggerall = p2name != "siriusH"
+triggerall = p3name != "siriusH"
+triggerall = p4name != "siriusH"
+triggerall = p2name != "siriusS"
+triggerall = p3name != "siriusS"
+triggerall = p4name != "siriusS"
+triggerall = p2name != "algethi"
+triggerall = p3name != "algethi"
+triggerall = p4name != "algethi"
+triggerall = p2name != "algethiH"
+triggerall = p3name != "algethiH"
+triggerall = p4name != "algethiH"
+triggerall = p2name != "algethiS"
+triggerall = p3name != "algethiS"
+triggerall = p4name != "algethiS"
+triggerall = p2life <= 250
+triggerall = power >= 3000
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = stateno = 200 && MoveContact
+trigger3 = stateno = 230 && MoveContact
+trigger4 = stateno = 210 && MoveContact
+trigger5 = stateno = 220 && MoveContact
+trigger6 = stateno = 240 && MoveContact
+trigger7 = stateno = 250 && MoveContact
+
+; Sirius and Algethi Combo Attack (Silver)
+[State -1]
+type = ChangeState
+value = 3600
+triggerall = Var(59) = 0
+triggerall = name = "dioS" || name = "dio" && palno != 5 || name = "dio" && palno != 11
+triggerall = command = "sirius&algethi"
+triggerall = p2name != "sirius"
+triggerall = p3name != "sirius"
+triggerall = p4name != "sirius"
+triggerall = p2name != "siriusH"
+triggerall = p3name != "siriusH"
+triggerall = p4name != "siriusH"
+triggerall = p2name != "siriusS"
+triggerall = p3name != "siriusS"
+triggerall = p4name != "siriusS"
+triggerall = p2name != "algethi"
+triggerall = p3name != "algethi"
+triggerall = p4name != "algethi"
+triggerall = p2name != "algethiH"
+triggerall = p3name != "algethiH"
+triggerall = p4name != "algethiH"
+triggerall = p2name != "algethiS"
+triggerall = p3name != "algethiS"
+triggerall = p4name != "algethiS"
+triggerall = p2life <= 250
+triggerall = power >= 3000
+trigger1 = statetype = S
+trigger1 = P2StateType != A
+trigger1 = ctrl = 1
+trigger2 = stateno = 200 && MoveContact
+trigger3 = stateno = 230 && MoveContact
+trigger4 = stateno = 210 && MoveContact
+trigger5 = stateno = 220 && MoveContact
+trigger6 = stateno = 240 && MoveContact
+trigger7 = stateno = 250 && MoveContact
+
+; Infernal Dead End Fly
+[State -1]
+type = ChangeState
+value = 3400
+triggerall = name = "dioH"; || name = "dio" && palno = 5 || name = "dio" && palno = 11
+triggerall = command = "deadendflyd"
+triggerall = power >= 2000
+triggerall = p2bodydist X < 100
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+trigger2 = hitdefattr = SC,NA
+trigger2 = movecontact
+
+; SoundSpeed Combo
+[State -1, SoundSpeed Combo]
+type = ChangeState
+value = 3300
+triggerall = command = "soundcombo"
+triggerall = power >= 1000
+triggerall = statetype =  S
+trigger1 = ctrl = 1
+
+; Dead End Fly 3
+[State -1, Dead End Fly 3]
+type = ChangeState
+value = 3200
+triggerall = command = "deadendfly3"
+triggerall = power >= 3000
+triggerall = statetype != A
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = hitdefattr = SC,NA
+trigger2 = movecontact
+
+; Dead End Fly 2
+[State -1, Dead End Fly 2]
+type = ChangeState
+value = 3100
+triggerall = command = "deadendfly2"
+triggerall = power >= 2000
+triggerall = statetype != A
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = hitdefattr = SC,NA
+trigger2 = movecontact
+
+; Dead End Fly 1
+[State -1, Dead End Fly 1]
+type = ChangeState
+value = 3000
+triggerall = command = "deadendfly1"
+triggerall = power >= 1000
+triggerall = statetype != A
+trigger1 = ctrl
+trigger2 = hitdefattr = SC, NA, SA, HA
+trigger2 = stateno != [3050,1100)
+trigger2 = movecontact
+
+;--------------------------------------------------------------------------
+
+; Fly Kicks (air)
+;[State -1]
+;type = ChangeState
+;value = 1100
+;triggerall = Power >= 1000
+;triggerall = command = "flykicks"
+;triggerall = p2bodydist X < 70
+;trigger1 = statetype = A
+;trigger1 = ctrl = 1
+;[State -1]
+;type = ChangeState
+;value = 1100
+;triggerall = Power >= 1000
+;triggerall = command = "flykicks_r"
+;triggerall = Facing = enemynear,facing
+;triggerall = p2bodydist X < 70
+;trigger1 = statetype = A
+;trigger1 = ctrl = 1
+
+;--------------------------------------------------------------------------
+; Fly Kick (air)
+[State -1, Fly Kick Air 1]
+type = ChangeState
+value = 1070
+trigger1 = command = "flykickair1"
+trigger1 = statetype = A
+trigger1 = ctrl
+;[State -1, Fly Kick Air 2]
+;type = ChangeState
+;value = 1080
+;trigger1 = command = "flykickair2"
+;trigger1 = statetype = A
+;trigger1 = ctrl
+;[State -1, Fly Kick Air 3]
+;type = ChangeState
+;value = 1080
+;trigger1 = command = "flykickair3"
+;trigger1 = statetype = A
+;trigger1 = ctrl
+
+; Fly Kick
+;[State -1, Fly Kick 1]
+;type = ChangeState
+;value = 1050
+;triggerall = command = "flykick1"
+;trigger1 = var(1) ;Use combo condition (above)
+;[State -1, Fly Kick 2]
+;type = ChangeState
+;value = 1060
+;triggerall = command = "flykick2"
+;trigger1 = var(1) ;Use combo condition (above)
+
+; SoundSpeed Kick (air too)
+[State -1, SoundSpeed Kick]
+type = ChangeState
+value = 1040
+triggerall = P2Stateno != 003&&P2life != 1
+triggerall = command = "soundkick"
+trigger1 = statetype = S
+trigger1 = statetype != A
+trigger1 = ctrl
+trigger2 =  (stateno = [200,440]) && (stateno !=[600,640])
+trigger2 = movecontact
+[State -1, SoundSpeed Kick air]
+type = ChangeState
+value = 1042
+triggerall = P2Stateno != 003&&P2life != 1
+triggerall = command = "soundkick"
+trigger1 = statetype != S
+trigger1 = statetype = A
+trigger1 = ctrl
+trigger2 =  (stateno =[600,640])
+trigger2 = movecontact
+
+; SoundSpeed Punch (air too)
+[State -1, SoundSpeed Punch]
+type = ChangeState
+value = 1030
+triggerall = P2Stateno != 003&&P2life != 1
+triggerall = command = "soundpunch"
+trigger1 = statetype = S
+trigger1 = statetype != A
+trigger1 = ctrl
+trigger2 =  (stateno = [200,440]) && (stateno !=[600,640])
+trigger2 = movecontact
+[State -1, SoundSpeed Punch air]
+type = ChangeState
+value = 1032
+triggerall = P2Stateno != 003&&P2life != 1
+triggerall = command = "soundpunch"
+trigger1 = statetype != S
+trigger1 = statetype = A
+trigger1 = ctrl
+trigger2 =  (stateno =[600,640])
+trigger2 = movecontact
+
+; Fly Ball (air too)
+;[State -1, Fly Ball]
+;type = ChangeState
+;value = 1020
+;triggerall = P2Stateno != 003&&P2life != 1
+;triggerall = command = "flyball"
+;triggerall = power >= 100
+;trigger1 = statetype = S
+;trigger1 = statetype != A
+;trigger1 = ctrl
+;trigger2 =  (stateno = [200,440]) && (stateno !=[600,640])
+;trigger2 = movecontact
+;[State -1, Fly Ball air]
+;type = ChangeState
+;value = 1024
+;triggerall = P2Stateno != 003&&P2life != 1
+;triggerall = command = "flyball"
+;triggerall = power >= 100
+;trigger1 = statetype != S
+;trigger1 = statetype = A
+;trigger1 = ctrl
+;trigger2 =  (stateno =[600,640])
+;trigger2 = movecontact
+
+; Fly Slide
+[State -1]
+type = ChangeState
+value = 1010
+triggerall = command = "flyslide"
+triggerall = power >= 100
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+trigger2 = hitdefattr = SC,NA
+trigger2 = movecontact
+
+; Piercing Punch
+[State -1]
+type = ChangeState
+value = 1000
+triggerall = command = "piercingpunch"
+triggerall = Pos Y = 0
+trigger1 = statetype = S
+trigger1 = statetype != A
+trigger1 = ctrl
+
+;--------------------------------------------------------------------------
+
+; Throw (air)
+;[State -1]
+;type = ChangeState
+;value = 890
+;triggerall = var(50) = 0
+;triggerall = command = "z"
+;triggerall = statetype = A
+;triggerall = ctrl
+;trigger1 = command = "z"
+;trigger1 = p2bodydist X < 10
+;trigger1 = (p2statetype = A)
+;trigger1 = p2movetype != H
+
+; Combo
+[State -1]
+type = ChangeState
+value = 860
+triggerall = command = "b"
+triggerall = statetype = S
+triggerall = ctrl
+triggerall = stateno != 100
+trigger1 = command = "holdfwd"
+trigger1 = p2bodydist X < 10
+trigger1 = (p2statetype = S) || (p2statetype = C)
+trigger1 = p2movetype != H
+trigger2 = command = "holdback"
+trigger2 = p2bodydist X < 10
+trigger2 = (p2statetype = S) || (p2statetype = C)
+trigger2 = p2movetype != H
+
+; Throw 2 
+[State -1]
+type = ChangeState
+value = 830
+triggerall = command = "c"
+triggerall = statetype = S
+triggerall = ctrl
+triggerall = stateno != 100
+trigger1 = command = "holdfwd"
+trigger1 = p2bodydist X < 10
+trigger1 = (p2statetype = S) || (p2statetype = C)
+trigger1 = p2movetype != H
+trigger2 = command = "holdback"
+trigger2 = p2bodydist X < 10
+trigger2 = (p2statetype = S) || (p2statetype = C)
+trigger2 = p2movetype != H
+
+; Throw 1
+[State -1]
+type = ChangeState
+value = 800
+triggerall = command = "z"
+triggerall = statetype = S
+triggerall = ctrl
+triggerall = stateno != 100
+trigger1 = command = "holdfwd"
+trigger1 = p2bodydist X < 10
+trigger1 = (p2statetype = S) || (p2statetype = C)
+trigger1 = p2movetype != H
+trigger2 = command = "holdback"
+trigger2 = p2bodydist X < 10
+trigger2 = (p2statetype = S) || (p2statetype = C)
+trigger2 = p2movetype != H
+
+;--------------------------------------------------------------------------
+; Run Fwd
+[State -1, Run Fwd]
+type = ChangeState
+value = 100
+trigger1 = command = "FF"
+trigger1 = statetype = S
+trigger1 = ctrl
+
+; Run Back
+[State -1, Run Back]
+type = ChangeState
+value = 105
+trigger1 = command = "BB"
+trigger1 = statetype = S
+trigger1 = ctrl
+
+; Cosmo Charge
+[State -1, Cosmo Charge]
+type = ChangeState
+value = 900
+triggerall = Var(59) = 0
+triggerall = command = "charge1"
+triggerall = command = "charge2"
+triggerall = power < 3000
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+trigger1 = stateno !=2401
+
+; Taunt
+[State -1, Taunt]
+type = ChangeState
+value = 195
+triggerall = command = "start"
+trigger1 = statetype != A
+trigger1 = ctrl
+
+;--------------------------------------------------------------------------
+; Stand Light Punch
+[State -1, Stand Light Punch]
+type = ChangeState
+value = 200
+triggerall = command = "x"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+
+; Stand Medium Punch
+[State -1, Stand Medium Punch]
+type = ChangeState
+value = 210
+triggerall = command = "y"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = stateno = 200 || stateno = 230
+trigger2 = movecontact = 1
+
+; Stand Strong Punch
+[State -1, Stand Strong Punch]
+type = ChangeState
+value = 220
+triggerall = p2bodydist X > 40
+triggerall = command = "z"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = stateno = 230
+trigger2 = movecontact = 1
+trigger3 = stateno = 250
+trigger3 = movecontact = 1
+
+; Stand Strong Punch (close)
+[State -1, Stand Strong Punch close]
+type = ChangeState
+value = 225
+triggerall = p2bodydist X <= 40
+triggerall = command = "z"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = stateno = 230
+trigger2 = movecontact = 1
+trigger3 = stateno = 250
+trigger3 = movecontact = 1
+trigger4 = stateno = 210
+trigger4 = movecontact = 1
+
+;--------------------------------------------------------------------------
+; Crouching Light Punch
+[State -1, Crouching Light Punch]
+type = ChangeState
+value = 400
+triggerall = command = "x"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+
+; Crouching Medium Punch
+[State -1, Crouching Medium Punch]
+type = ChangeState
+value = 410
+triggerall = command = "y"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+
+; Crouching Strong Punch
+[State -1, Crouching Strong Punch]
+type = ChangeState
+value = 420
+triggerall = command = "z"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+
+;--------------------------------------------------------------------------
+; Jump Light Punch
+[State -1, Jump Light Punch]
+type = ChangeState
+value = 600
+triggerall = command = "x"
+trigger1 = statetype = A
+trigger1 = ctrl
+trigger2 = stateno = 640
+trigger2 = movehit = 1
+
+; Jump Medium Punch
+[State -1, Jump Medium Punch]
+type = ChangeState
+value = 610
+triggerall = command = "y"
+trigger1 = statetype = A
+trigger1 = ctrl
+trigger2 = stateno = 600
+trigger2 = movecontact = 1
+
+; Jump Strong Punch
+[State -1, Jump Strong Punch]
+type = ChangeState
+value = 620
+triggerall = command = "z"
+trigger1 = statetype = A
+trigger1 = ctrl
+trigger2 = stateno = 600 || stateno = 630  || stateno = 640
+trigger2 = movecontact
+
+;--------------------------------------------------------------------------
+; Stand Light Kick
+[State -1, Stand Light Kick]
+type = ChangeState
+value = 230
+triggerall = command = "a"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = stateno = 200
+trigger2 = movecontact = 1
+
+; Standing Medium Kick
+[State -1, Standing Medium Kick]
+type = ChangeState
+value = 240
+triggerall = command = "b"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = stateno = 200 || stateno = 230 || stateno = 210
+trigger2 = movecontact = 1
+
+; Standing Strong Kick
+[State -1, Standing Strong Kick]
+type = ChangeState
+value = 250
+triggerall = command = "c"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+trigger2 = stateno = 200 || stateno = 230 || stateno = 210 || stateno = 240 || stateno = 220
+trigger2 = movecontact = 1
+
+;--------------------------------------------------------------------------
+; Crouching Light Kick
+[State -1, Crouching Light Kick]
+type = ChangeState
+value = 430
+triggerall = command = "a"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+trigger2 = stateno = 200 || stateno = 400
+trigger2 = movecontact = 1
+
+; Crouching Medium Kick
+[State -1, Crouching Medium Kick]
+type = ChangeState
+value = 440
+triggerall = command = "b"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+trigger2 = stateno = 200 || stateno = 400
+trigger2 = movecontact = 1
+
+; Crouching Strong Kick
+[State -1, Crouching Strong Kick]
+type = ChangeState
+value = 450
+triggerall = command = "c"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+trigger2 = stateno = 200 || stateno = 230 || stateno = 210 || stateno = 400 || stateno = 430 || stateno = 410
+trigger2 = movecontact = 1
+
+;--------------------------------------------------------------------------
+; Jump Light Kick
+[State -1, Jump Light Kick]
+type = ChangeState
+value = 630
+triggerall = command = "a"
+trigger1 = statetype = A
+trigger1 = ctrl
+trigger2 = stateno = 600
+trigger2 = movecontact
+
+; Jump Medium Kick
+[State -1, Jump Medium Kick]
+type = ChangeState
+value = 640
+triggerall = command = "b"
+trigger1 = statetype = A
+trigger1 = ctrl
+trigger2 = stateno = 600
+trigger2 = movecontact
+
+; Jump Strong Kick
+[State -1, Jump Strong Kick]
+type = ChangeState
+value = 650
+triggerall = command = "c"
+trigger1 = statetype = A
+trigger1 = ctrl
+trigger2 = stateno = 610 || stateno = 630
+trigger2 = movecontact
+
+;------------------------------------------------------
+;-| AI Variabile |-------------------------------------
+;------------------------------------------------------
+
+[State -1, AI]
+type = Varset
+trigger1 = command = "AI1"
+trigger2 = command = "AI2"
+trigger3 = command = "AI3"
+trigger4 = command = "AI4"
+trigger5 = command = "AI5"
+trigger6 = command = "AI6"
+trigger7 = command = "AI7"
+trigger8 = command = "AI8"
+trigger9 = command = "AI9"
+trigger10 = command = "AI10"
+trigger11 = command = "AI11"
+trigger12 = command = "AI12"
+trigger13 = command = "AI13"
+trigger14 = command = "AI14"
+trigger15 = command = "AI15"
+trigger16 = command = "AI16"
+trigger17 = command = "AI17"
+trigger18 = command = "AI18"
+trigger19 = command = "AI19"
+trigger20 = command = "AI20"
+trigger21 = command = "AI21"
+trigger22 = command = "AI22"
+trigger23 = command = "AI23"
+trigger24 = command = "AI24"
+trigger25 = command = "AI25"
+trigger26 = command = "AI26"
+trigger27 = command = "AI27"
+trigger28 = command = "AI28"
+trigger29 = command = "AI29"
+trigger30 = command = "AI30"
+trigger31 = command = "AI31"
+trigger32 = command = "AI32"
+trigger33 = command = "AI33"
+trigger34 = command = "AI34"
+trigger35 = command = "AI35"
+trigger36 = command = "AI36"
+trigger37 = command = "AI37"
+trigger38 = command = "AI38"
+trigger39 = command = "AI39"
+trigger40 = command = "AI40"
+trigger41 = command = "AI41"
+trigger42 = command = "AI42"
+trigger43 = command = "AI43"
+trigger44 = command = "AI44"
+trigger45 = command = "AI45"
+trigger46 = command = "AI46"
+trigger47 = command = "AI47"
+trigger48 = command = "AI48"
+trigger49 = command = "AI49"
+trigger50 = command = "AI50"
+trigger51 = command = "AI51"
+trigger52 = command = "AI52"
+trigger53 = command = "AI53"
+trigger54 = command = "AI54"
+trigger55 = command = "AI55"
+trigger56 = command = "AI56"
+trigger57 = command = "AI57"
+trigger58 = command = "AI58"
+trigger59 = command = "AI59"
+trigger60 = command = "AI60"
+trigger61 = command = "AI61"
+trigger62 = command = "AI62"
+trigger63 = command = "AI63"
+trigger64 = command = "AI64"
+trigger65 = command = "AI65"
+trigger66 = command = "AI66"
+trigger67 = command = "AI67"
+trigger68 = command = "AI68"
+trigger69 = command = "AI69"
+trigger70 = command = "AI70"
+trigger71 = command = "AI71"
+trigger72 = command = "AI72"
+v = 59
+value = 1
+;-----------------------------------
+; ------ AI Standing Guard ---------
+;-----------------------------------
+
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype != A
+triggerall = P2statetype != C
+triggerall = Statetype = S
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 999
+value = 130
+
+[State -1]
+type = ChangeState
+triggerall = (Var(30) = 59) && (StateType = S) && (Pos Y = 0) && (P2BodyDist Y <= 0)
+triggerall = (P2BodyDist Y = -120) && (P2StateType != C) && (P2MoveType = A)
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl)
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105])
+value = 130
+
+;-----------------------------------
+; ------ AI Standing Guard ---------
+;-----------------------------------
+
+; AI Stand to Crouch Guard Transition
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = StateType != A
+triggerall = P2statetype = C
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+trigger1 = stateno = 150
+trigger1 = 1
+value = 152
+
+; AI Crouching Guard
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = StateType != A
+triggerall = P2statetype = C
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 900
+value = 131
+
+[State -1]
+type = ChangeState
+triggerall = (Var(30) = 59) && (StateType != A) && (Pos Y = 0) && (P2BodyDist Y <= 0)
+triggerall = (P2BodyDist Y = -50) && (P2StateType = C) && (P2MoveType = A)
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl)
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105])
+value = 131
+
+;-----------------------------------
+; ------- AI Aerial Guard ---------
+;-----------------------------------
+
+; AI Crouch to Stand Guard Transition
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype != A
+triggerall = P2statetype != C
+triggerall = P2Movetype = A
+trigger1 = 1
+trigger1 = stateno = 152
+value = 150
+
+; AI Aerial Guard
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype = A
+triggerall = P2Movetype = A
+triggerall = ctrl = 1
+trigger1 = random <= 900
+value = 132
+
+[State -1]
+type = ChangeState
+triggerall = (Var(30) = 59) && (StateType = A) && (Pos Y = 0)  && (P2BodyDist Y = -120)
+triggerall = (StateType = A) && (P2MoveType = A)
+trigger1 = ((P2BodyDist X <= 120) && (Ctrl)) || (StateNo = [140, 155])
+value = 132
+
+;-------------------------------------------------------------------------------------
+
+[State -1, AI]
+type = VarSet
+v = 59
+value = 2
+triggerall = var(59) = 1
+trigger1 = roundstate > 2
+
+[State -1, throw 1]
+type = ChangeState
+value = 800
+Triggerall = roundstate = 2
+triggerall = (var(59) != 0) && (statetype = S) && (ctrl) && (p2statetype = S)
+trigger1 = (p2bodydist X <= 30) && (P2MoveType !=A) && (random = [160,200])
+
+[State -1, throw 2]
+type = ChangeState
+value = 830
+Triggerall = roundstate = 2
+triggerall = (var(59) != 0) && (statetype = S) && (ctrl) && (p2statetype = S)
+trigger1 = (p2bodydist X <= 30) && (P2MoveType !=A) && (random = [160,200])
+
+[State -1, combo]
+type = ChangeState
+value = 860
+Triggerall = roundstate = 2
+triggerall = (var(59) != 0) && (statetype = S) && (ctrl) && (p2statetype = S)
+trigger1 = (p2bodydist X <= 30) && (P2MoveType !=A) && (random = [160,200])
+
+;[State -1, throw air]
+;type = ChangeState
+;value = 890
+;Triggerall = roundstate = 2
+;triggerall = (var(59) != 0) && (statetype = A) && (ctrl) && (p2statetype = A)
+;trigger1 = (p2bodydist X <= 30) && (P2MoveType !=A) && (random = [160,200])
+
+[State -1, cosmo charge]
+type = ChangeState
+value = 900
+Triggerall = roundstate = 2
+triggerall = (var(59) != 0) && (statetype = S) && (ctrl) && (random = [0,150])
+trigger1 = (P2bodydist X >= 90) &&  (power <= 2999) && (prevstateno != 5120) && (p2movetype != H)
+
+[State -1, piercing punch]
+type = ChangeState
+Triggerall = roundstate = 2
+triggerall = (var(59) != 0) && (statetype = S) && (ctrl) && (random = [220, 300])
+trigger1 = (P2bodydist X <= 120) && (P2bodydist X >= 50) && (prevstateno != 5120) && (p2movetype != H)
+value = 1000
+
+[State -1, fly slide]
+type = ChangeState
+value = 1010
+Triggerall = roundstate = 2
+triggerall = statetype = S
+triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 280])
+trigger1 =  (P2bodydist X <= 110) && (P2bodydist X >= 60)
+
+[State -1, fly ball]
+type = ChangeState
+value = 1020
+Triggerall = roundstate = 2
+triggerall = statetype = S && power >= 100
+triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 300])
+trigger1 =  (P2bodydist X >= 70) && (P2bodydist X <= 150)
+
+[State -1, soundspeed punch]
+type = ChangeState
+value = 1030
+Triggerall = roundstate = 2
+triggerall = statetype = S && power >= 100
+triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 300])
+trigger1 =  (P2bodydist X >= 80) && (P2bodydist X <= 150)
+
+[State -1, soundspeed punch air]
+type = ChangeState
+value = 1032
+Triggerall = roundstate = 2
+triggerall = statetype = A && power >= 100
+triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 300])
+trigger1 =  (P2bodydist X >= 70) && (P2bodydist X <= 120)
+
+[State -1, soundspeed kick]
+type = ChangeState
+value = 1040
+Triggerall = roundstate = 2
+triggerall = statetype = S && power >= 100
+triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 300])
+trigger1 =  (P2bodydist X >= 80) && (P2bodydist X <= 150)
+
+[State -1, soundspeed kick air]
+type = ChangeState
+value = 1042
+Triggerall = roundstate = 2
+triggerall = statetype = A && power >= 100
+triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 300])
+trigger1 =  (P2bodydist X >= 70) && (P2bodydist X <= 120)
+
+;[State -1, fly kick 1]
+;type = ChangeState
+;value = 1060
+;Triggerall = roundstate = 2
+;triggerall = statetype = S && power >= 100
+;triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 300])
+;trigger1 =  (P2bodydist X >= 80) && (P2bodydist X <= 150)
+
+;[State -1, fly kick 2]
+;type = ChangeState
+;value = 1070
+;Triggerall = roundstate = 2
+;triggerall = statetype = S && power >= 100
+;triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 300])
+;trigger1 =  (P2bodydist X >= 80) && (P2bodydist X <= 150)
+
+[State -1, fly kick air 1]
+type = ChangeState
+Triggerall = roundstate = 2
+triggerall = (var(59) = 1) && (ctrl)
+trigger1 = statetype = A
+trigger1 = p2statetype != A && (random = [220, 300])
+trigger1 = abs(p2dist x) < 40
+trigger1 = pos y < -150
+value = 1070
+
+;[State -1, fly kick air 2]
+;type = ChangeState
+;Triggerall = roundstate = 2
+;triggerall = (var(59) = 1) && (ctrl)
+;trigger1 = statetype = A
+;trigger1 = p2statetype != A && (random = [220, 300])
+;trigger1 = pos y < -150
+;value = 1080
+
+;[State -1, fly kick air 3]
+;type = ChangeState
+;Triggerall = roundstate = 2
+;triggerall = (var(59) = 1) && (ctrl)
+;trigger1 = statetype = A
+;trigger1 = p2statetype != A && (random = [220, 300])
+;trigger1 = pos y < -150
+;value = 1090
+
+;[State -1, fly kicks]
+;type = ChangeState
+;value = 1100
+;Triggerall = roundstate = 2
+;triggerall = statetype = A && power >= 1000
+;triggerall = (var(59) != 0)  && (ctrl) && (random = [220, 300])
+;trigger1 =  (P2bodydist X <= 50)
+
+[State -1, dead end fly 1]
+type = ChangeState
+value = 3000
+Triggerall = roundstate = 2
+triggerall = ctrl && power >= 1000 && statetype = S && (p2statetype != L)
+triggerall = (var(59) != 0)  && (ctrl) && (random = [320, 400])
+trigger1 = (P2bodydist X <= 140)
+
+[State -1, dead end fly 2]
+type = ChangeState
+value = 3100
+Triggerall = roundstate = 2
+triggerall = ctrl && power >= 2000 && statetype = S && (p2statetype != L)
+triggerall = (var(59) != 0)  && (ctrl) && (random = [320, 500])
+trigger1 =  (P2bodydist X <= 80)
+
+[State -1, dead end fly 3]
+type = ChangeState
+value = 3200
+Triggerall = roundstate = 2
+triggerall = ctrl && power >= 3000 && statetype = S && (p2statetype != L)
+triggerall = (var(59) != 0)  && (ctrl) && (random = [350, 950])
+trigger1 =  (P2bodydist X >= 60) &&(P2bodydist X <= 180)
+
+[State -1, soundspeed combo]
+type = ChangeState
+value = 3300
+Triggerall = roundstate = 2
+triggerall = statetype = S && (prevstateno != 5120) && (p2statetype != S) && power >= 1500
+triggerall = (var(59) != 0)  && (ctrl) && (random = [320, 420])
+trigger1 =  (P2bodydist X >= 60) && (P2bodydist X <= 170)
+
+[State -1, infernal dead end fly]
+type = ChangeState
+value = 3400
+Triggerall = roundstate = 2
+triggerall = ctrl && power >= 2000 && statetype = S && (p2statetype != L)
+triggerall = (var(59) != 0)  && (ctrl) && (random = [320, 500])
+trigger1 = (P2bodydist X <= 80)
+
+;[State -1, dead end fly final]
+;type = ChangeState
+;Triggerall = roundstate = 2
+;triggerall = (var(59) = 1) && (ctrl)
+;trigger1 = p2statetype = A && (random = [320, 550])
+;trigger1 = statetype = S
+;trigger1 = abs(p2dist x) < 100
+;trigger1 = power > 2000
+;value = 3500
+;
+;[State -1, dead end fly mortal]
+;type = ChangeState
+;Triggerall = roundstate = 2
+;triggerall = (var(59) = 1) && (ctrl)
+;trigger1 = p2statetype = A && (random = [320, 550])
+;trigger1 = statetype = S
+;trigger1 = abs(p2dist x) < 100
+;trigger1 = power > 2000
+;value = 3800

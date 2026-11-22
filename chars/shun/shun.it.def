@@ -1,0 +1,51 @@
+;Andromeda Shun Definitions file by CDZJuego2D and MugenPixArt
+
+[Info]
+name = "shun"
+displayname = "Andromeda"
+versiondate = 11,09,2012
+mugenversion = 1.0
+author = "Kalangueb & Gouketsu, TonyADV, CDZJuego2D (Pardo, Alexcop, Betelgeuse, delfino), Tux, tallon, Arséne Lupin"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite  = files/shun.sff
+anim = files/shun.air
+cmd = files/shun.cyd
+cns = files/shun.cns
+sound = files/shun.it.snd
+stcommon = files/common1.cns
+st = files/shun.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Andromeda Shun for MugenPixArt's Saint Seiya LEGEND
+;Based on Andromeda Shun by Kalangueb & Gouketsu
+
+;Drawers: Kalangueb, TonyADV, AlexCop, Betelgeuse, delfino, tallon, Arséne Lupin
+;Coders: Gouketsu, TonyADV, Pardo, Tux
+;Improvements: FobiaZ
+;Italian audio: mikehaggar
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

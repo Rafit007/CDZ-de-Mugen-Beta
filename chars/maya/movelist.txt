@@ -1,0 +1,37 @@
+SAGITTA MAYA
+------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Frecce di Sagitta Oscura / Hunting Arrow Express = B, DB, D, DF, F, x (Power 1000, anche in aria/aerial too)
+Frecce di Sagitta Oscura direzionabili / Hunting Arrow Express with directionable* arrows = B, DB, D, DF, F, y (Power 2000, anche in aria/aerial too)
+Frecce di Sagitta Oscura con freccia vera / Hunting Arrow Express with true arrow = B, DB, D, DF, F, a (Power 3000, anche in aria/aerial too)
+Frecce di Sagitta Oscura direzionabili e vere / Hunting Arrow Express with directionable* true arrows = B, DB, D, DF, F, a\b\c (Power 3000, anche in aria/aerial too, Desperate Move)
+
+(*) Usa i comandi U, D, F e B per direzionare le frecce \ Use the commands U, D, F and B to directionate the arrows.
+
+- SPECIAL MOVES:
+
+Salva di Frecce / Hail of Arrows = D, DF, F, x/y/z (anche in aria/aerial too)
+Combo = D, DB, B, x/y/z (anche in aria/aerial too)
+Calcio Ombra / Shadow Kick = D, DB, B, a/b/c (anche in aria/aerial too) 
+Teletrasporto / Teleport = b + c (usa i comandi U, D, F e B per decidere dove riapparire\use the commands U, D, F and B to choose where re-appear)
+Carica Cosmo / Cosmo Charge = c + z
+Presa 1 / Throw 1 = F + z
+Presa 2 / Throw 2 = F + c
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

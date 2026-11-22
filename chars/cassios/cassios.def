@@ -1,0 +1,50 @@
+;CASSIOS DEF File by Tux
+
+[Info]
+name = "cassios"
+displayname = "Cassios"
+versiondate = 07/02/2008
+mugenversion = 1.0
+author = "Tonos, Tux, Squall, SeiyaDivin"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite  = files/cassios.sff
+anim = files/cassios.air
+cmd = files/cassios.cyd
+cns = files/cassios.cns
+sound = files/cassios.snd
+stcommon = files/common1.cns
+st = files/cassios.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Cassios for MugenPixArt's Saint Seiya LEGEND
+
+;Drawer: Tonos
+;Coder: Tux
+;2nd Coders: Squall, SeiyaDivin
+;Improvements: TonyADV, Jones.Wolf, Ikki, Zell, Squall, BigBoss
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

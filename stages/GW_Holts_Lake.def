@@ -1,0 +1,127 @@
+;----------------------------------------------------------
+[Info]
+name 		= "Holts Lake"
+fullname 	= Holts Lake, Finland
+related chars 	= Ichi
+
+author 		= "Sanctuary Soldiers"
+sprites		= Glory
+code 		= Mû
+
+versiondate 	= 23,10,2013 
+mugenversion 	= 1.1
+notes 		= First release 15,11,2009
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -434
+boundright 	= 434
+boundhigh 	= -94
+boundlow 	= 10
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 80
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 227
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320, 240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 60
+color 		= 0,10,0
+yscale 		= -.1
+reflect 	= 1
+
+[Reflection]
+intensity 	= 30
+
+[Music]
+bgmusic 	= sound/GW_Holts_Lake.mp3
+bgmvolume    	= 255
+
+[BGdef]
+spr 		= stages/GW_Holts_Lake.sff
+debugbg 	= 0
+
+[BG Trees 1]
+type  		= normal
+spriteno 	= 2,1
+start 		= -649,-120
+delta 		= .85,.9
+mask 		= 1
+
+[BG Sky]
+type 		= normal
+spriteno	= 0,1
+tile 		= 1,0
+delta 		= .5,1
+start 		= 0,-170
+mask 		= 0
+velocity 	= .5,0
+
+[BG Trees 2]
+type  		= normal
+spriteno 	= 2,0
+start 		= -649,-30
+delta 		= .9,.95
+mask 		= 1
+
+[BG Floor]
+type  		= normal
+spriteno 	= 1,0
+start 		= -649,196
+delta 		= 1,1
+mask 		= 1
+
+[BG Fog 1]
+type 		= normal
+spriteno 	= 3,0
+start 		= 0,75
+tile 		= 1,0
+delta 		= 1,1
+velocity 	= -.5,0
+mask 		= 1
+trans 		= add
+
+[BG Fog 2]
+type 		= normal
+spriteno 	= 3,0
+start 		= 0,190
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= .9,0
+mask 		= 0
+trans 		= add
+layerno 	= 1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------

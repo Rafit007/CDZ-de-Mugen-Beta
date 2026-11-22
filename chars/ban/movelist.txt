@@ -1,0 +1,37 @@
+LIONET BAN
+----------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+x = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+1000 Graffi / 1000 Scratches = B, DB, D, DF, F, x (Power 1000)
+Bomba del Leone Lv1 / Lionet Bomber Lv1 = B, DB, D, DF, F, a (Power 1000)
+Bomba del Leone Lv2 / Lionet Bomber Lv2 = B, DB, D, DF, F, y (Power 2000)
+Bomba del Leone Lv3 / Lionet Bomber Lv3 = B, DB, D, DF, F, z (Power 3000)
+
+- SPECIAL MOVES:
+
+Super Pugno / Super Punch = D, DF, F, x/y/z
+Fuoco del Leone Minore / Lionet Fire = D, DB, B, x/y/z
+100 Graffi / 100 Scratches = F, D, F, x/y/z
+Calcio del Leone Minore / Lionet Kick = D, DF, F, a/b/c
+Combo / Combo = D, DB, B, a/b/c
+Calcio volante / Flying Kick = D, DB, B, a/b/c (in aria / aerial)
+Mega Blocco / Mega Block = x + y
+Presa 1 / Throw 1 = F + z
+Presa 2 / Throw 2 = F + c
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

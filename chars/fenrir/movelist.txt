@@ -1,0 +1,37 @@
+ALIOTH EPSILON FENRIR
+---------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Denti del Lupo / Wolf Cruelty Claw v1 = B, DB, D, DF, F, x (Power 1000)
+Artigli di Luce (Lightning Claws = B, DB, D, DF, F, a (Power 1000)
+Branco di Lupi / Wolfs Pack = B, DB, D, DF, F, b (Power 1000)
+Lupi nella Tormenta / Northern Gun Ro Ken = B, DB, D, DF, F, y (Power 2000)
+Denti del Lupo Azzannate / Wolf Cruelty Claw v2 = B, DB, D, DF, F, z (Power 3000)
+
+- SPECIAL MOVES:
+
+Zanne del Lupo / Wolf Fangs = D, DF, F, x/y/z
+Calcio Rotante (/ Rotating Kick = D, DF, F, a/b/c
+Artigli del Lupo / Wolf Claws = D, DB, B, x/y/z
+Artigli Volanti / Flying Claws = D, DB, B, a/b/c (anche in aria \ aerial too) 
+Graffio Accecante / Blinding Claw = F + z
+Presa / Throw = F + c
+Attacco di King / King Attack = x + y
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

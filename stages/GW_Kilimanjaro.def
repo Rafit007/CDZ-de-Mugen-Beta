@@ -1,0 +1,269 @@
+;--------------------------------------------------------
+[Info]
+name 		= "Kilimanjaro"
+fullname 	= Kilimanjaro, Tanzania
+related chars 	= Ban
+
+author 		= "Sanctuary Soldiers"
+sprites		= Glory
+code 		= Mû
+
+versiondate 	= 19,08,2015 
+mugenversion  	= 1.1
+notes 		= Previously unreleased.
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -300
+boundright 	= 220
+boundhigh 	= -120
+boundlow 	= 0
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 80
+overdrawhigh 	= 0
+overdrawlow 	= 0
+Startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 222
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320, 240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 140
+color 		= 50,100,50
+yscale 		= 0.2
+fade.range 	= -500,-200
+
+[Music]
+bgmusic 	= sound/GW_Kilimanjaro.mp3
+bgvolume 	= 254
+
+[BGdef]
+spr 		= stages/GW_Kilimanjaro.sff
+debugb 		= 0
+
+[BG Sky]
+type  		= normal
+spriteno 	= 0,1
+start 		= -530,-195
+delta 		= .6,1
+mask     	= 1	
+
+[BG Fuji]
+type 		= normal
+spriteno 	= 2,0
+delta 		= .85,1
+start 		= -470,-2
+mask 		= 1
+
+[BG FloorBG]
+type 		= normal
+spriteno 	= 3,0
+delta 		= .9,1
+start 		= -530,106
+mask 		= 1
+
+[BG TreesBG]
+type 		= normal
+spriteno 	= 4,0
+delta 		= .85,1
+start 		= -530,102
+mask 		= 1
+
+[BG TreeBG]
+type 		= normal
+spriteno 	= 5,0
+delta 		= .9,1
+start 		= -253,109
+mask 		= 1
+
+[BG Fog]
+type 		= normal
+spriteno 	= 17,0
+start 		= -529,78
+tile 		= 1,0
+delta 		= .95,1
+velocity 	= .03,0
+trans 		= add
+mask 		= 1
+
+[BG Wallon]
+type 		= anim
+actionno 	= 12
+delta 		= .95,1
+start 		= 19,138
+mask 		= 1
+[Begin Action 12]
+12,0,0,-9,355
+12,1,0,-8,6
+12,2,0,-7,6
+12,3,1,-6,135
+12,2,0,-7,6
+12,1,0,-8,6
+
+[BG Floor1]
+type 		= normal
+spriteno 	= 1,0
+delta 		= 1,1
+start 		= -530,138
+mask 		= 1
+
+[BG Floor2]
+type 		= normal
+spriteno 	= 1,1
+delta 		= 1,1
+start 		= -530,138
+mask 		= 1
+
+[BG Lion]
+type 		= anim
+actionno 	= 14
+delta 		= 1,1
+start 		= -305,164
+mask 		= 1
+[Begin Action 14]
+14,2,  0,  0,92
+14,1,  0,  0,10
+14,0,  0,  0,76
+14,1,  0,  0,10
+14,2,  0,  0,92
+14,1,  0,  0,10
+14,0,  0,  0,76
+14,1,  0,  0,10
+14,2,  0,  0,92
+14,1,  0,  0,10
+14,0,  0,  0,76
+14,1,  0,  0,10
+14,3,  0,  0,10
+14,4,-24,  0,10
+14,5,-23,  0,10
+14,6,-16, -2,10
+14,7,  0,-16,10
+14,8,  4,-10,10
+14,6,-16, -2,10
+14,4,-24,  0,13
+
+[BG Bird]
+type 		= anim
+actionno 	= 15
+delta 		= 1,1
+start 		= -190,40
+velocity 	= 1,0
+mask 		= 1
+[Begin Action 15]
+15,0,0,-11,6
+15,1,0, -3,6
+15,2,0,  0,6
+15,3,0,  0,6
+15,4,0,  0,6
+15,5,0,  0,6
+15,6,0,  0,6
+15,7,0, -7,6
+
+[BG Babar]
+type 		= anim
+actionno 	= 13
+delta 		= 1,1
+start 		= 360,50
+mask 		= 1
+[Begin Action 13]
+13, 0, 15, 44,290
+13, 1, -8, 42,10
+13, 2,-18, 42,10
+13, 3,  0,  3,30
+13, 2,-18, 42,10
+13, 1, -8, 42,10
+
+[BG Rock1]
+type 		= normal
+spriteno 	= 8,0
+delta 		= 1,1
+start 		= 350,144
+mask 		= 1
+
+[BG Tree1]
+type 		= normal
+spriteno 	= 6,0
+delta 		= 1,1
+start 		= -570,-49
+mask 		= 1
+
+[BG Grass]
+type 		= normal
+spriteno 	= 7,0
+delta 		= 1,1
+start 		= -456,177
+mask 		= 1
+
+[BG Tree2]
+type 		= normal
+spriteno 	= 10,0
+delta 		= 1.3,1
+start 		= 61,-105
+mask 		= 1
+layerno 	= 1
+
+[BG Ball1]
+type 		= normal
+spriteno 	= 11,0
+delta 		= 1.4,1
+start 		= 11,209
+mask 		= 1
+layerno 	= 1
+
+[BG Rock2]
+type 		= normal
+spriteno 	= 9,0
+delta 		= 1.2,1
+start 		= -425,211
+mask 		= 1
+layerno 	= 1
+
+[BG Ball2]
+type 		= normal
+spriteno 	= 11,0
+delta 		= 1.2,1
+start 		= -609,209
+mask 		= 1
+layerno 	= 1
+
+[BG Dust]
+type		= normal
+spriteno	= 16,0
+start 		= -530,110
+tile 		= 1,0
+delta 		= 0.9, 0.9
+velocity 	= 3,0
+layerno 	= 1
+trans 		= add
+mask 		= 1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------

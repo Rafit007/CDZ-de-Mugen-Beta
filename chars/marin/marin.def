@@ -1,0 +1,23 @@
+[Info]
+name ="Marin de Aguila"
+displayname ="MARIN DE AGUIA"
+author ="angelux"
+pal.defaults =1,2,3
+versiondate=14/10/2006
+mugenversion=
+
+; Files for the player
+[Files]
+cmd     =marin.cmd
+cns     =marin.cns
+st      =marin.cns
+stcommon =common1.cns
+sprite  =marins.sff
+anim    =marin.air
+sound   =marin.snd
+pal1=marine.act
+pal2=MASHINA.ACT
+pal3=marine2.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

@@ -1,0 +1,44 @@
+ANKOKU PHOENIX
+--------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Fuoco della Fenice Nera / Black Phoenix Fire = B, DB, D, DF, F, x (Power 1000)
+Volo della Fenice Nera / Black Phoenix Flight = B, DB, D, DF, F, y (Power 2000)
+Fantasma Diabolico Nero / Ankoku Houou GenMaKen = B, DB, D, DF, F, z (Power 3000)
+
+- SPECIAL MOVES:
+
+Pugno in Corsa / Running Punch = D, DF, F, x
+Pugno Perforante / Piercing Punch = D, DF, F, y
+Pugno Infiammante / Burning Punch = D, DF, F, z
+Decollo della Fenice Nera / Black Phoenix Takeoff = D, DF, F, a/b
+Salto della Fenice Nera / Black Phoenix Jump = D, DF, F, c
+Vento della Fenice Nera / Black Phoenix Wind = D, DB, B, x
+Fiamme della Fenice Nera / Black Phoenix Flames = D, DB, B, y
+Rabbia della Fenice Nera / Black Phoenix Rage = D, DB, B, z
+Piume Nere / Black Feathers = D, DB, B, a/b/c
+Piume Nere Aeree / Aerial Black Feathers = U, D, DF, F, x/y/z 
+Calcio Volante / Flying Kick = U, D, DB, B, a/b/c
+Pugno in Pancia / Belly Punch = F, x
+Presa Spezza-Collo / Neck-Breaker = F, y
+Presa / Throw = F, z
+Doppia Ginocchiata Double Knee Attack = F, b
+Pugno Multiplo/ Multiple Punch = F, c
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

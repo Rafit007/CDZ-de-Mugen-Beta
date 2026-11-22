@@ -1,0 +1,54 @@
+;---------------------------------------------------------------------------
+; SHIRYU DEF FILE by CodeKeeper, MiM, TonyADV, Tux, Squall, FobiaZ
+;---------------------------------------------------------------------------
+
+[Info]
+name = "shiryu"
+displayname = "Sirio" 
+versiondate = 09,01,2010   
+mugenversion = 1.0
+author = "Cheitta, MIM, CodeKeeper, TonyADV, Tux, Squall, FobiaZ, Arsène Lupin, Mey_Z"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite  = files/shiryu.sff
+anim = files/shiryu.air
+cmd = files/shiryu.cyd
+cns = files/shiryu.cns
+sound = files/shiryu.it.snd
+stcommon = files/common1.cns
+st = files/shiryu.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Dragon Shiryu for MugenPixArt's Saint Seiya LEGEND
+;Based on Dragon Shiryu by Chrystian Cattaneo (Cheitta), Claudio Ricci (MIM) & Max Ferrari (CodeKeeper)
+
+;Drawer: Cheitta
+;Restyle: TonyADV, FobiaZ, Arsène Lupin
+;Coders: Cheitta, MIM, CodeKeeper
+;Improvements: TonyADV, Tux, Squall, FobiaZ, Mey_Z
+;Japanese audio: JB-Ikki
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

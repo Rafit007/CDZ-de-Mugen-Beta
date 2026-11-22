@@ -1,0 +1,54 @@
+;---------------------------------------------------------------------------
+; SHO DEF FILE by Squall
+;---------------------------------------------------------------------------
+
+[Info]
+name ="sho"
+displayname ="Sho"
+versiondate = 07,06,2011
+mugenversion = 1.0
+author ="xebalon (Drawer), Squall & Tux (Coders)"
+pal.defaults =1,2,3,4,5,6,7,8,9,10,11,12
+
+[Files]
+sprite =files/sho.sff
+anim =files/sho.air
+sound =files/sho.snd
+cmd =files/sho.cyd
+cns =files/sho.cns
+stcommon =files/common1.cns
+st =files/sho.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Sho for MugenPixArt's Saint Seiya LEGEND
+;Based on an old version by TonyADV, Domhall (Shadir83), Tmich & Vegeth1985
+
+;Drawer: xebalon
+;Coders: Squall & Tux
+;Restyle: Vegeth1985
+;Italian audio: mikehaggar
+;Japanese audio: jusinho1986
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

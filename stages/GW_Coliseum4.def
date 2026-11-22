@@ -1,0 +1,305 @@
+;----------------------------------------------------------
+[Info]
+name 		= "Coliseum IV"
+fullname 	= Coliseum IV, Japan
+related chars 	= Bronze Saints
+
+author 		= "Sanctuary Soldiers"
+sprites		= McCready, Mû & HDP
+code 		= HDP & Mû
+
+versiondate 	= 26,08,2015
+mugenversion  	= 1.1
+notes 		= Previously unreleased.
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -389
+boundright 	= 389
+boundhigh 	= -164
+boundlow 	= 0
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 80
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 221
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320, 240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 150
+color 		= 100,100,100
+yscale 		= -0.05
+fade.range 	= -500,-200
+
+[Music]
+bgmusic 	= sound/GW_coliseum4.mp3
+bgvolume 	= 254
+
+[BGdef]
+spr 		= stages/GW_coliseum4.sff
+debugbg 	= 0
+
+[BG Sky]
+type 		= normal
+spriteno 	= 1,0
+delta 		= .45,.85
+start 		= 0,0
+tile 		= 1,1
+velocity 	= .2,.1
+mask 		= 1
+
+[BG Stars]
+type 		= normal
+spriteno 	= 1,1
+delta 		= .45,.85
+start 		= 0,0
+tile 		= 1,1
+velocity 	= .1,.05
+trans 		= add
+mask 		= 1
+
+[BG Bleachers 1]
+type 		= normal
+spriteno 	= 9,0
+start 		= -405,-169
+delta 		= .47,.86
+mask 		= 1
+
+[BG Bleachers 2]
+type 		= normal
+spriteno 	= 8,0
+start 		= -405,-139
+delta 		= .475,.865
+mask 		= 1
+
+[BG Spectators 1]
+type 		= anim
+actionno 	= 13
+start 		= -405,-139
+delta 		= .475,.865
+mask 		= 1
+[Begin action 13]
+13,0,0,0,9
+13,1,0,0,6
+13,2,0,0,8
+13,1,0,0,4
+
+[BG Bleachers 3]
+type 		= normal
+spriteno 	= 7,0
+start 		= -405,-110
+delta 		= .48,.87
+mask 		= 1
+
+[BG Exit Lights 1]
+type 		= anim
+actionno 	= 7
+start 		= -405,-109
+delta 		= .48,.87
+mask 		= 1
+[Begin action 7]
+7,1,0,0,150,,AS0D256
+7,1,0,0,10,,AS20D256
+7,1,0,0,10,,AS40D256
+7,1,0,0,10,,AS60D256
+7,1,0,0,10,,AS80D256
+7,1,0,0,10,,AS100D256
+7,1,0,0,10,,AS120D256
+7,1,0,0,10,,AS140D256
+7,1,0,0,10,,AS160D256
+7,1,0,0,10,,AS180D256
+loopstart
+7,1,0,0,3,,AS170D256
+7,1,0,0,3,,AS160D256
+7,1,0,0,3,,AS155D256
+7,1,0,0,3,,AS160D256
+
+[BG Spectators 2]
+type 		= anim
+actionno 	= 14
+start 		= -405,-90
+delta 		= .48,.87
+mask 		= 1
+[Begin action 14]
+14,1,0,0,5
+14,2,0,0,7
+14,1,0,0,4
+14,0,0,0,9
+
+[BG Bleachers 4]
+type 		= normal
+spriteno 	= 6,0
+start 		= -405,-48
+delta 		= .485,.875
+mask 		= 1
+
+[BG Exit Lights 2]
+type 		= anim
+actionno 	= 6
+start 		= -405,-49
+delta 		= .485,.875
+mask 		= 1
+[Begin action 6]
+6,1,0,0,150,,AS0D256
+6,1,0,0,10,,AS20D256
+6,1,0,0,10,,AS40D256
+6,1,0,0,10,,AS60D256
+6,1,0,0,10,,AS80D256
+6,1,0,0,10,,AS100D256
+6,1,0,0,10,,AS120D256
+6,1,0,0,10,,AS140D256
+6,1,0,0,10,,AS160D256
+6,1,0,0,10,,AS180D256
+loopstart
+6,1,0,0,3,,AS170D256
+6,1,0,0,3,,AS160D256
+6,1,0,0,3,,AS155D256
+6,1,0,0,3,,AS160D256
+
+[BG Spectators 3]
+type 		= anim
+actionno 	= 15
+start 		= -405,-29
+delta 		= .485,.875
+mask 		= 1
+[Begin action 15]
+15,2,0,0,7
+15,1,0,0,3
+15,0,0,0,9
+15,1,0,0,4
+
+[BG Stairs 2]
+type 		= normal
+spriteno 	= 11,0
+start 		= -16,-50
+delta 		= .485,.865
+mask 		= 1
+
+[BG Floor]
+type 		= normal
+spriteno 	= 3,0
+start 		= -405,151
+delta 		= .49,.9
+mask 		= 1
+
+[BG Lodge]
+type 		= normal
+spriteno 	= 11,1
+start 		= -27,-65
+delta 		= .48,.86
+mask 		= 1
+
+[BG Glass]
+type 		= normal
+spriteno 	= 12,0
+start 		= -23,-58
+delta 		= .48,.86
+mask 		= 1
+
+[BG Stairs 1]
+type 		= normal
+spriteno 	= 10,0
+start 		= -39,-35
+delta 		= .49,.87
+mask 		= 1
+
+[BG Bleachers 5]
+type 		= normal
+spriteno 	= 5,0
+start 		= -405,35
+delta 		= .49,.88
+mask 		= 1
+
+[BG Chains 1]
+type 		= normal
+spriteno 	= 4,2
+start 		= -257,122
+delta 		= .95,.96
+mask 		= 1
+
+[BG Chains 2]
+type 		= normal
+spriteno 	= 4,0
+start 		= -587,110
+delta 		= .96,.96
+mask 		= 1
+
+[BG Chains 3]
+type 		= normal
+spriteno 	= 4,1
+start 		= 254,110
+delta 		= .96,.96
+mask 		= 1
+
+[BG Ring]
+type 		= normal
+spriteno 	= 2,0
+start 		= -604,176
+delta 		= 1,1
+mask 		= 1
+
+[BG spots 1]
+type 		= anim
+actionno 	= 16
+start 		= -387,-222
+delta 		= .7,.9
+mask 		= 1
+layerno 	= 1
+
+[Begin action 16]
+16,0,0,0,150,,AS0D256
+16,0,0,0,10,,AS20D256
+16,0,0,0,10,,AS40D256
+16,0,0,0,10,,AS60D256
+16,0,0,0,10,,AS80D256
+16,0,0,0,10,,AS100D256
+16,0,0,0,10,,AS120D256
+16,0,0,0,10,,AS140D256
+16,0,0,0,10,,AS160D256
+16,0,0,0,10,,AS180D256
+16,0,0,0,10,,AS200D256
+16,0,0,0,10,,AS220D256
+16,0,0,0,10,,AS220D256
+16,0,0,0,210,,AS250D256
+loopstart
+16,0,0,0,11,,A
+16,2,0,0,11,,A
+16,1,0,0,30,,A
+16,2,0,0,11,,A
+16,0,0,0,11,,A
+16,4,0,0,11,,A
+16,3,0,0,30,,A
+16,4,0,0,11,,A
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------

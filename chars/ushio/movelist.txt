@@ -1,0 +1,34 @@
+DORADO USHIO
+------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Onda PSI / PSI Wave = B, DB, D, DF, F, x (Power 1000)
+Tsunami del Pesce Spada / Marlin Tsunami = B, DB, D, DF, F, y (Power 2000)
+Uragano d'Acciaio / Steel Hurricane = B, DB, D, DF, F, a (Power 3000)
+Uragano d'Acciaio - Trio / Steel Hurricane - Triplet = B, DB, D, DF, F, a/b/c (Power 3000, Fatality Move)
+
+- SPECIAL MOVES:
+
+Stella Marina / Marine Star = D, DF, F, x/y/z
+Pugno d'Acciaio / Steel Punch = D, DB, B, x/y/z
+Calcio d'Acciaio / Steel Kick = D, DF, F, a/b/c
+Mini Onda PSI / Mini PSI Wave = D, DB, B, a/b/c
+Barriera d'Acqua / Water Barrier = x + y
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

@@ -1,0 +1,44 @@
+PEGASUS SEIYA
+-------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Fulmine di Pegasus Normale/Aereo LV1 / RyuSeiKen Normal/Air LV1 = B, DB, D, DF, F, x (Power 1000)
+Fulmine di Pegasus Normale/Alato LV2 / RyuSeiKen Normal/Winged LV2 = B, DB, D, DF, F, y (Power 2000)
+Cometa di Pegasus / SuiSeiKen = B, DB, D, DF, F, z (Power 3000)
+Comete Lucente / Air SuiSeiKen = U, B, DB, D, DF, F, z (Power 2000)
+Spirale di Pegasus / Rolling Crash = B, DB, D, DF, F, a (Power 1000)
+Freccia di Sagitter / Sagittarius Arrow = B, DB, D, DF, F, b (Power 3000, Fatality Move)
+Scudo di Athena / Athena Shield = B, DB, D, DF, F, c (Power 3000, Desperate Move)
+Settimo Senso / Seventh Sense = a + x (Power 3000, Desperate Move)
+Cometa di Pegasus Settimo Senso / Suiseiken Seventh Sense = B, DB, D, DF, F, z (durante animazione 7° senso/during 7° sense animation)
+
+- SPECIAL MOVES:
+
+Meteore di Pegasus / Pegasus Meteors = D, DF, F, x/y/z
+Gomitata / Elbow Dash = D, DB, B, x/y/z
+Pugno Volante / Flying Uppercut = F, D, DF, x/y/z
+Calcio del Pegaso / Pegasus Kick = D, DF, F, a/b/c
+Combo Aerea / Air Combo = D, DB, B, a/b/c
+Scivolata / Tackle = F, D, DF, a/b/c
+Calcio Missile / Missile Kick = U, D, DF, F, a/b/c
+Calcio Volante di Pegasus / Pegasus Flying Kick = U, D, DB, B, a/b/c
+Opposizione Cosmica / Cosmic Opposition = x + y
+Presa / Throw = z
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

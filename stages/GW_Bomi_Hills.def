@@ -1,0 +1,550 @@
+;----------------------------------------------------------
+[Info]
+name 		= "Bomi Hills"
+fullname 	= Bomi Hills, Liberia
+related chars 	= Nachi
+
+author 		= "Sanctuary Soldiers"
+sprites		= Glory
+code 		= Mû & Glory 
+
+versiondate 	= 03,11,2013
+mugenversion  	= 1.1
+notes 		= Previously unreleased
+
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -220
+boundright 	= 220
+boundhigh 	= -123
+boundlow 	= 10
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 80
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 230
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320,240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 0
+color 		= 0,0,0
+yscale 		= -.1
+
+[Music]
+bgmusic 	= sound/GW_Bomi_Hills.mp3
+bgvolume 	= 254
+
+[BGdef]
+spr 		= stages/GW_Bomi_Hills.sff
+debugbg 	= 0
+
+[BG Sky]
+type 		= normal
+spriteno 	= 0,1
+start 		= 0,-200
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= -.2,0
+mask 		= 0
+
+[BG Lightning 1]
+type  		= anim
+actionno 	= 12
+start 		= 210,-200
+mask 		= 1
+[Begin Action 12]
+12,-1, 0,0, 150
+12, 0, 0,0, 10,,AS200D256
+12, 1, 0,0, 8,,AS200D256
+12, 2, 0,0, 6,,AS200D256
+12, 3, 0,0, 4,,AS200D256
+12, 3, 0,0, 3,,AS160D256
+12, 3, 0,0, 3,,AS120D256
+12, 3, 0,0, 3,,AS80D256
+12, 3, 0,0, 2,,AS40D256
+12,-1, 0,0, 150
+
+[BG Lightning 2]
+type  		= anim
+actionno 	= 13
+start 		= -210,-200
+mask 		= 1
+[Begin Action 13]
+12,-1, 0,0, 300
+12, 0, 0,0, 10,H,AS200D256
+12, 1, 0,0, 8,H,AS200D256
+12, 2, 0,0, 6,H,AS200D256
+12, 3, 0,0, 4,H,AS200D256
+12, 3, 0,0, 3,H,AS160D256
+12, 3, 0,0, 3,H,AS120D256
+12, 3, 0,0, 3,H,AS80D256
+12, 3, 0,0, 2,H,AS40D256
+
+[BG Mud 1]
+type  		= anim
+actionno 	= 1
+start 		= -434,139
+mask 		= 1
+[Begin Action 1]
+1,0, 0,0, 7
+1,1, 0,0, 6
+1,2, 0,0, 8
+1,3, 0,0, 7
+1,4, 0,0, 6
+1,5, 0,0, 7
+1,6, 0,0, 8
+1,5, 0,0, 7
+1,4, 0,0, 6
+1,3, 0,0, 7
+1,2, 0,0, 8
+1,1, 0,0, 7
+
+[BG Mud 2]
+type  		= anim
+actionno 	= 2
+start 		= -434,208
+mask 		= 1
+layerno 	= 1
+[Begin Action 2]
+2,0, 0,0, 7
+2,1, 0,0, 6
+2,2, 0,0, 8
+2,3, 0,0, 7
+2,4, 0,0, 6
+2,5, 0,0, 7
+2,6, 0,0, 8
+2,5, 0,0, 7
+2,4, 0,0, 6
+2,3, 0,0, 7
+2,2, 0,0, 8
+2,1, 0,0, 7
+
+[BG Hills]
+type  		= anim
+actionno 	= 3
+start 		= -434,44
+mask 		= 1
+[Begin Action 3]
+3,0, 0,0, 7
+3,1, 0,0, 6
+3,2, 0,0, 8
+3,3, 0,0, 7
+3,4, 0,0, 6
+3,5, 0,0, 7
+3,6, 0,0, 8
+3,5, 0,0, 7
+3,4, 0,0, 6
+3,3, 0,0, 7
+3,2, 0,0, 8
+3,1, 0,0, 7
+
+[BG Rain FG 1]
+type  		= anim
+actionno 	= 9
+start 		= 0,15
+mask 		= 1
+layerno 	= 1
+[BG Rain FG 2]
+type  		= anim
+actionno 	= 9
+start 		= 20,-5
+mask 		= 1
+layerno 	= 1
+[BG Rain FG 3]
+type  		= anim
+actionno 	= 9
+start 		= 40,-25
+mask 		= 1
+layerno 	= 0
+[BG Rain FG 4]
+type  		= anim
+actionno 	= 9
+start 		= 5,20
+mask 		= 1
+layerno 	= 1
+[BG Rain FG 5]
+type  		= anim
+actionno 	= 9
+start 		= 25,5
+mask 		= 1
+layerno 	= 1
+[BG Rain FG 6]
+type  		= anim
+actionno 	= 9
+start 		= 45,-15
+mask 		= 1
+layerno 	= 0
+[BG Rain FG 7]
+type  		= anim
+actionno 	= 9
+start 		= -550,25
+mask 		= 1
+layerno 	= 1
+[BG Rain FG 8]
+type  		= anim
+actionno 	= 9
+start 		= -570,5
+mask 		= 1
+layerno 	= 1
+[BG Rain FG 9]
+type  		= anim
+actionno 	= 9
+start 		= -595,-15
+mask 		= 1
+layerno 	= 0
+[BG Rain FG 10]
+type  		= anim
+actionno 	= 9
+start 		= -555,40
+mask 		= 1
+layerno 	= 1
+[BG Rain FG 11]
+type  		= anim
+actionno 	= 9
+start 		= -575,20
+mask 		= 1
+layerno 	= 1
+[BG Rain FG 1]
+type  		= anim
+actionno 	= 9
+start 		= -590,0
+mask 		= 1
+layerno 	= 0
+[Begin Action 9]
+9,0, 0,0, 1
+9,1, 0,0, 1
+9,2, 0,0, 1
+9,3, 0,0, 1
+9,4, 0,0, 1
+9,5, 0,0, 1
+9,6, 0,0, 1
+9,7, 0,0, 1
+9,8, 0,0, 1
+
+[BG Rain UP 1]
+type  		= anim
+actionno 	= 10
+start 		= 20,-205
+mask 		= 1
+layerno 	= 0
+[BG Rain UP 2]
+type  		= anim
+actionno 	= 10
+start 		= 0,-195
+mask 		= 1
+layerno 	= 0 
+[BG Rain UP 3]
+type  		= anim
+actionno 	= 10
+start 		= 10,-185
+mask 		= 1
+layerno 	= 0
+[BG Rain UP 4]
+type  		= anim
+actionno 	= 10
+start 		= -565,-210
+mask 		= 1
+layerno 	= 0
+[BG Rain UP 5]
+type  		= anim
+actionno 	= 10
+start 		= -555,-200
+mask 		= 1
+layerno 	= 1
+[BG Rain UP 6]
+type  		= anim
+actionno 	= 10
+start 		= -575,-190
+mask 		= 1
+layerno 	= 0
+[BG Rain UP 7]
+type  		= anim
+actionno 	= 10
+start 		= 25,-200
+mask 		= 1
+layerno 	= 0
+[BG Rain UP 8]
+type  		= anim
+actionno 	= 10
+start 		= 15,-190
+mask 		= 1
+layerno 	= 0
+[BG Rain UP 9]
+type  		= anim
+actionno 	= 10
+start 		= 5,-180
+mask 		= 1
+layerno 	= 0
+[BG Rain UP 10]
+type  		= anim
+actionno 	= 10
+start 		= -550,-215
+mask 		= 1
+layerno 	= 0
+[BG Rain UP 11]
+type  		= anim
+actionno 	= 10
+start 		= -560,-195
+mask 		= 1
+layerno 	= 1
+[BG Rain UP 12]
+type  		= anim
+actionno 	= 10
+start 		= -570,-205
+mask 		= 1
+layerno 	= 0
+[Begin Action 10]
+10,0, 0,0, 1
+10,1, 0,0, 1
+10,2, 0,0, 1
+10,3, 0,0, 1
+10,4, 0,0, 1
+10,5, 0,0, 1
+10,6, 0,0, 1
+10,7, 0,0, 1
+10,8, 0,0, 1
+
+[BG Rain BG 1]
+type  		= anim
+actionno 	= 11
+start 		= 30,45
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 2]
+type  		= anim
+actionno 	= 11
+start 		= 40,25
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 3]
+type  		= anim
+actionno 	= 11
+start 		= 50,5
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 4]
+type  		= anim
+actionno 	= 11
+start 		= 60,-15
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 5]
+type  		= anim
+actionno 	= 11
+start 		= 45,-35
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 6]
+type  		= anim
+actionno 	= 11
+start 		= 55,-45
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 7]
+type  		= anim
+actionno 	= 11
+start 		= 65,-55
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 8]
+type  		= anim
+actionno 	= 11
+start 		= -500,7
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 9]
+type  		= anim
+actionno 	= 11
+start 		= -505,-3
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 10]
+type  		= anim
+actionno 	= 11
+start 		= -510,-13
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 11]
+type  		= anim
+actionno 	= 11
+start 		= -515,-33
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 12]
+type  		= anim
+actionno 	= 11
+start 		= -520,-43
+mask 		= 1
+layerno 	= 0
+[BG Rain BG 13]
+type  		= anim
+actionno 	= 11
+start 		= -525,-53
+mask 		= 1
+layerno 	= 0
+
+[Begin Action 11]
+11,0, 0,0, 1
+11,1, 0,0, 1
+11,2, 0,0, 1
+11,3, 0,0, 1
+11,4, 0,0, 1
+11,5, 0,0, 1
+11,6, 0,0, 1
+11,7, 0,0, 1
+11,8, 0,0, 1
+
+[BG Tree 1]
+type 		= anim
+actionno 	= 6
+start 		= -470,225
+mask 		= 1
+layerno 	= 1
+[Begin Action 6]
+6,0, 2,2, 15
+6,0, 1,2, 15
+6,1, 1,1, 15
+6,1, 0,1, 15
+6,2, 0,0, 15
+6,2, 1,0, 15
+6,1, 1,1, 15
+6,1, 2,1, 15
+
+[BG Tree 2]
+type 		= anim
+actionno 	= 5
+start 		= -200,210
+mask 		= 1
+layerno 	= 1
+[Begin Action 5]
+5,0, 0,2, 15
+5,0, 1,2, 15
+5,1, 1,1, 15
+5,1, 2,1, 15
+5,2, 2,0, 15
+5,2, 1,0, 15
+5,1, 1,1, 15
+5,1, 0,1, 15
+
+[BG Tree 3]
+type 		= anim
+actionno 	= 6
+start 		= 250,225
+mask 		= 1
+layerno 	= 1
+
+[BG Fog 1]
+type 		= normal
+spriteno 	= 4,0
+start 		= 0,-5
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= .3,0
+mask 		= 0
+trans 		= add
+
+[BG Fog 2]
+type 		= normal
+spriteno 	= 4,0
+start 		= 0,35
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= -.4,0
+mask 		= 0
+trans 		= add
+
+[BG Cloud 1]
+type 		= normal
+spriteno 	= 7,0
+start 		= 0,20
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= -.08,0
+mask 		= 0
+trans 		= add
+layerno		= 0 
+
+[BG Fog 3]
+type 		= normal
+spriteno 	= 4,0
+start 		= 0,85
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= .2,0
+mask 		= 0
+trans 		= sub
+
+[BG Fog 4]
+type 		= normal
+spriteno 	= 4,0
+start 		= 0,75
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= .2,0
+mask 		= 0
+trans 		= add
+
+[BG Fog 5]
+type 		= normal
+spriteno 	= 4,0
+start 		= 0,130
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= -.2,0
+mask 		= 0
+trans 		= sub
+
+[BG Fog 6]
+type 		= normal
+spriteno 	= 4,0
+start 		= 0,120
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= -.2,0
+mask 		= 0
+trans 		= add
+
+[BG Cloud 2]
+type 		= normal
+spriteno 	= 7,0
+start 		= 200,130
+tile 		= 1,0
+delta 		= 1.1,1
+velocity 	= .1,0
+mask 		= 0
+trans 		= add
+layerno		= 1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;----------------------------------------------------------

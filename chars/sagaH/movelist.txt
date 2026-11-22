@@ -1,0 +1,40 @@
+GEMINI SAGA (SPECTER)
+---------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Dimensione Oscura / Another Dimension = B, DB, D, DF, F, x (Power 1000)
+Esplosione Galattica LV1 / Galaxian Explosion LV1 = B, DB, D, DF, F, y (Power 2000)
+Esplosione Galattica LV2 / Galaxian Explosion LV2 = B, DB, D, DF, F, z (Power 3000)
+Colpo dei 1000 Pugni / Kon Cho Ken = B, DB, D, DF, F, a (Power 1000)
+Raggio Galattico / Galaxian Beam = B, DB, D, DF, F, b (Power 1000)
+Demone dell'Oscurità / Genro Mao Ken = F, DF, D, DB, B, c (Power 2000)
+Dimensione Oscura Fatale / Fatal Another Dimension = F, DF, D, DB, B, x/y/z (Power 3000, Fatality Move)
+Urlo di Athena / Athena Exclamation = F, DF, D, DB, B, a/b/c (Power 3000, Desperate Move)
+
+ - SPECIAL MOVES:
+
+Pugni Rapidissimi / Very Quick Punches = D, DF, F, x/y/z
+Esplosione di Cosmo / Cosmo Burst = D, DF, F, a/b/c
+Potere di Gemini LV1 / Gemini FireBall LV1 = D, DB, B, x/y
+Potere di Gemini LV2 / Gemini FireBall LV2 = D, DB, B, z
+Potere di Gemini Aereo / Air Gemini FireBall = U, D, DB, B, a/y/z
+Attacco Gemellare / Twin FireBall = D, DB, B, a/b/c
+Presa di Gemini / Gemini Throw = F + z
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

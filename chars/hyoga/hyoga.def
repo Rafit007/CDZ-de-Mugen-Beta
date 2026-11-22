@@ -1,0 +1,56 @@
+;---------------------------------------
+;---------------------------------------
+;Cygnus Hyoga Definition file by TonyADV
+;---------------------------------------
+;---------------------------------------
+
+[Info]
+name = "hyoga"        
+displayname = "Hyoga" 
+versiondate = 02,05,2007    
+mugenversion = 1.0
+author = "Aldebaran, Pioshin, Terric, YoungZac, Vegeth1985, TonyADV, Tux, tallon"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite  = files/hyoga.sff
+anim = files/hyoga.air
+cmd = files/hyoga.cyd
+cns = files/hyoga.cns
+sound = files/hyoga.snd
+stcommon = files/common1.cns
+st = files/hyoga.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Cygnus Hyoga for MugenPixArt's Saint Seiya LEGEND
+;Based on Cygnus Hyoga by SaintDream Team (Aldebaran, Pioshin, Terric & YoungZac)
+
+;Drawers: Aldebaran, Pioshin, Terric
+;Restyle: Vegeth1985, TonyADV, tallon
+;Coder: YoungZac
+;Improvements: TonyADV, Tux, tallon
+;Japanese audio: JB-Ikki
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

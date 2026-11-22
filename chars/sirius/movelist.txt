@@ -1,0 +1,39 @@
+CANIS MAIOR SIRIUS (SILVER / SPECTER)
+-------------------------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Assalto Frantumante 1 / Great Mountain Smasher 1 = B, DB, D, DF, F, x (Power 1000)
+Assalto Frantumante 2 / Great Mountain Smasher 2 = B, DB, D, DF, F, y (Power 2000)
+Assalto Frantumante Infernale / Infernal Great Mountain Smasher = B, DB, D, DF, F, c (Power 2000) *Solo versione Specter / Only Specter version
+Assalto Frantumante 3 / Great Mountain Smasher 3 = B, DB, D, DF, F, z (Power 3000)
+Intervento di Dedalus e Argetti / Dio and Algheti Combo Attack = F, DF, D, DB, B, x\y\z (Power 3000, Fatality Move)
+
+- SPECIAL MOVES:
+
+Palla di fuoco / Fireball = D, DF, F, x/y/z (anche in aria / air too)
+Assalto / Smasher = D, DB, B, x/y/z (anche in aria / air too)
+Super Gancio / Super Uppercut = F, D, F, x/y/z
+Super Calcio / Super Kick = D, DF, F, a/b/c
+Combo Furiosa / Wild Combo = D, DB, B, a/b/c
+Intervento di Dedalus / Dio's Intervention = a + x
+Intervento di Argetti / Algethi's Intervention = b + y
+Carica Cosmo / Cosmo Charge = c + z
+Presa / Throw = F + z
+Contrattacco Cosmico / Cosmic Counterattack = y + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

@@ -1,0 +1,1729 @@
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;Shun de Andromeda 1°Cloth
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+
+;-------------------------
+;      AI Command
+;-------------------------
+
+[Command]
+name = "AI1"
+command = a, a, a
+time = 1
+
+[Command]
+name = "AI2"
+command = b, b, b
+time = 1
+
+[Command]
+name = "AI3"
+command = c, c, c
+time = 1
+
+[Command]
+name = "AI4"
+command = x, x, x
+time = 1
+
+[Command]
+name = "AI5"
+command = y, y, y
+time = 1
+
+[Command]
+name = "AI6"
+command = z, z, z
+time = 1
+
+[Command]
+name = "AI7"
+command = a, b, c
+time = 1
+
+[Command]
+name = "AI8"
+command = a, c, b
+time = 1
+
+[Command]
+name = "AI9"
+command = b, a, c
+time = 1
+
+[Command]
+name = "AI10"
+command = b, c, a
+time = 1
+
+[Command]
+name = "AI11"
+command = c, b, a
+time = 1
+
+[Command]
+name = "AI12"
+command = c, a, b
+time = 1
+
+[Command]
+name = "AI13"
+command = x, y, z
+time = 1
+
+[Command]
+name = "AI14"
+command = x, z, y
+time = 1
+
+[Command]
+name = "AI15"
+command = y, z, x
+time = 1
+
+[Command]
+name = "AI16"
+command = y, x, z
+time = 1
+
+[Command]
+name = "AI17"
+command = z, y, x
+time = 1
+
+[Command]
+name = "AI18"
+command = z, x, y
+time = 1
+
+[Command]
+name = "AI19"
+command = a, b, a
+time = 1
+
+[Command]
+name = "AI20"
+command = a, c, a
+time = 1
+
+[Command]
+name = "AI21"
+command = b, a, b
+time = 1
+
+[Command]
+name = "AI22"
+command = b, c, b
+time = 1
+
+[Command]
+name = "AI23"
+command = c, a, c
+time = 1
+
+[Command]
+name = "AI24"
+command = c, b, c
+time = 1
+
+[Command]
+name = "AI25"
+command = x, y, x
+time = 1
+
+[Command]
+name = "AI26"
+command = x, z, x
+time = 1
+
+[Command]
+name = "AI27"
+command = y, x, y
+time = 1
+
+[Command]
+name = "AI28"
+command = y, z, y
+time = 1
+
+[Command]
+name = "AI29"
+command = z, x, z
+time = 1
+
+[Command]
+name = "AI30"
+command = z, y, z
+time = 1
+
+[Command]
+name = "AI31"
+command = D, DF, F ,a, a, a
+time = 1
+
+[Command]
+name = "AI32"
+command = D, DF, F ,b, b, b
+time = 1
+
+[Command]
+name = "AI33"
+command = D, DF, F ,c, c, c
+time = 1
+
+[Command]
+name = "AI34"
+command = D, DF, F ,x, x, x
+time = 1
+
+[Command]
+name = "AI35"
+command = D, DF, F ,y, y, y
+time = 1
+
+[Command]
+name = "AI36"
+command = D, DF, F ,z, z, z
+time = 1
+
+[Command]
+name = "AI37"
+command = D, DF, F ,a, b, c
+time = 1
+
+[Command]
+name = "AI38"
+command = D, DF, F ,a, c, b
+time = 1
+
+[Command]
+name = "AI39"
+command = D, DF, F ,b, a, c
+time = 1
+
+[Command]
+name = "AI40"
+command = D, DF, F ,b, c, a
+time = 1
+
+[Command]
+name = "AI41"
+command = D, DF, F ,c, b, a
+time = 1
+
+[Command]
+name = "AI42"
+command = D, DF, F ,c, a, b
+time = 1
+
+[Command]
+name = "AI43"
+command = D, DF, F ,x, y, z
+time = 1
+
+[Command]
+name = "AI44"
+command = D, DF, F ,x, z, y
+time = 1
+
+[Command]
+name = "AI45"
+command = D, DF, F ,y, z, x
+time = 1
+
+[Command]
+name = "AI46"
+command = D, DF, F ,y, x, z
+time = 1
+
+[Command]
+name = "AI47"
+command = D, DF, F ,z, y, x
+time = 1
+
+[Command]
+name = "AI48"
+command = D, DF, F ,z, x, y
+time = 1
+
+[Command]
+name = "AI49"
+command = D, DF, F ,a, b, a
+time = 1
+
+[Command]
+name = "AI50"
+command = D, DF, F ,a, c, a
+time = 1
+
+[Command]
+name = "AI51"
+command = D, DF, F ,b, a, b
+time = 1
+
+[Command]
+name = "AI52"
+command = D, DF, F ,b, c, b
+time = 1
+
+[Command]
+name = "AI53"
+command = D, DF, F ,c, a, c
+time = 1
+
+[Command]
+name = "AI54"
+command = D, DF, F ,c, b, c
+time = 1
+
+[Command]
+name = "AI55"
+command = D, DF, F ,x, y, x
+time = 1
+
+[Command]
+name = "AI56"
+command = D, DF, F ,x, z, x
+time = 1
+
+[Command]
+name = "AI57"
+command = D, DF, F ,y, x, y
+time = 1
+
+[Command]
+name = "AI58"
+command = D, DF, F ,y, z, y
+time = 1
+
+[Command]
+name = "AI59"
+command = D, DF, F ,z, x, z
+time = 1
+
+[Command]
+name = "AI60"
+command = D, DF, F ,z, y, z
+time = 1
+
+[Command]
+name = "AI61"
+command = F, DF, D ,a, b, c
+time = 1
+
+[Command]
+name = "AI62"
+command = F, DF, D ,a, c, b
+time = 1
+
+[Command]
+name = "AI63"
+command = D, DB, B ,b, a, c
+time = 1
+
+[Command]
+name = "AI64"
+command = D, DB, B ,b, c, a
+time = 1
+
+[Command]
+name = "AI65"
+command = D, DB, B ,c, b, a
+time = 1
+
+[Command]
+name = "AI66"
+command = D, DB, B ,c, a, b
+time = 1
+
+[Command]
+name = "AI67"
+command = F, DF, D ,a, b, a
+time = 1
+
+[Command]
+name = "AI68"
+command = F, DF, D ,a, c, a
+time = 1
+
+[Command]
+name = "AI69"
+command = D, DB, B ,b, a, b
+time = 1
+
+[Command]
+name = "AI70"
+command = D, DB, B ,b, c, b
+time = 1
+
+[Command]
+name = "AI71"
+command = D, DB, B ,c, a, c
+time = 1
+
+[Command]
+name = "AI72"
+command = D, DB, B ,c, b, c
+time = 1
+
+;---------------------------------------
+; Super Moves
+;---------------------------------------
+
+; Thunder Wave
+[Command]
+name = "Thunder Wave"
+command = B, DB, D, DF, F, x
+time = 35
+
+; Nebula Chain 1
+[Command]
+name = "Nebula Chain 1"
+command = B, DB, D, DF, F, y
+time = 35
+
+; Nebula Chain 3
+[Command]
+name = "Nebula Chain 2"
+command = B, DB, D, DF, F, z
+time = 35
+
+; Nebula Chain Circle 1
+[Command]
+name = "Nebula Chain Circle 1"
+command = B, DB, D, DF, F, a
+time = 35
+
+; Nebula Chain Circle 2
+[Command]
+name = "Nebula Chain Circle 2"
+command = B, DB, D, DF, F, b
+time = 35
+
+; Rolling Defense + Thunder Wave
+[Command]
+name = "RD+TW"
+command = B, DB, D, DF, F, c
+time = 35
+
+;---------------------------------------
+; Fatality Moves (p2Life < 250)
+;---------------------------------------
+
+; Nebula Storm
+[Command]
+name = "Nebula Storm"
+command = F, DF, D, DB, B, x
+time = 35
+[Command]
+name = "Nebula Storm"
+command = F, DF, D, DB, B, y
+time = 35
+[Command]
+name = "Nebula Storm"
+command = F, DF, D, DB, B, z
+time = 35
+
+;---------------------------------------
+; Desperate Moves (Life < 250)
+;---------------------------------------
+
+; Brotherly Aid
+[Command]
+name = "Brotherly Aid"
+command = F, DF, D, DB, B, a
+time = 35
+[Command]
+name = "Brotherly Aid"
+command = F, DF, D, DB, B, b
+time = 35
+[Command]
+name = "Brotherly Aid"
+command = F, DF, D, DB, B, c
+time = 35
+
+;---------------------------------------
+; Special Moves
+;---------------------------------------
+
+; Chain Attack
+[Command]
+name = "Chain Attack 1"
+command = D, DF, F, x
+time = 25
+[Command]
+name = "Chain Attack 2"
+command = D, DF, F, y
+time = 25
+[Command]
+name = "Chain Attack 3"
+command = D, DF, F, z
+time = 25
+
+; Chain Attack (air)
+[Command]
+name = "Chain Attack Air"
+command = D, DF, F, x
+time = 25
+[Command]
+name = "Chain Attack Air"
+command = D, DF, F, y
+time = 25
+[Command]
+name = "Chain Attack Air"
+command = D, DF, F, z
+time = 25
+
+; Chain Spiral
+[Command]
+name = "Chain Spiral 1"
+command = D, DB, B, x
+time = 25
+[Command]
+name = "Chain Spiral 1"
+command = D, DB, B, y
+time = 25
+[Command]
+name = "Chain Spiral 2"
+command = D, DB, B, z
+time = 25
+
+; Nebula Kick (air too)
+[Command]
+name = "Nebula Kick"
+command = D, DF, F, a
+time = 25
+[Command]
+name = "Nebula Kick"
+command = D, DF, F, b
+time = 25
+[Command]
+name = "Nebula Kick"
+command = D, DF, F, c
+time = 25
+
+; Nebula Stream
+[Command]
+name =  "Nebula Stream"
+command = D, DB, B, a
+time = 25
+[Command]
+name =  "Nebula Stream"
+command = D, DB, B, b
+time = 25
+[Command]
+name =  "Nebula Stream"
+command = D, DB, B, c
+time = 25
+
+;---------------------------------------
+; 2/3 Button Combination
+;---------------------------------------
+
+; Air Recover
+[Command]
+name = "recovery";Required (do not remove)
+command = x+y
+time = 1
+
+; 7th Sense
+[Command]
+name = "7sense"
+command = a+x
+time = 5
+
+; Cosmo Charge
+[Command]
+name = "charge1"
+command = /c
+time = 1
+[Command]
+name = "charge2"
+command = /z
+time = 1
+
+; Chain Shock
+[Command]
+name = "chainshock"
+command = x+y
+time = 1
+
+; Rolling Defense
+[Command]
+name = "rollingdefense1"
+command= /y
+time= 1
+[Command]
+name = "rollingdefense2"
+command= /z
+time= 1
+
+;---------------------------------------
+; Single Button
+;---------------------------------------
+
+[Command]
+name = "a"
+command = a
+time = 1
+
+[Command]
+name = "b"
+command = b
+time = 1
+
+[Command]
+name = "c"
+command = c
+time = 1
+
+[Command]
+name = "x"
+command = x
+time = 1
+
+[Command]
+name = "y"
+command = y
+time = 1
+
+[Command]
+name = "z"
+command = z
+time = 1
+
+[Command]
+name = "start"
+command = s
+time = 1
+
+;---------------------------------------
+; Hold Button
+;---------------------------------------
+
+[Command]
+name = "holdfwd";Required (do not remove)
+command = /$F
+time = 1
+
+[Command]
+name = "holdback";Required (do not remove)
+command = /$B
+time = 1
+
+[Command]
+name = "holdup" ;Required (do not remove)
+command = /$U
+time = 1
+
+[Command]
+name = "holddown";Required (do not remove)
+command = /$D
+time = 1
+
+;---------------------------------------
+; Double Tap
+;---------------------------------------
+
+; Run
+[Command]
+name = "FF"     ;Required (do not remove)
+command = F, F
+time = 10
+
+; Run Back
+[Command]
+name = "BB"     ;Required (do not remove)
+command = B, B
+time = 10
+
+; Moves List
+[Command]
+name = "ss"
+command = s, s
+time = 10
+
+;---------------------------------------
+; CMD standard (Statedef -1)
+;---------------------------------------
+
+[Statedef -1]
+
+; Cosmo Charge
+[State -1]
+type = ChangeState
+value = 900
+triggerall = Var(59) = 0
+triggerall = var(8) = 0
+triggerall = command = "charge1"
+triggerall = command = "charge2"
+triggerall = power < 3000
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+trigger1 = stateno != 902
+
+; Rolling Defense
+[State -1]
+type = ChangeState
+value = 950
+triggerall = Var(59) = 0
+triggerall = power >= 1000
+triggerall = statetype = S
+triggerall = ctrl = 1
+trigger1 = command = "rollingdefense1"
+trigger1 = command = "rollingdefense2"
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; 7th Sense
+[State -1]
+type = ChangeState
+value = 999
+triggerall = Var(59) = 0
+triggerall = Var(8) = 0
+triggerall = command = "7sense"
+triggerall = power >= 3000
+triggerall = life <= 250
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+;----------------------------------------------------------------
+
+; Thunder Wave
+[State -1]
+type = ChangeState
+value = 3000
+triggerall = Var(59) = 0
+triggerall = command = "Thunder Wave"
+triggerall = power >= 1000
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Nebula Chain 1
+[State -1]
+type = ChangeState
+value = 3100
+triggerall = Var(59) = 0
+triggerall = command = "Nebula Chain 1"
+triggerall = power >= 2000
+trigger1 = statetype != A
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Nebula Chain 2
+[State -1]
+type = ChangeState
+value = 3200
+triggerall = Var(59) = 0
+triggerall = command = "Nebula Chain 2"
+triggerall = power >= 3000
+trigger1 = statetype != A
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Nebula Chain Circle 1
+[State -1]
+type = ChangeState
+value = 3300
+triggerall = Var(59) = 0
+triggerall = command = "Nebula Chain Circle 1"
+triggerall = power >= 1000
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Nebula Chain Circle 2
+[State -1]
+type = ChangeState
+value = 3400
+triggerall = Var(59) = 0
+triggerall = command = "Nebula Chain Circle 2"
+triggerall = power >= 2000
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Rolling Defense + Thunder Wave
+[State -1]
+type = ChangeState
+value = 3500
+triggerall = Var(59) = 0
+triggerall = command = "RD+TW"
+triggerall = power >= 3000
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Nebula Storm
+[State -1]
+type = ChangeState
+value = 3600
+triggerall = Var(59) = 0
+triggerall = command = "Nebula Storm"
+triggerall = power >= 3000
+triggerall = p2life <= 250
+trigger1 = statetype != A
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Brotherly Aid
+[State -1]
+type = ChangeState
+value = 3700
+triggerall = (P2Name != "ikki") && (P3Name != "ikki") && (P4Name != "ikki")
+triggerall = Var(59) = 0
+triggerall = command = "Brotherly Aid"
+triggerall = power >= 3000
+triggerall = life <= 250
+trigger1 = statetype != A
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+;----------------------------------------------------------------
+
+; Chain Attack 1
+[State -1]
+type = ChangeState
+value = 1000
+triggerall = Var(59) = 0
+triggerall = command = "Chain Attack 1"
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 205
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Chain Attack 2
+[State -1]
+type = ChangeState
+value = 1010
+triggerall = Var(59) = 0
+triggerall = command = "Chain Attack 2"
+triggerall = command != "Nebula Storm"
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 205
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Chain Attack 3
+[State -1]
+type = ChangeState
+value = 1020
+triggerall = Var(59) = 0
+triggerall = command = "Chain Attack 3"
+triggerall = command != "Nebula Storm"
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 205
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Chain Attack (air)
+[State -1]
+type = ChangeState
+value = 1100
+triggerall = Var(59) = 0
+triggerall = command = "Chain Attack Air"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+trigger2 = (stateno = 610) && (MoveContact)
+trigger3 = (stateno = 630) && (MoveContact)
+trigger4 = (stateno = 600) && (MoveContact)
+trigger5 = (stateno = 650) && (MoveContact)
+trigger6 = (stateno = 670) && (MoveContact)
+trigger7 = (stateno = 640) && (MoveContact)
+trigger8 = (stateno = 690) && (MoveContact)
+trigger9 = (stateno = 620) && (MoveContact)
+
+; Chain Spiral 1
+[State -1]
+type = ChangeState
+value = 1200
+triggerall = Var(59) = 0
+triggerall = command = "Chain Spiral 1"
+triggerall = command != "Thunder Wave"
+triggerall = command != "Nebula Chain 1"
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Chain Spiral 2
+[State -1]
+type = ChangeState
+value = 1300
+triggerall = Var(59) = 0
+triggerall = command = "Chain Spiral 2"
+triggerall = command != "Nebula Chain 2"
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Nebula Stream
+[State -1]
+type = ChangeState
+value = 1400
+triggerall = Var(59) = 0
+triggerall = command = "Nebula Stream"
+triggerall = command != "RD+TW"
+triggerall = ((PrevStateNo != 1400) && (P2MoveType != H))
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+; Nebula Kick
+[State -1]
+type = ChangeState
+value = 1500
+triggerall = Var(59) = 0
+triggerall = command = "Nebula Kick"
+triggerall = command != "Nebula Chain Circle 2"
+triggerall = command != "Nebula Chain Circle 1"
+triggerall = P2BodyDist X >= 50
+trigger1 = statetype != A
+trigger1 = ctrl = 1
+
+; Nebula Kick (air)
+[State -1]
+type = ChangeState
+value = 1600
+triggerall = Var(59) = 0
+triggerall = command = "Nebula Kick"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+
+;----------------------------------------------------------------
+
+; Chain Shock
+[State -1]
+type = ChangeState
+value = 830
+triggerall = Var(59) = 0
+triggerall = command = "chainshock"
+triggerall = P2StateType = S
+trigger1 =  P2BodyDist X <= 60
+trigger1 = StateType = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 220
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+
+;----------------------------------------------------------------
+
+; Run
+[State -1]
+type = ChangeState
+value = 100
+trigger1 = command = "FF"
+trigger1 = statetype = S
+trigger1 = ctrl
+
+; Run Back
+[State -1]
+type = ChangeState
+value = 105
+trigger1 = command = "BB"
+trigger1 = statetype = S
+trigger1 = ctrl
+
+;----------------------------------------------------------------
+
+; Standing LP
+[State -1]
+type = ChangeState
+value = 200
+triggerall = command = "x"
+trigger1 =  P2BodyDist X >= 60
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 205
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 200
+trigger8 = movecontact
+trigger8 = p2bodydist X < 30
+
+; Standing LP (close)
+[State -1]
+type = ChangeState
+value = 205
+triggerall = command = "x"
+trigger1 =  P2BodyDist X < 60
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 205
+trigger8 = movecontact
+trigger8 = p2bodydist X < 30
+
+; Standing MP
+[State -1]
+type = ChangeState
+value = 210
+triggerall = command = "y"
+trigger1 =  P2BodyDist X >= 40
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Standing MP (close)
+[State -1]
+type = ChangeState
+value = 215
+triggerall = command = "y"
+trigger1 =  P2BodyDist X < 40
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 205
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Standing HP
+[State -1]
+type = ChangeState
+value = 220
+triggerall = command = "z"
+trigger1 =  P2BodyDist X >= 60
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 225
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Standing HP (close)
+[State -1]
+type = ChangeState
+value = 225
+triggerall = command = "z"
+trigger1 =  P2BodyDist X < 60
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 205
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Standing LK
+[State -1]
+type = ChangeState
+value = 230
+triggerall = command = "a"
+triggerall = P2BodyDist X > 30
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 230
+trigger8 = movecontact
+trigger8 = p2bodydist X < 30
+
+; Standing LK (close)
+[State -1]
+type = ChangeState
+value = 235
+triggerall = command = "a"
+triggerall = P2BodyDist X <= 30
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+trigger8 = p2bodydist X < 30
+
+; Standing MK
+[State -1]
+type = ChangeState
+value = 240
+triggerall = command = "b"
+triggerall = P2BodyDist X > 30
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 245
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Standing MK (close)
+[State -1]
+type = ChangeState
+value = 245
+triggerall = command = "b"
+triggerall = P2BodyDist X <= 30
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+; Standing HK
+[State -1]
+type = ChangeState
+value = 250
+triggerall = command = "c"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 225
+trigger4 = movecontact
+trigger5 = stateno = 250
+trigger5 = movecontact
+trigger6 = stateno = 215
+trigger6 = movecontact
+trigger7 = stateno = 240
+trigger7 = movecontact
+trigger8 = stateno = 235
+trigger8 = movecontact
+
+;----------------------------------------------------------------
+
+; Crouching LP
+[State -1]
+type = ChangeState
+value = 400
+triggerall = command = "x"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+trigger2 = (stateno = 450) && (MoveContact)
+
+; Crouching MP
+[State -1]
+type = ChangeState
+value = 410
+triggerall = command = "y"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+trigger2 = (stateno = 450) && (MoveContact)
+
+; Crouching HP
+[State -1]
+type = ChangeState
+value = 420
+triggerall = command = "z"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+trigger2 = (stateno = 450) && (MoveContact)
+
+; Crouching LK
+[State -1]
+type = ChangeState
+value = 430
+triggerall = command = "a"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl 
+
+; Crouching MK
+[State -1]
+type = ChangeState
+value = 440
+triggerall = command = "b"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+
+; Crouching HK
+[State -1]
+type = ChangeState
+value = 450
+triggerall = command = "c"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+
+;----------------------------------------------------------------
+
+; Jumping LP
+[State -1]
+type = ChangeState
+value = 600
+triggerall = command = "x"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+; Jumping MP
+[State -1]
+type = ChangeState
+value = 610
+triggerall = command = "y"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+; Jumping HP
+[State -1]
+type = ChangeState
+value = 620
+triggerall = command = "z"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+; Jumping LK
+[State -1]
+type = ChangeState
+value = 630
+triggerall = command = "a"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+; Jumping MK
+[State -1]
+type = ChangeState
+value = 640
+triggerall = command = "b"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+; Jumping HK
+[State -1]
+type = ChangeState
+value = 650
+triggerall = command = "c"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+;----------------------------------------------------------------
+
+; Provoking
+[State -1]
+type = ChangeState
+value = 197
+trigger1 = command = "start"
+trigger1 = statetype != A
+trigger1 = stateno != 197
+trigger1 = ctrl = 1
+
+;---------------------------------------------------------------------------
+;-| AI Variabile |----------------------------------------------------------
+;---------------------------------------------------------------------------
+
+; AI
+
+[State -1, AI]
+type = Varset
+trigger1 = command = "AI1"
+trigger2 = command = "AI2"
+trigger3 = command = "AI3"
+trigger4 = command = "AI4"
+trigger5 = command = "AI5"
+trigger6 = command = "AI6"
+trigger7 = command = "AI7"
+trigger8 = command = "AI8"
+trigger9 = command = "AI9"
+trigger10 = command = "AI10"
+trigger11 = command = "AI11"
+trigger12 = command = "AI12"
+trigger13 = command = "AI13"
+trigger14 = command = "AI14"
+trigger15 = command = "AI15"
+trigger16 = command = "AI16"
+trigger17 = command = "AI17"
+trigger18 = command = "AI18"
+trigger19 = command = "AI19"
+trigger20 = command = "AI20"
+trigger21 = command = "AI21"
+trigger22 = command = "AI22"
+trigger23 = command = "AI23"
+trigger24 = command = "AI24"
+trigger25 = command = "AI25"
+trigger26 = command = "AI26"
+trigger27 = command = "AI27"
+trigger28 = command = "AI28"
+trigger29 = command = "AI29"
+trigger30 = command = "AI30"
+trigger31 = command = "AI31"
+trigger32 = command = "AI32"
+trigger33 = command = "AI33"
+trigger34 = command = "AI34"
+trigger35 = command = "AI35"
+trigger36 = command = "AI36"
+trigger37 = command = "AI37"
+trigger38 = command = "AI38"
+trigger39 = command = "AI39"
+trigger40 = command = "AI40"
+trigger41 = command = "AI41"
+trigger42 = command = "AI42"
+trigger43 = command = "AI43"
+trigger44 = command = "AI44"
+trigger45 = command = "AI45"
+trigger46 = command = "AI46"
+trigger47 = command = "AI47"
+trigger48 = command = "AI48"
+trigger49 = command = "AI49"
+trigger50 = command = "AI50"
+trigger51 = command = "AI51"
+trigger52 = command = "AI52"
+trigger53 = command = "AI53"
+trigger54 = command = "AI54"
+trigger55 = command = "AI55"
+trigger56 = command = "AI56"
+trigger57 = command = "AI57"
+trigger58 = command = "AI58"
+trigger59 = command = "AI59"
+trigger60 = command = "AI60"
+trigger61 = command = "AI61"
+trigger62 = command = "AI62"
+trigger63 = command = "AI63"
+trigger64 = command = "AI64"
+trigger65 = command = "AI65"
+trigger66 = command = "AI66"
+trigger67 = command = "AI67"
+trigger68 = command = "AI68"
+trigger69 = command = "AI69"
+trigger70 = command = "AI70"
+trigger71 = command = "AI71"
+trigger72 = command = "AI72"
+v = 59
+value = 1
+
+;---------------------------------------------------------------------------
+;---------------------------------------------------------------------------
+;---------------------------------------------------------------------------
+
+;-----------------------------------
+; ------ AI Standing Guard ---------
+;-----------------------------------
+
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype != A
+triggerall = P2statetype != C
+triggerall = Statetype = S
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 999
+value = 130
+
+[State -1]
+type = ChangeState
+triggerall = (Var(30) = 59) && (StateType = S) && (Pos Y = 0) && (P2BodyDist Y <= 0)
+triggerall = (P2BodyDist Y = -120) && (P2StateType != C) && (P2MoveType = A)
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl)
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105])
+value = 130
+
+;-----------------------------------
+; ------ AI Standing Guard ---------
+;-----------------------------------
+; AI Stand to Crouch Guard Transition
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = StateType != A
+triggerall = P2statetype = C
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+trigger1 = stateno = 150
+trigger1 = 1
+value = 152
+
+; AI Crouching Guard
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = StateType != A
+triggerall = P2statetype = C
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 900
+value = 131
+
+[State -1]
+type = ChangeState
+triggerall = (Var(30) = 59) && (StateType != A) && (Pos Y = 0) && (P2BodyDist Y <= 0)
+triggerall = (P2BodyDist Y = -50) && (P2StateType = C) && (P2MoveType = A)
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl)
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105])
+value = 131
+
+;-----------------------------------
+; ------- AI Aerial Guard ---------
+;-----------------------------------
+
+; AI Crouch to Stand Guard Transition
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype != A
+triggerall = P2statetype != C
+triggerall = P2Movetype = A
+trigger1 = 1
+trigger1 = stateno = 152
+value = 150
+
+;AI Aerial Guard
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype = A
+triggerall = P2Movetype = A
+triggerall = ctrl = 1
+trigger1 = random <= 900
+value = 132
+
+[State -1]
+type = ChangeState
+triggerall = (Var(30) = 59) && (StateType = A) && (Pos Y = 0)  && (P2BodyDist Y = -120)
+triggerall = (StateType = A) && (P2MoveType = A)
+trigger1 = ((P2BodyDist X <= 120) && (Ctrl)) || (StateNo = [140, 155])
+value = 132

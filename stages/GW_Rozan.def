@@ -1,0 +1,260 @@
+;--------------------------------------------------------
+[Info]
+name 		= "Rozan"
+fullname 	= Rozan, China
+related chars 	= Shiryu
+
+author 		= "Sanctuary Soldiers"
+sprites		= Glory
+code 		= Mû
+
+versiondate 	= 19,08,2015 
+mugenversion 	= 1.1
+notes 		= Previously unreleased.
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -341
+boundright 	= 341
+boundhigh	= -168
+boundlow 	= 0
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 60
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 222
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320, 240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+intensity 	= 190
+color 		= 210,80,100
+yscale 		= .7
+
+[Music]
+bgmusic 	= sound/GW_Rozan.mp3
+bgvolume 	= 255
+
+[BGdef]
+spr 		= stages/GW_Rozan.sff
+debugbg 	= 0
+
+[BG Sky]
+type  		= normal
+spriteno 	= 0, 1
+start 		= -300,-200
+delta 		= .25,.75
+
+[BG Mountain]
+type  		= normal
+spriteno 	= 1, 0
+start 		= -350,-150
+delta 		= .4,.8
+mask 		= 1
+
+[BG Waterfall]
+type  		= anim
+actionno 	= 2
+start 		= -112,-34
+delta 		= .4,.8
+mask 		= 1
+[Begin Action 2]
+2,0,0,0,7
+2,1,0,0,7
+2,2,0,0,7
+2,3,0,0,7
+2,4,0,0,7
+2,5,0,0,7
+2,6,0,0,7
+
+[BG Flicks]
+type  		= anim
+actionno 	= 8
+start 		= -105,-15
+delta 		= .4,.8
+mask 		= 1
+trans 		= addalpha
+alpha 		= 128,144
+[Begin Action 8]
+8,0,0,0,11
+8,1,0,0,11
+8,2,0,0,11
+8,3,0,0,11
+
+[BG Fog]
+type 		= normal
+spriteno 	= 14,0
+start 		= 0,160
+tile 		= 1,0
+delta 		= .45,.82
+velocity 	= .5,0
+mask 		= 1
+trans 		= addalpha
+alpha 		= 150,256
+
+[BG Peek 1]
+type  		= normal
+spriteno 	= 4,0
+start 		= -400,55
+delta 		= .5,.85
+mask 		= 1
+
+[BG Dohko]
+type  		= normal
+spriteno 	= 16,0
+start 		= -15,48
+delta 		= .5,.85
+mask 		= 1
+
+[BG Shunrei]
+type  		= anim
+actionno 	= 15
+start 		= -25,37
+delta 		= .5,.85
+mask 		= 1
+[Begin Action 15]
+15,5,-225, 17,500
+15,0,-220, 17,7
+15,1,-215, 17,7
+15,2,-210, 16,7
+15,3,-203, 18,7
+15,0,-200, 17,7
+15,1,-195, 17,7
+15,2,-190, 15,7
+15,3,-183, 17,7
+15,0,-180, 16,7
+15,1,-175, 15,7
+15,2,-170, 14,7
+15,3,-163, 14,7
+15,0,-160, 15,7
+15,1,-155, 15,7
+15,2,-150, 13,7
+15,3,-143, 15,7
+15,0,-140, 15,7
+15,1,-135, 13,7
+15,2,-130, 12,7
+15,3,-123, 13,7
+15,0,-120, 12,7
+15,1,-115, 12,7
+15,2,-110, 10,7
+15,3,-103, 11,7
+15,0,-100, 10,7
+15,1, -95, 10,7
+15,2, -90,  8,7
+15,3, -83,  9,7
+15,0, -80,  8,7
+15,1, -75,  8,7
+15,2, -70,  6,7
+15,3, -63,  7,7
+15,0, -60,  6,7
+15,1, -55,  6,7
+15,2, -50,  4,7
+15,3, -43,  5,7
+15,0, -40,  4,7
+15,1, -35,  4,7
+15,2, -30,  2,7
+15,3, -23,  3,7
+15,0, -20,  2,7
+15,1, -15,  2,7
+15,2, -10,  1,7
+15,3,  -3,  3,7
+15,4,   0,  1,10
+loopstart
+15,5,   0,  0,250
+
+[BG Rocks 1]
+type  		= normal
+spriteno 	= 10,0
+start 		= 110,30
+delta 		= .5,.85
+mask 		= 1
+
+[BG House]
+type        	= normal
+spriteno    	= 6,0
+start       	= 236,70
+delta       	= .55,.9
+mask       	= 1 
+
+[BG Peek 2]
+type  		= normal
+spriteno 	= 5, 0
+start 		= 70,90
+delta 		= .55,.9
+mask 		= 1
+
+[BG Tree]
+type        	= normal
+spriteno    	= 7,0
+start       	= -400,10
+delta       	= .7,.9
+mask       	= 1 
+
+[BG Rocks 2]
+type  		= normal
+spriteno 	= 9,0
+start 		= -800,65
+delta 		= .95,.95
+mask 		= 1
+
+[BG Rocks 3]
+type  		= normal
+spriteno 	= 13,0
+start 		= 260,150
+delta 		= .9,.9
+mask 		= 1
+
+[BG Floor]
+type  		= normal
+spriteno 	= 3,0
+start 		= -566,192
+delta 		= 1,1
+mask 		= 1
+
+[BG Rocks 3]
+type  		= normal
+spriteno 	= 12,0
+start 		= 260,200
+delta 		= 1.2,1.05
+mask 		= 1
+layerno         = 1
+
+[BG Rocks 3]
+type  		= normal
+spriteno 	= 11,0
+start 		= -720,200
+delta 		= 1.2,1.05
+mask 		= 1
+layerno         = 1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------

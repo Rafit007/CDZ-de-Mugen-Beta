@@ -1,0 +1,50 @@
+;FENRIR DEF FILE by YoungZac & Wise
+
+[Info]
+name = "fenrir"
+displayname = "Fenrir"
+versiondate = 07,06,2011
+mugenversion = 1.0
+author = "Terric, YoungZac, Wise, Squall & FobiaZ"
+pal.defaults = 1,2,3,4,5,6
+
+[Files] 
+sprite  = files/fenrir.sff
+anim = files/fenrir.air
+cmd = files/fenrir.cyd
+cns = files/fenrir.cns
+sound = files/fenrir.snd
+stcommon = files/common1.cns
+st = files/fenrir.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Fenrir for MugenPixArt's Saint Seiya LEGEND
+
+;Drawers: Terric, YoungZac
+;Coder: Wise
+;Improvements: Squall, FobiaZ
+;Japanese audio: JB-Ikki
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

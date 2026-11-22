@@ -1,0 +1,40 @@
+WYVERN RHADAMANTHYS
+-------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Ali della Viverna / Wyvern Wings = y + z (Power > 1000)
+Lancia della Viverna / Wyvern Lance = B, DB, D, DF, F, a (Power 1000)
+Castigo Infernale con Viverna / Greatest Caution with Wyvern = B, DB, D, DF, F, x (Power 1000)
+Occhi della Viverna / Wyvern Eyes = B, DB, D, DF, F, y (Power 2000)
+Castigo Infernale con Sfera / Greatest Caution with Sphere = B, DB, D, DF, F, z (Power 3000)
+Strati di Spirito / Sekishiki Meikaiha = B, BD, D, DF, F, c (Power 3000, Fatality Move)
+
+- SPECIAL MOVES:
+
+Soffio della Viverna / Wyvern Breath = D, DF, F, x/y/z
+Bomba della Viverna / Wyvern Bomb = D, DB, B, x/y/z
+Occhi Ipnotici / Hypnotizing Eyes = D, DF, F, a/b/c
+Volo della Viverna / Wyvern Flight = D, DB, B, a/b/c
+Calcio Volante / Flying Kick = D, DB, B, a/b/c (in aria / aerial)
+Teletrasporto / Teleport = b + c
+Contrattacco / Counter = x + y
+Carica Cosmo / Cosmo Charge = c + z
+Presa / Throw = F + z
+Combo / Combo = F + c
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

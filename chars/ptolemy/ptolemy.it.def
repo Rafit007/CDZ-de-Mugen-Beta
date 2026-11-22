@@ -1,0 +1,51 @@
+;---------------------------------------------------------------------------
+;PTOLEMY DEF FILE by FobiaZ & TonyADV
+;---------------------------------------------------------------------------
+
+[Info]
+name = "ptolemy"        
+displayname = "Betelgeuse" 
+versiondate = 3,11,2010    
+mugenversion = 1.0 
+author = "TonyADV & FobiaZ"         
+pal.defaults = 1,2,3,4,5,6
+localcoord = 320,240
+
+[Files]
+sprite  = files/ptolemy.sff
+anim = files/ptolemy.air
+cmd = files/ptolemy.cyd
+cns = files/ptolemy.cns
+sound = files/ptolemy.it.snd
+stcommon = files/common1.cns
+st = files/ptolemy.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Sagitta Ptolemy for MugenPixArt's Saint Seiya LEGEND
+
+;Drawers and Coders: TonyADV & FobiaZ
+;Improvements: Squall, Tux, Vegeth1985, SeiyaDivin
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

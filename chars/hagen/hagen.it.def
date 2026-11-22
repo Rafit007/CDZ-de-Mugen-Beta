@@ -1,0 +1,50 @@
+;HAGEN DEF FILE by WarriorZ
+
+[Info]
+name = "hagen"        
+displayname = "Artax" 
+versiondate = 07,06,2011
+mugenversion = 1.0
+author = "Vegeth1985, WarriorZ"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite = files/hagen.sff
+anim = files/hagen.air
+cmd = files/hagen.cyd
+cns = files/hagen.cns
+sound = files/hagen.it.snd
+stcommon = files/common1.st
+st = files/hagen.it.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Hagen for MugenPixArt's Saint Seiya LEGEND
+
+;Drawers: Vegeth1985, WarriorZ
+;Coder: WarriorZ
+;Improvements: Wise
+;Japanese audio: jurandir
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

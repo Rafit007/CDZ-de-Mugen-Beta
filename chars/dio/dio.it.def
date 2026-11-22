@@ -1,0 +1,50 @@
+; MUSCA DIO DEF File by Pardo & Tecla2000
+
+[Info]
+name = "dio"
+displayname = "Dedalus"
+versiondate = 10,06,2011
+mugenversion = 1.0
+author = "Welton Saint, Pardo, Tecla2000"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite  = files/dio.sff
+anim = files/dio.air
+cmd = files/dio.cyd
+cns = files/dio.cns
+sound = files/dio.it.snd
+stcommon = files/common1.cns
+st = files/dio.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Musca Dio for MugenPixArt's Saint Seiya LEGEND
+;With the collaboration of CDZJuego2D
+
+;Drawers: Welton Saint
+;Coders: Pardo, Tecla2000
+;Italian audio: mikehaggar
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

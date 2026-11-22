@@ -1,0 +1,279 @@
+;--------------------------------------------------------
+[Info]
+name 		= "Siberia"
+fullname 	= Siberia, Russia
+related chars 	= Hyôga
+
+author 		= "Sanctuary Soldiers"
+sprites		= Zahori & Glory & HDP
+code 		= Mû & HDP
+
+versiondate 	= 28,10,2013 
+mugenversion 	= 1.1
+notes 		= Previously unreleased.
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -266
+boundright 	= 266
+boundhigh 	= 1
+boundlow 	= 10
+tensionhigh 	= 120
+tensionlow 	= 0
+tension 	= 60
+overdrawhigh 	= 0
+overdrawlow 	= 0
+startzoom 	= 1
+zoomout 	= 0.75
+zoomin 		= 1
+
+[PlayerInfo]
+p1startx 	= -70
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 70
+p2starty 	= 0
+p2facing 	= -1
+leftbound  	= -1000
+rightbound 	=  1000
+
+[Bound]
+screenleft 	= 15
+screenright 	= 15
+
+[StageInfo]
+zoffset 	= 220
+autoturn 	= 1
+resetBG 	= 1
+localcoord 	= 320, 240
+xscale 		= 1
+yscale 		= 1
+
+[Shadow]
+color 		= 90,90,60
+yscale 		= 0
+reflect 	= 1
+
+[Reflection]
+intensity 	= 100
+
+[Music]
+bgmusic 	= sound/GW_Siberia.mp3
+bgvolume 	= 255
+
+[BGdef]
+spr 		= stages/GW_Siberia.sff
+debugbg 	= 0
+
+[BG Sky]
+type 		= normal
+spriteno 	= 0,1
+delta 		= .75,1
+start 		= -480,-73
+mask 		= 0
+
+[BG Clouds]
+type 		= normal
+spriteno 	= 0,2
+tile 		= 1,0
+delta 		= .75,1
+start 		= 0,-74
+mask 		= 1
+trans 		= add
+velocity 	= .9
+
+[BG Floor]
+type  		= normal
+spriteno 	= 1,0
+start 		= -481,134
+delta 		= 1,1
+mask 		= 1
+
+[BG Moutains]
+type 		= normal
+spriteno 	= 2,0
+start 		= -112,92
+delta 		= .9,1
+mask 		= 1
+
+[BG Ice 1]
+type 		= normal
+spriteno 	= 3,0
+start 		= -481,50
+delta 		= 1,1
+mask 		= 1
+
+[BG Ice 2]
+type 		= normal
+spriteno 	= 4,0
+start 		= 168,59
+delta 		= 1,1
+mask 		= 1
+
+[BG Ice 3]
+type 		= normal
+spriteno 	= 4,1
+start 		= 188,139
+delta 		= 1,1
+mask 		= 1
+
+[BG Ice 4]
+type 		= normal
+spriteno 	= 5,0
+start 		= 25,135
+delta 		= 1,1
+mask 		= 1
+
+[BG Ice 5]
+type 		= normal
+spriteno 	= 6,0
+start 		= 232,151
+delta 		= 1,1
+mask 		= 1
+
+[BG Yakoff Reflect]
+type  		= anim
+actionno 	= 8
+start 		= 175, 236
+mask 		= 1
+[Begin Action 8]
+9, 0,  0, 0, 50,V,A1
+9, 1,  0, 0, 20,V,A1
+9, 0,  0, 0, 70,V,A1
+9, 1,  0, 0, 10,V,A1
+9, 0,  0, 0, 30,V,A1
+9, 1,  0, 0, 10,V,A1
+9, 0,  0, 0, 40,V,A1
+9, 1,  0, 0, 10,V,A1
+9, 2,  0, 0, 30,V,A1
+9, 3,  0, 0, 20,V,A1
+9, 4,  0, 3, 10,V,A1
+9, 5,  0, 1, 10,V,A1
+9, 6,  0, 3, 10,V,A1
+9, 7,  0, 3, 10,V,A1
+9, 4,  0, 3, 10,V,A1
+9, 5,  0, 1, 10,V,A1
+9, 6,  0, 3, 10,V,A1
+9, 7,  0, 3, 10,V,A1
+9, 4,  0, 3, 10,V,A1
+9, 5,  0, 1, 10,V,A1
+9, 6,  0, 3, 10,V,A1
+9, 7,  0, 3, 10,V,A1
+9, 8,  0, 0, 10,V,A1
+
+[BG Yakoff]
+type  		= anim
+actionno 	= 9
+start 		= 175, 145
+mask 		= 1
+[Begin Action 9]
+9, 0,  0, 0, 50
+9, 1,  0, 0, 20
+9, 0,  0, 0, 70
+9, 1,  0, 0, 10
+9, 0,  0, 0, 30
+9, 1,  0, 0, 10
+9, 0,  0, 0, 40
+9, 1,  0, 0, 10
+9, 2,  0, 0, 30
+9, 3,  0, 0, 20
+9, 4,  0,-3, 10
+9, 5,  0,-1, 10
+9, 6,  0,-3, 10
+9, 7,  0,-3, 10
+9, 4,  0,-3, 10
+9, 5,  0,-1, 10
+9, 6,  0,-3, 10
+9, 7,  0,-3, 10
+9, 4,  0,-3, 10
+9, 5,  0,-1, 10
+9, 6,  0,-3, 10
+9, 7,  0,-3, 10
+9, 8,  0, 0, 10
+
+[BG Ice 6]
+type 		= normal
+spriteno 	= 7,0
+start 		= 111,180
+delta 		= 1.1,1.24
+layerno 	= 0  
+mask 		= 1
+
+[BG Ice 7]
+type 		= normal
+spriteno 	= 7,0
+start 		= 111,180
+delta 		= 1.1,1.24
+layerno 	= 0
+trans 		= sub  
+mask 		= 1
+
+[BG Ice 8]
+type 		= normal
+spriteno 	= 7,0
+start 		= 111,180
+delta 		= 1.1,1.24
+layerno 	= 1 
+trans 		= add1 
+mask 		= 1
+
+[BG Ice 9]
+type 		= normal
+spriteno 	= 8,0
+start 		= -455,207
+delta 		= 1.1,1.24
+layerno 	= 0
+mask 		= 1
+
+[BG Ice 10]
+type 		= normal
+spriteno 	= 8,0
+start 		= -455,207
+delta 		= 1.1,1.24
+layerno 	= 0
+trans 		= sub
+mask 		= 1
+
+[BG Ice 11]
+type 		= normal
+spriteno 	= 8,0
+start 		= -455,207
+delta 		= 1.1,1.24
+layerno 	= 1
+trans 		= add1
+mask 		= 1
+
+[BG Mama Ship]
+type 		= normal
+spriteno 	= 10,0
+start 		= -205,220
+delta 		= .98,.95
+trans 		= add 
+mask 		= 1
+
+[BG Filter0]
+type 		= normal
+spriteno 	= 11,0
+start 		= 0,0
+trans 		= sub
+layerno 	= 0
+mask 		= 1
+tile 		= 1,1
+
+[BG Filter1]
+type 		= normal
+spriteno 	= 11,0
+start 		= 0,0
+trans 		= add
+layerno 	= 1
+mask 		= 1
+tile 		= 1,1
+
+www.sanctuarysoldiers.com
+Do not use without authorization.
+;--------------------------------------------------------

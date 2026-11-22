@@ -1,0 +1,38 @@
+HERCULES ALGETHI (SILVER / SPECTER)
+-----------------------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Onda d'Urto con Presa / Kornephoros Hold = B, DB, D, DF, F, x (Power 1000)
+Onda d'Urto lv1 / Kornephoros LV1 = B, DB, D, DF, F, a (Power 1000)
+Onda d'Urto x3 / Kornephoros x3 = B, DB, D, DF, F, y (Power 2000)
+Onda d'Urto lv2 / Kornephoros LV2 = B, DB, D, DF, F, b (Power 2000)
+Onda d'Urto con Presa Infernale / Infernal Kornephoros Hold = B, DB, D, DF, F, z (Power 2000) *Solo versione Specter / Only Specter version
+Onda d'Urto lv3 / Kornephoros LV3 = B, DB, D, DF, F, c (Power 3000)
+Intervento di Dedalus e Orione / Dio and Sirius Combo Attack = F, DF, D, DB, B, x\y\z (Power 3000, Fatality Move)
+
+- SPECIAL MOVES:
+
+Super Pugno / Super Punch = D, DF, F, x/y/z
+Turbine di Argetti / Algethi's Squall = D, DB, B, x/y/z
+Testata di Argetti / Algethi's Headbutt = D, DF, F, a/b/c
+Muro d'Aria / Air Wall = D, DB, B, a/b/c
+Spezza-Ossa / Bone-Breaker = F + z
+Combo / Combo = F + c
+Carica Cosmo / Cosmo Charge) = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

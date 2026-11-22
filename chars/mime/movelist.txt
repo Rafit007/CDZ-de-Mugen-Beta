@@ -1,0 +1,49 @@
+BENETNASCH ETA MIME
+-------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Pentagramma Laser / Laser Pentagram = B, DB, D, DF, F, x (Power 1000)
+Sacro Mime / Kousoku Ken = B, DB, D, DF, F, a (Power 1000)
+Requiem Dolce Melodia / Sweet Melody Requiem = B, DB, D, DF, F, y (Power 2000)
+Ninna Nanna di Asgard / Asgard Lullaby = B, DB, D, DF, F, b (Power 2000)
+Fantasma Illusorio / Illusion Ghost = B, DB, D, DF, F, z (Power 3000)
+Melodia delle Tenebre / Stringer Requiem = B, DB, D, DF, F, c (Power 3000)
+Difesa Estrema di Asgard / Asgard Extreme Defense = F, DF, D, DB, B, c (Power 3000, Extreme Move)
+
+ - SPECIAL MOVES:
+
+Pugno Toglifiato / Breathtaking Punch = D, DF, F, x
+Pugno in Corsa / Running Punch = D, DF, F, y
+Super Pugno / Super Punch = D, DF, F, z
+Calcio Verticale / Vertical Kick = D, DF, F, a
+Doppio Calcio Verticale / Double Vertical Kick = D, DF, F, b
+Calcio Missile / Missile Kick = D, DF, F, c
+Calcio Flash Aereo / Jumping Flash Kick = U, D, DF, F, a/b/c
+Singola Nota / Single Note = D, DB, B, x
+Scossa Paralizzante / Paralyzing Electrical Shock = D, DB, B, y
+Righe del Pentagramma / Pentagram Rows = D, DB, B, z
+Combo di Calci Stand/Crouch LV1 / Combo Kick Stand/Crouch LV1 = a, a, a, a
+Combo di Calci Stand/Crouch LV2 / Combo Kick Stand/Crouch LV2 = b, b, b, b
+Combo di Calci Stand/Crouch LV3 / Combo Kick Stand/Crouch LV3 = c, c, c, c
+Gomitata Flash / Flash Elbow = B, F, y
+Calcio Flash da Terra / Crouching Flash Kick = a + c / b + c
+Presa / Throw = F + z
+Difesa di Asgard / Asgard Defense = x + y
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

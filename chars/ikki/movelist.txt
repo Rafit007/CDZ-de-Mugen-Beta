@@ -1,0 +1,49 @@
+PHOENIX IKKI (GOOD / EVIL)
+--------------------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Fantasma Diabolico / Phoenix GenMaKen = B, DB, D, DF, F, x (Power 1000, aggiunge 1 Teschio / adds 1 Skull)
+Ali della Fenice normali LV1 / Hoyoku Tensho LV1 = B, DB, D, DF, F, y (Power 2000)
+Ali della Fenice aeree LV1 / Air Hoyoku Tensho LV1 = U, B, DB, D, DF, F, y (Power 2000)
+Ali della Fenice normali LV2 / Hoyoku Tensho LV2 = B, DB, D, DF, F, z (Power 3000)
+Ali della Fenice aeree LV2 / Air Hoyoku Tensho LV2 = U, B, DB, D, DF, F, z (Power 3000)
+Fantasma Diabolico - Incubo "Pugno Gigante" / Phoenix GenMaKen - "Giant Punch" Nightmare = B, DB, D, DF, F, a (Power 3000, Fatality Move, richiede 1 Teschio / requires 1 Skull)
+Fantasma Diabolico - Incubo "Visione dell'Inferno" / Phoenix GenMaKen - "Sight of Hell" Nightmare = B, DB, D, DF, F, b (Power 3000, Fatality Move, richiede 2 Teschi / requires 2 Skulls)
+Fantasma Diabolico - Incubo "Bruciato Vivo" / Phoenix GenMaKen - "Burnt Alive" Nightmare = B, DB, D, DF, F, c (Power 3000, Fatality Move, richiede 3 Teschi / requires 3 Skulls)
+Memoria di Esmeralda / Esmeralda's Memory = F, DF, D, DB, B, x (Power 3000, Desperate Move) *Solo versione Buona / Only Good version
+Ultima Risorsa della Fenice / Phoenix's Last Resource = F, DF, D, DB, B, y (Power 3000, Desperate Move) *Solo versione Buona / Only Good version
+Pugno d'Acciaio della Fenice / Phoenix no Ken = F, DF, D, DB, B, z (Power 3000, Fatality Move, contro Crystal o Guilty / against Hyoga or Guilty) *Solo versione Malvagia / Only Evil version
+Settimo Senso / Seventh Sense = a + x (Power 3000)
+Fantasma Diabolico - Incubo "Finta Morte" / Phoenix GenMaKen - "Fake Death" Nightmare = B, DB, D, DF, F, x (durante animazione 7° senso/during 7° sense animation)
+
+- SPECIAL MOVES:
+
+Piume della Fenice normali / Phoenix Feathers = D, DF, F, x/y/z 
+Piume della Fenice aeree / Air Phoenix Feathers = U, D, DF, F, x/y/z 
+Fuoco della Fenice / Phoenix Fire = D, DB, B, x/y/z
+Salto della Fenice / Phoenix Jump = D, DF, F, a/b/c
+Volo della Fenice / Phoenix Flight = U, D, DB, B, x/y/z
+Calcio Volante / Flying Kick = U, D, DB, B, a/b/c
+Presa / Throw = F + z
+Esplosione del Suolo / Ground Explosion = B + z
+Pugni Multipli / Multiple Punchs = F + c
+Teletrasporto / Teleport = a + b
+Teletrasporto alle spalle / Teleport behind enemy = b + c
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

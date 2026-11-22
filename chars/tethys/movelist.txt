@@ -1,0 +1,38 @@
+MERMAID TETHYS
+--------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Sottile Trama Corallina / Death Trap Coral = B, DB, D, DF, F, x (Power 1000)
+Sottile Trama Corallina Volante / Air Death Trap Coral = U, B, DB, D, DF, F, x (Power 1000)
+Sottile Trama Kanon in aiuto / Death Trap Kanon Helper = B, DB, D, DF, F, y (Power 2000)
+Sottile Trama Corallina Furia / Death Trap Coral Fury = B, DB, D, DF, F, z (Power 3000)
+
+- SPECIAL MOVES:
+
+Pugno della Sirena / Mermaid Uppercut = D, DF, F, x/y/z
+Potere della sirena / Mermaid Power = D, DB, B, x/y/z
+Sfera d'Acqua / Acqua Ball = D, DF, F, a/b/c
+Meteora della Sirena / Mermaid air Roll = U, D, DB, B, a/b/c
+Super Parata / Super Guard = x + y
+Schivata / Dodge = a + c
+Teletrasporto / Teleport = b + c
+Rotolamento / Rolling = a + b
+Presa / Throw = F, z
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

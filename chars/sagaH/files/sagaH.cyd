@@ -1,0 +1,1169 @@
+;SAGA SPECTER CMD file by carmorion, Tux & Squall
+
+;-| AI Command |--------------------------------
+[Command]
+name = "AI1"
+command = a, a, a
+time = 1
+
+[Command]
+name = "AI2"
+command = b, b, b
+time = 1
+
+[Command]
+name = "AI3"
+command = c, c, c
+time = 1
+
+[Command]
+name = "AI4"
+command = x, x, x
+time = 1
+
+[Command]
+name = "AI5"
+command = y, y, y
+time = 1
+
+[Command]
+name = "AI6"
+command = z, z, z
+time = 1
+
+[Command]
+name = "AI7"
+command = a, b, c
+time = 1
+
+[Command]
+name = "AI8"
+command = a, c, b
+time = 1
+
+[Command]
+name = "AI9"
+command = b, a, c
+time = 1
+
+[Command]
+name = "AI10"
+command = b, c, a
+time = 1
+
+[Command]
+name = "AI11"
+command = c, b, a
+time = 1
+
+[Command]
+name = "AI12"
+command = c, a, b
+time = 1
+
+[Command]
+name = "AI13"
+command = x, y, z
+time = 1
+
+[Command]
+name = "AI14"
+command = x, z, y
+time = 1
+
+[Command]
+name = "AI15"
+command = y, z, x
+time = 1
+
+[Command]
+name = "AI16"
+command = y, x, z
+time = 1
+
+[Command]
+name = "AI17"
+command = z, y, x
+time = 1
+
+[Command]
+name = "AI18"
+command = z, x, y
+time = 1
+
+[Command]
+name = "AI19"
+command = a, b, a
+time = 1
+
+[Command]
+name = "AI20"
+command = a, c, a
+time = 1
+
+[Command]
+name = "AI21"
+command = b, a, b
+time = 1
+
+[Command]
+name = "AI22"
+command = b, c, b
+time = 1
+
+[Command]
+name = "AI23"
+command = c, a, c
+time = 1
+
+[Command]
+name = "AI24"
+command = c, b, c
+time = 1
+
+[Command]
+name = "AI25"
+command = x, y, x
+time = 1
+
+[Command]
+name = "AI26"
+command = x, z, x
+time = 1
+
+[Command]
+name = "AI27"
+command = y, x, y
+time = 1
+
+[Command]
+name = "AI28"
+command = y, z, y
+time = 1
+
+[Command]
+name = "AI29"
+command = z, x, z
+time = 1
+
+[Command]
+name = "AI30"
+command = z, y, z
+time = 1
+
+;-| Default Values |-------------------------------------------------------
+
+[Defaults]
+command.time = 15
+command.buffer.time = 1
+
+
+;-| Hyper Motions |--------------------------------------------------------
+
+;Dimensione Oscura
+[Command]
+name = "DimOscura"
+command = B,DB,D,DF,F,x
+time= 30
+
+;Esplosione della Galassia V1
+[Command]
+name = "EspGalassia2"
+command = B,DB,D,DF,F,y
+time= 30
+
+;Esplosione della Galassia V2
+[Command]
+name = "EspGalassia"
+command = B,DB,D,DF,F,z
+time= 30
+
+;KonChoKen
+[Command]
+name = "KonChoKen"
+command = B,DB,D,DF,F,a
+time= 30
+
+;Raggio Galattico
+[Command]
+name = "RGalattico"
+command = B,DB,D,DF,F,b
+time= 30
+
+;Genromaken
+[Command]
+name = "Genromaken"
+command = B,DB,D,DF,F,c
+time= 30
+
+;Urlo di Atena
+[Command]
+name = "urlodiatena"
+command = F, DF, D, DB, B, a
+time = 30
+[Command]
+name = "urlodiatena"
+command = F, DF, D, DB, B, b
+time = 30
+[Command]
+name = "urlodiatena"
+command = F, DF, D, DB, B, c
+time = 30
+
+;Dimensione Oscura Fatale
+[Command]
+name = "DimOscuraFatale"
+command = F, DF, D, DB, B, x
+time= 30
+[Command]
+name = "DimOscuraFatale"
+command = F, DF, D, DB, B, y
+time= 30
+[Command]
+name = "DimOscuraFatale"
+command = F, DF, D, DB, B, z
+time= 30
+
+;-| Special Motions |------------------------------------------------------
+
+;Mille pugni
+[Command]
+name = "MillePugni"
+command = D,DF,F,x
+time= 20
+[Command]
+name = "MillePugni"
+command = D,DF,F,y
+time= 20
+[Command]
+name = "MillePugni"
+command = D,DF,F,z
+time= 20
+
+;Fireball debole/media
+[Command]
+name = "Fireball1"
+command = D,DB,B,x
+time= 20
+[Command]
+name = "Fireball1"
+command = D,DB,B,y
+time= 20
+
+;Fireball forte
+[Command]
+name = "Fireball2"
+command = D,DB,B,z
+time= 20
+
+;Fireball Aerea
+[Command]
+name = "FireballA"
+command = D,DB,B,x
+time= 20
+[Command]
+name = "FireballA"
+command = D,DB,B,y
+time= 20
+[Command]
+name = "FireballA"
+command = D,DB,B,z
+time= 20
+
+;Esplosione di Cosmo
+[Command]
+name = "CosmoExp"
+command = D,DF,F,a
+time= 20
+[Command]
+name = "CosmoExp"
+command = D,DF,F,b
+time= 20
+[Command]
+name = "CosmoExp"
+command = D,DF,F,c
+time= 20
+
+;Fireball Gemella
+[Command]
+name = "FireballG"
+command = D,DB,B,a
+time= 20
+[Command]
+name = "FireballG"
+command = D,DB,B,b
+time= 20
+[Command]
+name = "FireballG"
+command = D,DB,B,c
+time= 20
+
+;---------------------------
+;Carika cosmo
+;---------------------------
+[Command]
+name = "charge1"
+command = /c
+time= 1
+[Command]
+name = "charge2"
+command= /z
+time= 1
+
+;-| Double Tap |-----------------------------------------------------------
+
+[Command]
+name = "FF"     ;Required (do not remove)
+command = F, F
+time = 10
+
+[Command]
+name = "BB"     ;Required (do not remove)
+command = B, B
+time = 10
+
+; Moves List
+[Command]
+name = "ss"
+command = s, s
+time = 10
+
+;-| 2/3 Button Combination |-----------------------------------------------
+
+; Air Recover
+[Command]
+name = "recovery";Required (do not remove)
+command = x+y
+time = 1
+
+;-| Dir + Button |---------------------------------------------------------
+
+[Command]
+name = "down_a"
+command = /$D,a
+time = 1
+
+[Command]
+name = "down_b"
+command = /$D,b
+time = 1
+
+;-| Single Button |---------------------------------------------------------
+
+[Command]
+name = "a"
+command = a
+time = 1
+
+[Command]
+name = "b"
+command = b
+time = 1
+
+[Command]
+name = "c"
+command = c
+time = 1
+
+[Command]
+name = "x"
+command = x
+time = 1
+
+[Command]
+name = "y"
+command = y
+time = 1
+
+[Command]
+name = "z"
+command = z
+time = 1
+
+[Command]
+name = "start"
+command = s
+time = 1
+
+;-| Hold Dir |--------------------------------------------------------------
+
+[Command]
+name = "holdfwd";Required (do not remove)
+command = /$F
+time = 1
+
+[Command]
+name = "holdback";Required (do not remove)
+command = /$B
+time = 1
+
+[Command]
+name = "holdup" ;Required (do not remove)
+command = /$U
+time = 1
+
+[Command]
+name = "holddown";Required (do not remove)
+command = /$D
+time = 1
+
+;---------------------------------------------------------------------------
+[Statedef -1]
+
+;===========================================================================
+;---------------------------------------------------------------------------
+
+;Carica Cosmo
+[State -1]
+type = ChangeState
+value = 900
+triggerall = Var(59) = 0
+triggerall = var(8) = 0
+triggerall = Power < 3000
+triggerall = command = "charge1"
+triggerall = command = "charge2"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;===========================================================================
+;HYPER
+;===========================================================================
+
+;Dimensione Oscura Fatale
+[State -1]
+type = ChangeState
+value = 3600
+triggerall = Var(59) = 0
+triggerall = p2life <= 250
+triggerall = Power >= 3000
+triggerall = command = "DimOscuraFatale"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 220
+trigger6 = movecontact
+trigger7 = stateno = 250
+trigger7 = movecontact
+
+;Athena Exclamation
+[State -1]
+type = ChangeState
+value = 3700
+triggerall = command = "urlodiatena"
+triggerall = life <= 250 
+triggerall = power >= 3000 
+trigger1 = statetype != A 
+trigger1 = P2statetype != A 
+trigger1 = ctrl = 1
+
+;Dimensione Oscura
+[State -1]
+type = ChangeState
+value = 3200
+triggerall = Var(59) = 0
+triggerall = Power >= 1000
+triggerall = command = "DimOscura"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 220
+trigger6 = movecontact
+trigger7 = stateno = 250
+trigger7 = movecontact
+
+;KonChoKen
+[State -1]
+type = ChangeState
+value = 3400
+triggerall = Var(59) = 0
+triggerall = Power >= 1000
+triggerall = command = "KonChoKen"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 220
+trigger6 = movecontact
+trigger7 = stateno = 250
+trigger7 = movecontact
+
+;Raggio Galattico
+[State -1]
+type = ChangeState
+value = 3500
+triggerall = Var(59) = 0
+triggerall = Power >= 1000
+triggerall = command = "RGalattico"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 220
+trigger6 = movecontact
+trigger7 = stateno = 250
+trigger7 = movecontact
+
+;Esplosione della Galassia Lvl2
+[State -1]
+type = ChangeState
+value = 3000
+triggerall = Var(59) = 0
+triggerall = Power >= 2000
+triggerall = command = "EspGalassia2"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 220
+trigger6 = movecontact
+trigger7 = stateno = 250
+trigger7 = movecontact
+
+;GenromaKen
+[State -1]
+type = ChangeState
+value = 3300
+triggerall = Var(59) = 0
+triggerall = Power >= 2000
+triggerall = command = "Genromaken"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 220
+trigger6 = movecontact
+trigger7 = stateno = 250
+trigger7 = movecontact
+
+;Esplosione della Galassia Lvl3
+[State -1]
+type = ChangeState
+value = 3100
+triggerall = Var(59) = 0
+triggerall = Power >= 3000
+triggerall = command = "EspGalassia"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 220
+trigger6 = movecontact
+trigger7 = stateno = 250
+trigger7 = movecontact
+
+;===========================================================================
+;SPECIAL
+;===========================================================================
+;---------------------------------------------------------------------------
+;Mille pugni
+[State -1]
+type = ChangeState
+value = 1000
+triggerall = Var(59) = 0
+triggerall = command = "MillePugni"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+
+;---------------------------------------------------------------------------
+;Esplosione di Cosmo
+[State -1]
+type = ChangeState
+value = 1100
+triggerall = Var(59) = 0
+triggerall = command = "CosmoExp"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+
+;---------------------------------------------------------------------------
+;Fireball debole/media
+[State -1]
+type = ChangeState
+value = 1400
+triggerall = Var(59) = 0
+Triggerall = Numprojid(1400) = 0
+triggerall = command = "Fireball1"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;---------------------------------------------------------------------------
+;Fireball Forte
+[State -1]
+type = ChangeState
+value = 1200
+triggerall = Var(59) = 0
+Triggerall = Numprojid(1200) = 0
+triggerall = command = "Fireball2"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;---------------------------------------------------------------------------
+;Fireball Aerea
+[State -1]
+type = ChangeState
+value = 1300
+triggerall = Var(59) = 0
+Triggerall = Numprojid(1300) = 0
+triggerall = command = "FireballA"
+trigger1 = statetype = A
+trigger1 = ctrl = 1
+
+;---------------------------------------------------------------------------
+;Fireball Gemella
+[State -1]
+type = ChangeState
+value = 1500
+triggerall = Var(59) = 0
+Triggerall = Numprojid(1501) = 0
+triggerall = command = "FireballG"
+trigger1 = statetype = S
+trigger1 = ctrl = 1
+
+;---------------------------------------------------------------------------
+;Presa
+[State -1, Throw]
+type = ChangeState
+value = 800
+triggerall = command = "z"
+triggerall = statetype = S
+triggerall = ctrl
+triggerall = stateno != 100
+trigger1 = command = "holdfwd"
+trigger1 = p2bodydist X < 10
+
+;===========================================================================
+[State -1, Combo condition Reset]
+type = VarSet
+trigger1 = 1
+var(1) = 0
+
+[State -1, Combo condition Check]
+type = VarSet
+trigger1 = statetype != A
+trigger1 = ctrl
+trigger2 = (stateno = [200,299]) || (stateno = [400,499])
+trigger2 = stateno != 440 ;Except for sweep kick
+trigger2 = movecontact
+var(1) = 1
+
+;---------------------------------------------------------------------------
+
+
+
+
+;===========================================================================
+;---------------------------------------------------------------------------
+;Run Fwd
+;ダッシュ
+[State -1, Run Fwd]
+type = ChangeState
+value = 100
+trigger1 = command = "FF"
+trigger1 = statetype = S
+trigger1 = ctrl
+
+;---------------------------------------------------------------------------
+;Run Back
+;後退ダッシュ
+[State -1, Run Back]
+type = ChangeState
+value = 105
+trigger1 = command = "BB"
+trigger1 = statetype = S
+trigger1 = ctrl
+
+
+
+
+;===========================================================================
+;---------------------------------------------------------------------------
+;Stand Light Punch
+[State -1, Stand Light Punch]
+type = ChangeState
+value = 200
+triggerall = command = "x"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 210
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 200
+trigger6 = movecontact
+trigger6 = p2bodydist X < 40
+trigger7 = stateno = 250
+trigger7 = movecontact
+
+;---------------------------------------------------------------------------
+;Stand Medium Punch
+[State -1, Stand Medium Punch]
+type = ChangeState
+value = 210
+triggerall = command = "y"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 250
+trigger6 = movecontact
+
+
+;---------------------------------------------------------------------------
+;Stand Hard Punch
+[State -1, Stand Hard Punch]
+type = ChangeState
+value = 220
+triggerall = command = "z"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 210
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 250
+trigger6 = movecontact
+
+;---------------------------------------------------------------------------
+;Stand Light Kick
+[State -1, Stand Light Kick]
+type = ChangeState
+value = 230
+triggerall = command = "a"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 210
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 250
+trigger6 = movecontact
+
+;---------------------------------------------------------------------------
+;Stand Medium Kick
+[State -1, Stand Medium Kick]
+type = ChangeState
+value = 240
+triggerall = command = "b"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 210
+trigger5 = movecontact
+trigger6 = stateno = 250
+trigger6 = movecontact
+
+;---------------------------------------------------------------------------
+;Stand Hard Kick
+[State -1, Stand Hard Kick]
+type = ChangeState
+value = 250
+triggerall = command = "c"
+triggerall = command != "holddown"
+trigger1 = statetype = S
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 200
+trigger2 = movecontact
+trigger3 = stateno = 220
+trigger3 = movecontact
+trigger4 = stateno = 230
+trigger4 = movecontact
+trigger5 = stateno = 240
+trigger5 = movecontact
+trigger6 = stateno = 210
+trigger6 = movecontact
+
+;---------------------------------------------------------------------------
+;Taunt
+;挑発
+[State -1, Taunt]
+type = ChangeState
+value = 195
+triggerall = command = "start"
+trigger1 = statetype != A
+trigger1 = ctrl
+
+;---------------------------------------------------------------------------
+;Crouching Light Punch
+[State -1, Crouching Light Punch]
+type = ChangeState
+value = 400
+triggerall = command = "x"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 410
+trigger2 = movecontact
+trigger3 = stateno = 430
+trigger3 = movecontact
+trigger4 = stateno = 440
+trigger4 = movecontact
+
+;---------------------------------------------------------------------------
+;Crouching Medium Punch
+[State -1, Crouching Medium Punch]
+type = ChangeState
+value = 410
+triggerall = command = "y"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 400
+trigger2 = movecontact
+trigger3 = stateno = 430
+trigger3 = movecontact
+trigger4 = stateno = 440
+trigger4 = movecontact
+
+;---------------------------------------------------------------------------
+;Crouching Hard Punch
+[State -1, Crouching Hard Punch]
+type = ChangeState
+value = 420
+triggerall = command = "z"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 410
+trigger2 = movecontact
+trigger3 = stateno = 420
+trigger3 = movecontact
+trigger4 = stateno = 430
+trigger4 = movecontact
+
+;---------------------------------------------------------------------------
+;Crouching Light Kick
+[State -1, Crouching Light Kick]
+type = ChangeState
+value = 430
+triggerall = command = "a"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 400
+trigger2 = movecontact
+trigger3 = stateno = 410
+trigger3 = movecontact
+trigger4 = stateno = 440
+trigger4 = movecontact
+
+;---------------------------------------------------------------------------
+;Crouching Medium Kick
+[State -1, Crouching Medium Kick]
+type = ChangeState
+value = 440
+triggerall = command = "b"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 410
+trigger2 = movecontact
+trigger3 = stateno = 430
+trigger3 = movecontact
+trigger4 = stateno = 400
+trigger4 = movecontact
+
+;---------------------------------------------------------------------------
+;Crouching Hard Kick
+[State -1, Crouching Hard Kick]
+type = ChangeState
+value = 450
+triggerall = command = "c"
+triggerall = command = "holddown"
+trigger1 = statetype = C
+trigger1 = ctrl
+;-------------------------
+trigger2 = stateno = 410
+trigger2 = movecontact
+trigger3 = stateno = 420
+trigger3 = movecontact
+trigger4 = stateno = 430
+trigger4 = movecontact
+
+;---------------------------------------------------------------------------
+;Jump Light Punch
+[State -1, Jump Light Punch]
+type = ChangeState
+value = 600
+triggerall = command = "x"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+;---------------------------------------------------------------------------
+;Jump Medium Punch
+[State -1, Jump Medium Punch]
+type = ChangeState
+value = 610
+triggerall = command = "y"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+;---------------------------------------------------------------------------
+;Jump Hard Punch
+[State -1, Jump Hard Punch]
+type = ChangeState
+value = 620
+triggerall = command = "z"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+;---------------------------------------------------------------------------
+;Jump Light Kick
+[State -1, Jump Light Kick]
+type = ChangeState
+value = 630
+triggerall = command = "a"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+;---------------------------------------------------------------------------
+;Jump Medium Kick
+[State -1, Jump Medium Kick]
+type = ChangeState
+value = 640
+triggerall = command = "b"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+;---------------------------------------------------------------------------
+;Jump Hard Kick
+[State -1, Jump Hard Kick]
+type = ChangeState
+value = 650
+triggerall = command = "c"
+trigger1 = statetype = A
+trigger1 = ctrl
+
+;-----------------------------------------------
+;-| AI Variabile |------------------------------
+;-----------------------------------------------
+
+[State -1, AI]
+type = Varset
+trigger1 = command = "AI1"
+trigger2 = command = "AI2"
+trigger3 = command = "AI3"
+trigger4 = command = "AI4"
+trigger5 = command = "AI5"
+trigger6 = command = "AI6"
+trigger7 = command = "AI7"
+trigger8 = command = "AI8"
+trigger9 = command = "AI9"
+trigger10 = command = "AI10"
+trigger11 = command = "AI11"
+trigger12 = command = "AI12"
+trigger13 = command = "AI13"
+trigger14 = command = "AI14"
+trigger15 = command = "AI15"
+trigger16 = command = "AI16"
+trigger17 = command = "AI17"
+trigger18 = command = "AI18"
+trigger19 = command = "AI19"
+trigger20 = command = "AI20"
+trigger21 = command = "AI21"
+trigger22 = command = "AI22"
+trigger23 = command = "AI23"
+trigger24 = command = "AI24"
+trigger25 = command = "AI25"
+trigger26 = command = "AI26"
+trigger27 = command = "AI27"
+trigger28 = command = "AI28"
+trigger29 = command = "AI29"
+trigger30 = command = "AI30"
+v = 59
+value = 1
+
+;-----------------------------------
+; ------ AI Standing Guard ---------
+;-----------------------------------
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1 
+triggerall = Statetype != A 
+triggerall = P2statetype != C 
+triggerall = Statetype = S 
+triggerall = P2Movetype = A 
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 999 
+value = 130
+[State -1]
+type = ChangeState 
+triggerall = (Var(30) = 59) && (StateType = S) && (Pos Y = 0) && (P2BodyDist Y <= 0) 
+triggerall = (P2BodyDist Y = -120) && (P2StateType != C) && (P2MoveType = A) 
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl) 
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105]) 
+value = 130 
+
+;-----------------------------------
+; ------ AI Standing Guard ---------
+;-----------------------------------
+; AI Stand to Crouch Guard Transition
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = StateType != A
+triggerall = P2statetype = C
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+trigger1 = stateno = 150
+trigger1 = 1
+value = 152
+
+; AI Crouching Guard
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = StateType != A
+triggerall = P2statetype = C
+triggerall = P2Movetype = A
+triggerall = Pos Y != [-1,-999]
+triggerall = ctrl = 1
+trigger1 = random <= 900
+value = 131
+[State -1]
+type = ChangeState 
+triggerall = (Var(30) = 59) && (StateType != A) && (Pos Y = 0) && (P2BodyDist Y <= 0) 
+triggerall = (P2BodyDist Y = -50) && (P2StateType = C) && (P2MoveType = A) 
+trigger1 = (P2BodyDist X <= 120) && (Random <= 799) && (Ctrl) 
+trigger2 = (StateNo = [140, 155]) || (StateNo = [100, 105]) 
+value = 131
+
+;-----------------------------------
+; ------- AI Aerial Guard ---------
+;-----------------------------------
+; AI Crouch to Stand Guard Transition
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype != A
+triggerall = P2statetype != C
+triggerall = P2Movetype = A
+trigger1 = 1
+trigger1 = stateno = 152
+value = 150
+
+;AI Aerial Guard
+[State -1]
+type = ChangeState
+triggerall = var(59) = 1
+triggerall = Statetype = A
+triggerall = P2Movetype = A
+triggerall = ctrl = 1
+trigger1 = random <= 900
+value = 132
+[State -1]
+type = ChangeState 
+triggerall = (Var(30) = 59) && (StateType = A) && (Pos Y = 0)  && (P2BodyDist Y = -120) 
+triggerall = (StateType = A) && (P2MoveType = A) 
+trigger1 = ((P2BodyDist X <= 120) && (Ctrl)) || (StateNo = [140, 155]) 
+value = 132 
+;-----------------------------------------------
+;-----------------------------------------------
+;-----------------------------------------------

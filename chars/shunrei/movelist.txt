@@ -1,0 +1,35 @@
+SHUNREI
+-------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Turbine di Fiore di Luna / Shunrei's Squall = B, DB, D, DF, F, x (Power 1000)
+Preghiera di Fiore di Luna / Shunrei's Prey = B, DB, D, DF, F, y  (Power 2000)
+Furia di Fiore di Luna / Shunrei's Fury = B, DB, D, DF, F, z (Power 3000)
+Aiuto di Sirio / Sirio Helper = B, DB, D, DF, F, a (Power 3000, Desperate Move)
+Testata del dragone / Dragon's headbutt = B, DB, D, DF, F, b (Power 3000, Fatality Move)
+
+- SPECIAL MOVES:
+
+Mille mani / Thousand hands = D, DF, F, x/y/z
+Getto di cosmo / Cosmo stream = D, DB, B x/y/z
+Calcio del dragone / Dragon Kick = D, DF, F, a/b/c
+Calcio Verticale / Vertical Kick = D, DB, B, a/b/c
+Presa / Throw = F + z
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

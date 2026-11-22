@@ -1,0 +1,39 @@
+HOUND ASTERION
+--------------
+
+- LEGENDA:
+
+F = Avanti / Forward
+B = Indietro / Backward
+U = Su / Up
+D = Giù / Down
+x = Pugno Debole / Weak Punch
+y = Pugno Medio / Medium Punch
+z = Pugno Forte / Strong Punch
+a = Calcio Debole / Weak Kick
+b = Calcio Medio / Medium Kick
+c = Calcio Forte / Strong Kick
+s = Provocazione / Taunt
+
+- SUPER MOVES:
+
+Inganno di Asterione / Million Ghost Attack Manga = B, DB, B, DF, F, x (Power 1000) 
+Croce d'Argento / Million Ghost Attack Anime = B, DB, D, DF, F, y (Power 2000)
+Inganno dei Cloni / Million Clone Attack = B, DB, D, DF, F, z  (Power 3000)
+Morso del Cane da Caccia / Burning Hound Bite = B, DB, D, DF, F, a (Power 1000)
+
+- SPECIAL MOVES:
+
+Illusione Energetica / Illusion Fireballs = D, DF, F, x/y/z
+Pugno Fortissimo / Super-Punch = D, DB, B, x
+Combo di Pugni / Combo-Punch = D, DB, B, y
+Illusione dei Pugni / Punches illusion Combo = D, DB, B, z
+Illusione dei Calci / Kicks illusion Combo = D, DF, F, a/b/c
+Illusione dei Calci Crouch / Crouch Kicks illusion Combo = D, DB, B, a/b/c
+Illusione dei Calci Air / Air Kicks illusion Combo = U, D, DB, B, x/b/c
+Illusone del Legno / Wood Illusion = B, x/y/z/a/b/c (In parata/Guarding)
+Lancio / Throw = F + z
+Presa Graffiante / Scratching Hold = F + c
+Carica Cosmo / Cosmo Charge = c + z
+
+PER VISUALIZZARE LA LISTA DELLE MOSSE DURANTE IL GIOCO, PREMERE DUE VOLTE E VELOCEMENTE IL TASTO START (s) / TO VIEW THE MOVELIST DURING THE GAME, PRESS TWICE AND QUICKLY THE START KEY (s)

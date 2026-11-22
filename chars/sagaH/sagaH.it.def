@@ -1,0 +1,49 @@
+; SAGA SPECTER DEF FILE by carmorion, Tux & Squall
+
+[Info]
+name = "sagaH"
+displayname = "Gemini Specter"
+versiondate = 07,25,2020
+mugenversion = 1.0
+author = "CARMORION, Tux, sisifo77paradise, Squall, Real_Espectro, zahori, Florang, WilliamWilson, Birelhot, kaue-00, SagaKanon"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite = files/sagaH.sff
+anim = files/sagaH.air
+sound = files/sagaH.it.snd
+cmd = files/sagaH.cyd
+cns = files/sagaH.cns
+stcommon = files/common1.cns
+st = files/sagaH.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Saga Specter for MugenPixArt's Saint Seiya LEGEND
+
+;Drawers: Real_Espectro, zahori, Florang, WilliamWilson, Birelhot, kaue-00, SagaKanon
+;Coders: CARMORION, Tux, sisifo77paradise, Squall
+;Japanese audio: mikehaggar
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------

@@ -1,0 +1,68 @@
+;---------------------------------------------------------------------------
+; MEGREZ DELTA ALBERICH DEF FILE by tallon
+;---------------------------------------------------------------------------
+
+[Info]
+name ="alberich"        
+displayname ="Alberich" 
+versiondate = 07,06,2011
+mugenversion = 1.0
+author = "NEO, Vegeth1985, Squall, tallon, Tux, Wise, FobiaZ"
+pal.defaults =1,2,3,4,5,6
+
+[Files]
+sprite  = files/alberich.sff
+anim = files/alberich.air
+cmd = files/alberich.cyd
+cns = files/alberich.cns
+sound = files/alberich.snd
+stcommon = files/common1.cns
+st = files/alberich.st
+st2 = files/moves.st
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+x2 = 7
+y2 = 8
+z2 = 9
+a2 = 10
+b2 = 11
+c2 = 12
+
+[Arcade]
+intro.storyboard = story/intro.def
+ending.storyboard = story/ending.def
+
+;--------------------------------------------------------------------------
+;------------------------------ Char Hystory ------------------------------
+;--------------------------------------------------------------------------
+;Megrez Delta Alberich for MugenPixArt's Saint Seiya LEGEND
+;Based on Alberich by NEO and Alberich by TonyADV & Vegeth1985
+
+;Drawer: NEO
+;Restyle: Vegeth1985
+;Coders: NEO, Squall, tallon, Tux, Wise
+;Improvements: FobiaZ
+;Japanese audio: jurandir
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
+;--------------------------------------------------------------------------
